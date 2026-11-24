@@ -1,0 +1,4 @@
+analysis,n_samples,samples,genes_after_filter,PC1_pct_variance,PC2_pct_variance,PC1_separates_groups,mean_r_within_hESC_Ethanol,mean_r_within_hESC_5-OXO-ETE,mean_r_between_groups,size_factor_range,mean_r_within_T21-hiPSC_DMSO,mean_r_within_T21-hiPSC_Calcitriol
+C1 with A3 (primary),6,"A1, A2, A3, A4, A5, A6",18737,73.25,8.15,False,0.8839,0.9697,0.9264,0.275-1.653,,
+C1 without A3 (sensitivity),5,"A1, A2, A4, A5, A6",19340,28.34,25.82,False,0.9705,0.9699,0.97,0.877-1.261,,
+"C2 (reference, unaffected by A3)",6,"A7, A8, A9, A10, A11, A12",19574,23.67,20.77,False,,,0.9692,0.919-1.190,0.9697,0.9687

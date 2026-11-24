@@ -1,0 +1,27 @@
+check,result,detail
+Gene count matrix columns are exactly A1..A12 in order,PASS,"A1,A2,A3,A4,A5,A6,A7,A8,A9,A10,A11,A12"
+Metadata sample_id is exactly A1..A12 in order,PASS,
+Count columns match metadata samples exactly,PASS,
+No missing values in count matrix,PASS,
+All counts are integers (no fractional values),PASS,0 fractional values
+All counts are non-negative,PASS,
+No duplicated gene identifiers,PASS,60617 genes
+Counts fit in R integer range,PASS,
+Mapping table covers every raw transcript,PASS,
+R re-aggregation reproduces Phase 5 gene matrix exactly,PASS,
+SRA run statistics found for all 12 samples,PASS,
+Non-A3 counts are on a read-pair scale (0.8-1.2 counts per pair),PASS,range 0.91-1.05
+C1 samples are A1-A6,PASS,
+C2 samples are A7-A12,PASS,
+C1 and C2 share no samples (independent analyses),PASS,
+C1 sensitivity excludes only A3,PASS,
+"C1 (all samples, primary): padj reproduces Benjamini-Hochberg",PASS,
+"C1 (all samples, primary): DESeq2 object contains only intended samples",PASS,"A1,A2,A3,A4,A5,A6"
+C1 without A3 (sensitivity): padj reproduces Benjamini-Hochberg,PASS,
+C1 without A3 (sensitivity): DESeq2 object contains only intended samples,PASS,"A1,A2,A4,A5,A6"
+C2 (all samples): padj reproduces Benjamini-Hochberg,PASS,
+C2 (all samples): DESeq2 object contains only intended samples,PASS,"A7,A8,A9,A10,A11,A12"
+All required tables written,PASS,6 tables
+All required figures written,PASS,13 figures incl. sensitivity
+Every DE table has one row per tested gene (no duplicates),PASS,
+Original raw count file unchanged (SHA-256 before = after),PASS,b345b464d6705d72c1c3cdff6e10b356f1b777f072682ff652b35f27986b129c

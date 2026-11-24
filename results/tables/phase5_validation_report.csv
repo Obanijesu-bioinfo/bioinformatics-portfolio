@@ -1,0 +1,26 @@
+check,result,detail
+Annotation GTF SHA-256 matches recorded value,PASS,8d2b55f734f4e351b37d24eddba7d955034c98390564260318341ee464590a19
+GTF genome build is GRCh38,PASS,GRCh38.p12
+Every GTF transcript has a transcript_id and gene_id,PASS,
+All 12 samples present in count file,PASS,"['A1', 'A10', 'A11', 'A12', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9']"
+Count-file samples match sample_metadata.csv,PASS,"metadata: ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12']"
+Transcript IDs unique in count file,PASS,
+Original counts are non-negative integers,PASS,
+Stripping version suffixes creates no ID collisions,PASS,0 IDs carried a version suffix
+Count-file ENST IDs exactly match Ensembl 97 transcript set,PASS,"only in file: 0, only in annotation: 0"
+Gene-level counts are non-negative integers,PASS,
+No duplicate gene IDs,PASS,
+No missing values in gene-level matrix,PASS,
+Gene matrix columns are A1..A12 in order,PASS,
+Gene IDs are Ensembl ENSG identifiers,PASS,
+ENST: mapped + unmapped + ambiguous = total ENST,PASS,226788 + 0 + 0 = 226788
+ENST + TCONS + other = total transcripts,PASS,226788 + 27832 + 0 = 254620
+Mapping table has one row per original transcript,PASS,
+Gene count = unique gene IDs among mapped transcripts,PASS,
+Per-sample gene totals equal mapped-transcript totals,PASS,
+Per-sample gene totals + excluded totals = original totals,PASS,
+Sample summary covers all 12 samples in order,PASS,
+A3 retained in primary gene-level matrix,PASS,
+Correlation matrix is 12 x 12 with unit diagonal,PASS,
+All Phase 5 figures written,PASS,6 figures
+Original count file unchanged (SHA-256 before = after),PASS,b345b464d6705d72c1c3cdff6e10b356f1b777f072682ff652b35f27986b129c

@@ -1,0 +1,23 @@
+metric,value
+annotation,Ensembl release 97 (GRCh38.p12)
+annotation_file,Homo_sapiens.GRCh38.97.gtf.gz
+annotation_sha256,8d2b55f734f4e351b37d24eddba7d955034c98390564260318341ee464590a19
+genome_build,GRCh38.p12
+total_transcripts,254620
+ENST_transcripts,226788
+TCONS_transcripts,27832
+other_prefix_transcripts,0
+ENST_with_version_suffix,0
+ENST_mapped_to_one_gene,226788
+ENST_unmapped,0
+ENST_ambiguous_multiple_genes,0
+TCONS_annotated,0
+TCONS_unannotated,27832
+unique_genes_in_matrix,60617
+genes_with_nonzero_counts,39555
+total_counts_original,483390504
+total_counts_in_gene_matrix,452021160
+total_counts_TCONS_excluded,31369344
+total_counts_unmapped_or_ambiguous_ENST_excluded,0
+pct_counts_in_gene_matrix,93.511
+pct_counts_TCONS,6.489

@@ -1,0 +1,5 @@
+comparison,experimental_group,cell_type,cell_line,genotype,treatment,role,n_replicates,n_passing_qc,samples,geo_accessions,mean_million_reads,qc_flagged
+C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_Ethanol,hESC,H9,normal,Ethanol,control,3,2,"A1, A2, A3","GSM6585843, GSM6585844, GSM6585845",34.96,A3
+C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_5-OXO-ETE,hESC,H9,normal,5-OXO-ETE,treatment,3,3,"A4, A5, A6","GSM6585846, GSM6585847, GSM6585848",42.84,-
+C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_DMSO,hiPSC,P,trisomy 21,DMSO,control,3,3,"A7, A8, A9","GSM6585849, GSM6585850, GSM6585851",44.23,-
+C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_Calcitriol,hiPSC,P,trisomy 21,Calcitriol,treatment,3,3,"A10, A11, A12","GSM6585852, GSM6585853, GSM6585854",39.11,-

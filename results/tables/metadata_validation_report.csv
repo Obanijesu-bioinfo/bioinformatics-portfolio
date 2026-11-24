@@ -1,0 +1,13 @@
+check,result,detail
+All required columns present,PASS,8 required
+No missing values in required columns,PASS,0 missing
+Each sample appears exactly once,PASS,"12 rows, duplicates: none"
+"All 12 expected samples (A1-A12) present, no extras",PASS,"absent: none, unexpected: none"
+Samples ordered A1 through A12,PASS,"order: A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12"
+GEO accessions well-formed and unique,PASS,GSM6585843 .. GSM6585854
+Metadata samples match count-matrix columns,PASS,"count matrix has 12 samples; only in counts: none, only in metadata: none"
+Treatments match the verified GEO assignments,PASS,mismatches: none
+"Each group has replicates 1, 2, 3",PASS,4 groups; problems: none
+Each comparison has one control and one treatment group,PASS,2 comparisons; problems: none
+"Cell type, line and genotype constant within each comparison",PASS,
+A3 preserved and flagged as QC outlier,PASS,flagged samples: ['A3']

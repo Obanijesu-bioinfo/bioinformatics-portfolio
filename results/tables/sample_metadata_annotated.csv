@@ -1,0 +1,13 @@
+sample_id,geo_accession,geo_sample_title,cell_type,cell_line,genotype,treatment,treatment_duration_h,treatment_role,experimental_group,biological_replicate,comparison,qc_flag,qc_note,source,million_reads,detected_transcripts,pct_reads_top10_transcripts,mean_pearson_r_to_others
+A1,GSM6585843,"H9 hESCs, A1",hESC,H9,normal,Ethanol,24,control,hESC_Ethanol,1,C1_hESC_5-OXO-ETE_vs_Ethanol,pass,,NCBI GEO GSE213410,55.43,132185,5.22,0.7918
+A2,GSM6585844,"H9 hESCs, A2",hESC,H9,normal,Ethanol,24,control,hESC_Ethanol,2,C1_hESC_5-OXO-ETE_vs_Ethanol,pass,,NCBI GEO GSE213410,37.97,126133,5.42,0.7839
+A3,GSM6585845,"H9 hESCs, A3",hESC,H9,normal,Ethanol,24,control,hESC_Ethanol,3,C1_hESC_5-OXO-ETE_vs_Ethanol,outlier,Phase 3 QC: 11.5 M reads (28% of median); low detection at equal depth; mean r=0.56 vs 0.79 for peers; separated on PC2; reads concentrated in few transcripts,NCBI GEO GSE213410,11.48,75795,19.26,0.5644
+A4,GSM6585846,"H9 hESCs, A4",hESC,H9,normal,5-OXO-ETE,24,treatment,hESC_5-OXO-ETE,1,C1_hESC_5-OXO-ETE_vs_Ethanol,pass,,NCBI GEO GSE213410,47.01,129431,4.61,0.7954
+A5,GSM6585847,"H9 hESCs, A5",hESC,H9,normal,5-OXO-ETE,24,treatment,hESC_5-OXO-ETE,2,C1_hESC_5-OXO-ETE_vs_Ethanol,pass,,NCBI GEO GSE213410,41.4,126902,5.36,0.7947
+A6,GSM6585848,"H9 hESCs, A6",hESC,H9,normal,5-OXO-ETE,24,treatment,hESC_5-OXO-ETE,3,C1_hESC_5-OXO-ETE_vs_Ethanol,pass,,NCBI GEO GSE213410,40.1,126586,4.66,0.7938
+A7,GSM6585849,"hiPSCs with trisomy 21 (P hiPSCs), A7",hiPSC,P,trisomy 21,DMSO,24,control,T21-hiPSC_DMSO,1,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,43.05,128244,4.48,0.795
+A8,GSM6585850,"hiPSCs with trisomy 21 (P hiPSCs), A8",hiPSC,P,trisomy 21,DMSO,24,control,T21-hiPSC_DMSO,2,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,49.18,129464,4.66,0.797
+A9,GSM6585851,"hiPSCs with trisomy 21 (P hiPSCs), A9",hiPSC,P,trisomy 21,DMSO,24,control,T21-hiPSC_DMSO,3,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,40.45,122874,4.41,0.7934
+A10,GSM6585852,"hiPSCs with trisomy 21 (P hiPSCs), A10",hiPSC,P,trisomy 21,Calcitriol,24,treatment,T21-hiPSC_Calcitriol,1,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,38.06,121891,4.52,0.7942
+A11,GSM6585853,"hiPSCs with trisomy 21 (P hiPSCs), A11",hiPSC,P,trisomy 21,Calcitriol,24,treatment,T21-hiPSC_Calcitriol,2,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,40.84,124367,4.61,0.7958
+A12,GSM6585854,"hiPSCs with trisomy 21 (P hiPSCs), A12",hiPSC,P,trisomy 21,Calcitriol,24,treatment,T21-hiPSC_Calcitriol,3,C2_T21-hiPSC_Calcitriol_vs_DMSO,pass,,NCBI GEO GSE213410,38.43,126893,4.45,0.7932

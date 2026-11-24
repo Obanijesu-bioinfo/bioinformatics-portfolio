@@ -1,0 +1,16 @@
+metric,value
+genes tested with A3,19594
+genes tested without A3,20582
+genes tested in both,19594
+significant with A3,26
+significant without A3,215
+significant in both,25
+significant with A3 only,1
+significant without A3 only,190
+Jaccard overlap of significant sets,0.116
+direction concordance among genes significant in both,1
+Pearson r of MLE LFC (genes tested in both),0.548
+Spearman r of MLE LFC (genes tested in both),0.508
+Pearson r of MLE LFC (genes significant in either analysis),0.811
+Median |MLE LFC change| (genes significant in either analysis),0.315
+Spearman r of -log10 padj (genes with padj in both),0.101

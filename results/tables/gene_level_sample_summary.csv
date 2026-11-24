@@ -1,0 +1,13 @@
+sample_id,comparison,experimental_group,metadata_qc_flag,transcript_level_total_counts,gene_level_total_counts,pct_counts_in_gene_matrix,pct_counts_TCONS,detected_genes,detected_genes_at_A3_depth,pct_counts_top10_genes,size_factor_global,size_factor_within_comparison,mean_r_within_comparison,PC1_within_comparison,PC2_within_comparison,robust_z_log_gene_library,robust_z_detected_at_equal_depth,robust_z_mean_r_within_comparison
+A1,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_Ethanol,pass,55432913,52065526,93.93,6.07,29554,24322,5.69,1.4903,1.653,0.9436,24.843,6.699,3.19,-0.41,-0.72
+A2,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_Ethanol,pass,37970551,35309658,92.99,7.01,29111,25103,6.04,1.0333,1.1546,0.9443,22.209,11.412,-0.85,0.96,-0.68
+A3,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_Ethanol,outlier,11475472,9659476,84.17,15.83,20861,20861,15.2,0.242,0.2751,0.8402,-114.758,0.435,-14.35,-6.48,-6.27
+A4,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_5-OXO-ETE,pass,47008086,43975415,93.55,6.45,29383,24779,5.23,1.266,1.404,0.9422,22.263,-32.949,1.43,0.39,-0.8
+A5,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_5-OXO-ETE,pass,41395354,38593806,93.23,6.77,28811,24414,5.81,1.1154,1.2404,0.9457,21.43,-6.853,0.07,-0.25,-0.61
+A6,C1_hESC_5-OXO-ETE_vs_Ethanol,hESC_5-OXO-ETE,pass,40095752,37394544,93.26,6.74,28731,24698,5.37,1.0939,1.2218,0.9432,24.014,21.256,-0.25,0.25,-0.74
+A7,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_DMSO,pass,43053616,40429013,93.9,6.1,29184,24905,5.09,1.1836,1.0516,0.969,26.079,10.766,0.56,0.61,0.65
+A8,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_DMSO,pass,49178442,46118199,93.78,6.22,29316,24700,5.27,1.3411,1.1901,0.9706,0.68,5.605,1.93,0.25,0.73
+A9,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_DMSO,pass,40450404,38095352,94.18,5.82,27815,23938,5.07,1.0933,0.9765,0.9685,-13.646,33.088,-0.06,-1.08,0.61
+A10,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_Calcitriol,pass,38058880,35952514,94.47,5.53,27668,23906,4.95,1.0268,0.9194,0.9683,-40.719,-10.798,-0.66,-1.14,0.61
+A11,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_Calcitriol,pass,40844274,38546182,94.37,5.63,28128,24136,5.19,1.1046,0.9886,0.9692,5.95,-35.941,0.06,-0.74,0.65
+A12,C2_T21-hiPSC_Calcitriol_vs_DMSO,T21-hiPSC_Calcitriol,pass,38426760,35881475,93.38,6.62,29053,25086,5.09,1.0553,0.9402,0.9694,21.656,-2.72,-0.68,0.93,0.67

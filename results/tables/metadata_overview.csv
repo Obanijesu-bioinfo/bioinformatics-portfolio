@@ -1,0 +1,9 @@
+item,value
+GEO series,GSE213410
+Organism,Homo sapiens
+Samples,12
+Comparisons,2
+Groups,4
+Replicates per group,3
+Treatment duration,24 h
+QC-flagged samples,A3

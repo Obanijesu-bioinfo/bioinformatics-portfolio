@@ -1,0 +1,4 @@
+analysis,samples,n_control,n_treatment,genes_in_matrix,genes_after_prefilter,genes_with_pvalue,genes_with_padj,cooks_outliers,independent_filter_removed,independent_filter_threshold_baseMean,significant_padj_0.05,up,down,significant_and_abs_MLE_LFC_ge_1,significant_and_abs_shrunk_LFC_ge_1,significant_shrinkage_collapsed,apeglm_prior_scale,apeglm_warnings,size_factors
+"C1 (all samples, primary)","A1,A2,A3,A4,A5,A6",3,3,60617,19594,19500,19500,94,0,3.793,26,17,9,24,20,2,0.001,1,A1=1.683; A2=1.162; A3=0.250; A4=1.425; A5=1.253; A6=1.232
+C1 without A3 (sensitivity),"A1,A2,A4,A5,A6",2,3,60617,20582,20575,20175,7,400,8.022,215,108,107,83,70,5,0.06541,0,A1=1.274; A2=0.870; A4=1.076; A5=0.937; A6=0.924
+C2 (all samples),"A7,A8,A9,A10,A11,A12",3,3,60617,19736,19706,19706,30,0,5.63,62,29,33,36,27,9,0.001,1,A7=1.053; A8=1.193; A9=0.976; A10=0.918; A11=0.987; A12=0.934
