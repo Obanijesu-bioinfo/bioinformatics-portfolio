@@ -1,0 +1,93 @@
+check,result,detail
+"C1: table built from samples A1,A2,A3,A4,A5,A6 only",PASS,"A1,A2,A3,A4,A5,A6"
+C1: gene IDs unique and well-formed Ensembl IDs,PASS,
+C1: 'significant' equals padj < 0.05,PASS,26 genes
+C1: direction matches sign of MLE LFC,PASS,
+C1: significant genes are a subset of tested genes (non-NA p-value),PASS,
+C1: Wald statistic finite for every tested gene,PASS,19500 tested; 0 with NA padj kept in universe
+"C1_without_A3: table built from samples A1,A2,A4,A5,A6 only",PASS,"A1,A2,A4,A5,A6"
+C1_without_A3: gene IDs unique and well-formed Ensembl IDs,PASS,
+C1_without_A3: 'significant' equals padj < 0.05,PASS,215 genes
+C1_without_A3: direction matches sign of MLE LFC,PASS,
+C1_without_A3: significant genes are a subset of tested genes (non-NA p-value),PASS,
+C1_without_A3: Wald statistic finite for every tested gene,PASS,20575 tested; 400 with NA padj kept in universe
+"C2: table built from samples A7,A8,A9,A10,A11,A12 only",PASS,"A7,A8,A9,A10,A11,A12"
+C2: gene IDs unique and well-formed Ensembl IDs,PASS,
+C2: 'significant' equals padj < 0.05,PASS,62 genes
+C2: direction matches sign of MLE LFC,PASS,
+C2: significant genes are a subset of tested genes (non-NA p-value),PASS,
+C2: Wald statistic finite for every tested gene,PASS,19706 tested; 0 with NA padj kept in universe
+"EnsDb is Ensembl release 97, GRCh38",PASS,AH73881; Ensembl 97; GRCh38
+"All 60,617 Phase 5 gene IDs exist in Ensembl 97 EnsDb",PASS,60617 of 60617 found
+Mapping statuses account for every gene,PASS,
+Usable Entrez IDs are unique (no duplicates enter enrichment),PASS,
+C1: universe = tested genes with usable Entrez ID,PASS,19500 tested -> 14783 in universe
+C1: every ORA gene list is a subset of its universe,PASS,
+"C1: GSEA ranking finite, unique, sorted, equals universe",PASS,14783 ranked genes; stat range -6.91 to 6.25
+C1_without_A3: universe = tested genes with usable Entrez ID,PASS,20575 tested -> 15096 in universe
+C1_without_A3: every ORA gene list is a subset of its universe,PASS,
+"C1_without_A3: GSEA ranking finite, unique, sorted, equals universe",PASS,15096 ranked genes; stat range -11.57 to 22.21
+C2: universe = tested genes with usable Entrez ID,PASS,19706 tested -> 14891 in universe
+C2: every ORA gene list is a subset of its universe,PASS,
+"C2: GSEA ranking finite, unique, sorted, equals universe",PASS,14891 ranked genes; stat range -8.79 to 15.00
+"C1, C1_without_A3 and C2 inputs come from three different Phase 6 tables",PASS,
+ORA C1/all/GO_BP: BH recomputation matches,PASS,
+ORA C1/all/GO_MF: BH recomputation matches,PASS,
+ORA C1/all/GO_CC: BH recomputation matches,PASS,
+ORA C1/all/KEGG: BH recomputation matches,PASS,
+ORA C1/all/Reactome: BH recomputation matches,PASS,
+ORA C1/up/GO_BP: BH recomputation matches,PASS,
+ORA C1/up/GO_MF: BH recomputation matches,PASS,
+ORA C1/up/GO_CC: BH recomputation matches,PASS,
+ORA C1/up/KEGG: BH recomputation matches,PASS,
+ORA C1/up/Reactome: BH recomputation matches,PASS,
+ORA C1_without_A3/all/GO_BP: BH recomputation matches,PASS,
+ORA C1_without_A3/all/GO_MF: BH recomputation matches,PASS,
+ORA C1_without_A3/all/GO_CC: BH recomputation matches,PASS,
+ORA C1_without_A3/all/KEGG: BH recomputation matches,PASS,
+ORA C1_without_A3/all/Reactome: BH recomputation matches,PASS,
+ORA C1_without_A3/up/GO_BP: BH recomputation matches,PASS,
+ORA C1_without_A3/up/GO_MF: BH recomputation matches,PASS,
+ORA C1_without_A3/up/GO_CC: BH recomputation matches,PASS,
+ORA C1_without_A3/up/KEGG: BH recomputation matches,PASS,
+ORA C1_without_A3/up/Reactome: BH recomputation matches,PASS,
+ORA C1_without_A3/down/GO_BP: BH recomputation matches,PASS,
+ORA C1_without_A3/down/GO_MF: BH recomputation matches,PASS,
+ORA C1_without_A3/down/GO_CC: BH recomputation matches,PASS,
+ORA C1_without_A3/down/KEGG: BH recomputation matches,PASS,
+ORA C1_without_A3/down/Reactome: BH recomputation matches,PASS,
+ORA C2/all/GO_BP: BH recomputation matches,PASS,
+ORA C2/all/GO_MF: BH recomputation matches,PASS,
+ORA C2/all/GO_CC: BH recomputation matches,PASS,
+ORA C2/all/KEGG: BH recomputation matches,PASS,
+ORA C2/all/Reactome: BH recomputation matches,PASS,
+ORA C2/up/GO_BP: BH recomputation matches,PASS,
+ORA C2/up/GO_MF: BH recomputation matches,PASS,
+ORA C2/up/GO_CC: BH recomputation matches,PASS,
+ORA C2/up/KEGG: BH recomputation matches,PASS,
+ORA C2/up/Reactome: BH recomputation matches,PASS,
+ORA C2/down/GO_BP: BH recomputation matches,PASS,
+ORA C2/down/GO_MF: BH recomputation matches,PASS,
+ORA C2/down/GO_CC: BH recomputation matches,PASS,
+ORA C2/down/KEGG: BH recomputation matches,PASS,
+ORA C2/down/Reactome: BH recomputation matches,PASS,
+GSEA C1/GO_BP: BH recomputation matches,PASS,
+GSEA C1/GO_MF: BH recomputation matches,PASS,
+GSEA C1/GO_CC: BH recomputation matches,PASS,
+GSEA C1/KEGG: BH recomputation matches,PASS,
+GSEA C1/Reactome: BH recomputation matches,PASS,
+GSEA C1_without_A3/GO_BP: BH recomputation matches,PASS,
+GSEA C1_without_A3/GO_MF: BH recomputation matches,PASS,
+GSEA C1_without_A3/GO_CC: BH recomputation matches,PASS,
+GSEA C1_without_A3/KEGG: BH recomputation matches,PASS,
+GSEA C1_without_A3/Reactome: BH recomputation matches,PASS,
+GSEA C2/GO_BP: BH recomputation matches,PASS,
+GSEA C2/GO_MF: BH recomputation matches,PASS,
+GSEA C2/GO_CC: BH recomputation matches,PASS,
+GSEA C2/KEGG: BH recomputation matches,PASS,
+GSEA C2/Reactome: BH recomputation matches,PASS,
+Raw count file and Phase 5-6 inputs unchanged (SHA-256),PASS,5 files checked
+All Phase 7 tables written,PASS,
+All Phase 7 figures written,PASS,10 figures
+Up/down ORA run only where >= 10 mapped genes,PASS,
+No database query errors,PASS,

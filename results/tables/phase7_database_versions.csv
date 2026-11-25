@@ -1,0 +1,12 @@
+layer,resource,version
+historical,Ensembl transcript/gene annotation (Phases 5-6),"Ensembl 97, GRCh38.p12 (Homo_sapiens.GRCh38.97.gtf.gz)"
+historical,Ensembl gene -> Entrez mapping,"AH73881, Ensembl 97 EnsDb for Homo sapiens"
+current,"org.Hs.eg.db (Entrez, GO gene annotations)",3.22.0
+current,GO.db (GO terms),3.22.0 2025-07-22
+current,GO source date (org.Hs.eg.db),2025-07-22
+current,Reactome,reactome.db 1.95.0 (NA)
+current,KEGG (live REST query),release string not reported; queried 2026-11-24 14:22 GMT
+software,R,R version 4.5.1 (2025-06-13 ucrt)
+software,Bioconductor,3.22
+software,clusterProfiler,4.18.4
+software,ReactomePA,1.54.0

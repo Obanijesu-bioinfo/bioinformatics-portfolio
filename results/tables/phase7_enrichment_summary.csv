@@ -1,0 +1,61 @@
+analysis,role,method,database,gene_list,list_genes,list_genes_mapped,universe_size,list_genes_annotated_in_db,terms_tested,terms_significant,status
+C1,primary,ORA,GO_BP,all,26,17,14783,11,242,0,run
+C1,primary,ORA,GO_MF,all,26,17,14783,11,46,0,run
+C1,primary,ORA,GO_CC,all,26,17,14783,10,33,0,run
+C1,primary,ORA,KEGG,all,26,17,14783,7,21,0,run
+C1,primary,ORA,Reactome,all,26,17,14783,8,175,0,run
+C1,primary,ORA,GO_BP,up,17,10,14783,6,103,0,run
+C1,primary,ORA,GO_MF,up,17,10,14783,5,15,0,run
+C1,primary,ORA,GO_CC,up,17,10,14783,5,23,1,run
+C1,primary,ORA,KEGG,up,17,10,14783,4,11,0,run
+C1,primary,ORA,Reactome,up,17,10,14783,2,76,1,run
+C1,primary,ORA,GO_BP,down,9,7,14783,NA,NA,NA,not run: 7 mapped genes < minimum 10
+C1,primary,ORA,GO_MF,down,9,7,14783,NA,NA,NA,not run: 7 mapped genes < minimum 10
+C1,primary,ORA,GO_CC,down,9,7,14783,NA,NA,NA,not run: 7 mapped genes < minimum 10
+C1,primary,ORA,KEGG,down,9,7,14783,NA,NA,NA,not run: 7 mapped genes < minimum 10
+C1,primary,ORA,Reactome,down,9,7,14783,NA,NA,NA,not run: 7 mapped genes < minimum 10
+C1_without_A3,exploratory sensitivity,ORA,GO_BP,all,215,172,15096,142,2227,26,run
+C1_without_A3,exploratory sensitivity,ORA,GO_MF,all,215,172,15096,131,399,11,run
+C1_without_A3,exploratory sensitivity,ORA,GO_CC,all,215,172,15096,109,292,1,run
+C1_without_A3,exploratory sensitivity,ORA,KEGG,all,215,172,15096,82,152,6,run
+C1_without_A3,exploratory sensitivity,ORA,Reactome,all,215,172,15096,100,526,7,run
+C1_without_A3,exploratory sensitivity,ORA,GO_BP,up,108,87,15096,70,1250,46,run
+C1_without_A3,exploratory sensitivity,ORA,GO_MF,up,108,87,15096,63,232,12,run
+C1_without_A3,exploratory sensitivity,ORA,GO_CC,up,108,87,15096,59,216,5,run
+C1_without_A3,exploratory sensitivity,ORA,KEGG,up,108,87,15096,42,89,14,run
+C1_without_A3,exploratory sensitivity,ORA,Reactome,up,108,87,15096,49,338,8,run
+C1_without_A3,exploratory sensitivity,ORA,GO_BP,down,107,85,15096,72,1637,6,run
+C1_without_A3,exploratory sensitivity,ORA,GO_MF,down,107,85,15096,68,278,3,run
+C1_without_A3,exploratory sensitivity,ORA,GO_CC,down,107,85,15096,50,184,0,run
+C1_without_A3,exploratory sensitivity,ORA,KEGG,down,107,85,15096,40,102,1,run
+C1_without_A3,exploratory sensitivity,ORA,Reactome,down,107,85,15096,51,291,4,run
+C2,independent experiment,ORA,GO_BP,all,62,45,14891,33,834,0,run
+C2,independent experiment,ORA,GO_MF,all,62,45,14891,33,136,0,run
+C2,independent experiment,ORA,GO_CC,all,62,45,14891,28,167,0,run
+C2,independent experiment,ORA,KEGG,all,62,45,14891,15,44,0,run
+C2,independent experiment,ORA,Reactome,all,62,45,14891,17,208,0,run
+C2,independent experiment,ORA,GO_BP,up,29,20,14891,15,473,0,run
+C2,independent experiment,ORA,GO_MF,up,29,20,14891,12,44,0,run
+C2,independent experiment,ORA,GO_CC,up,29,20,14891,13,108,0,run
+C2,independent experiment,ORA,KEGG,up,29,20,14891,8,27,0,run
+C2,independent experiment,ORA,Reactome,up,29,20,14891,9,153,0,run
+C2,independent experiment,ORA,GO_BP,down,33,25,14891,18,423,0,run
+C2,independent experiment,ORA,GO_MF,down,33,25,14891,21,99,0,run
+C2,independent experiment,ORA,GO_CC,down,33,25,14891,15,80,0,run
+C2,independent experiment,ORA,KEGG,down,33,25,14891,7,19,0,run
+C2,independent experiment,ORA,Reactome,down,33,25,14891,8,68,0,run
+C1,primary,GSEA,GO_BP,ranked (Wald statistic),14783,14783,14783,NA,5664,29,run
+C1,primary,GSEA,GO_MF,ranked (Wald statistic),14783,14783,14783,NA,1129,20,run
+C1,primary,GSEA,GO_CC,ranked (Wald statistic),14783,14783,14783,NA,731,11,run
+C1,primary,GSEA,KEGG,ranked (Wald statistic),14783,14783,14783,NA,351,9,run
+C1,primary,GSEA,Reactome,ranked (Wald statistic),14783,14783,14783,NA,1573,179,run
+C1_without_A3,exploratory sensitivity,GSEA,GO_BP,ranked (Wald statistic),15096,15096,15096,NA,5700,15,run
+C1_without_A3,exploratory sensitivity,GSEA,GO_MF,ranked (Wald statistic),15096,15096,15096,NA,1141,4,run
+C1_without_A3,exploratory sensitivity,GSEA,GO_CC,ranked (Wald statistic),15096,15096,15096,NA,734,18,run
+C1_without_A3,exploratory sensitivity,GSEA,KEGG,ranked (Wald statistic),15096,15096,15096,NA,352,10,run
+C1_without_A3,exploratory sensitivity,GSEA,Reactome,ranked (Wald statistic),15096,15096,15096,NA,1579,164,run
+C2,independent experiment,GSEA,GO_BP,ranked (Wald statistic),14891,14891,14891,NA,5671,72,run
+C2,independent experiment,GSEA,GO_MF,ranked (Wald statistic),14891,14891,14891,NA,1124,29,run
+C2,independent experiment,GSEA,GO_CC,ranked (Wald statistic),14891,14891,14891,NA,729,37,run
+C2,independent experiment,GSEA,KEGG,ranked (Wald statistic),14891,14891,14891,NA,352,7,run
+C2,independent experiment,GSEA,Reactome,ranked (Wald statistic),14891,14891,14891,NA,1579,202,run
