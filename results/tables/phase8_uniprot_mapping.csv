@@ -1,0 +1,91 @@
+ensembl_gene_id,target_symbol,uniprot_accession,decision,reason,status_in_2026_04,ensembl97_xref,uniprot_2026_04_xref_to_gene,sequence_identical_ensembl97_proteins,uniprot_gene_names
+ENSG00000139269,INHBE,P58166,used,reviewed record with explicit cross-reference,UniProtKB reviewed (Swiss-Prot),Uniprot/SWISSPROT: ENSP00000266646(DIRECT),True,ENSP00000266646.2=P58166,INHBE
+ENSG00000139269,INHBE,A0ACP2IEZ0,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000139269,INHBE,A0ACP2IF22,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000139269,INHBE,F8VNP4,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000450212(DIRECT),False,,
+ENSG00000286192,AC069288.1,A0A3B3ITW8,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),none,True,ENSP00000498895.1=A0A3B3ITW8,MRM2
+ENSG00000213064,SFT2D2,O95562,used,reviewed record with explicit cross-reference,UniProtKB reviewed (Swiss-Prot),Uniprot/SWISSPROT: ENSP00000271375(DIRECT),True,ENSP00000271375.3=O95562,SFT2D2
+ENSG00000213064,SFT2D2,A0ACI8PQT3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACI8Q7N3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACI8QFC3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACI8RT24,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACP2ASM0,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACP2H9Y2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,A0ACP2HA02,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000213064,SFT2D2,Q5TIH2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,"Uniprot/SPTREMBL: ENSP00000356803(DIRECT), ENSP00000486492(DIRECT)",True,,
+ENSG00000280987,MATR3,A0A0R4J2E8,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000354346(DIRECT),True,ENSP00000354346.4=A0A0R4J2E8; ENSP00000423533.1=A0A0R4J2E8,MATR3
+ENSG00000280987,MATR3,A8MXP9,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),"Uniprot/SPTREMBL: ENSP00000378279(DIRECT), ENSP00000422319(DIRECT)",False,ENSP00000378279.2=A8MXP9; ENSP00000422319.1=A8MXP9,MATR3
+ENSG00000280987,MATR3,B3KM87,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000421218(DIRECT),False,ENSP00000421218.1=B3KM87,
+ENSG00000280987,MATR3,D6R8Z5,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000422233(DIRECT),False,ENSP00000422233.1=D6R8Z5,MATR3
+ENSG00000280987,MATR3,D6R9N0,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000423521(DIRECT),False,ENSP00000423521.2=D6R9N0,MATR3
+ENSG00000280987,MATR3,D6RAM9,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000421666(DIRECT),False,ENSP00000421666.1=D6RAM9,MATR3
+ENSG00000280987,MATR3,D6RB45,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000424431(DIRECT),False,ENSP00000424431.1=D6RB45,MATR3
+ENSG00000280987,MATR3,D6RCM3,used,no reviewed record for this gene; unreviewed record with explicit cross-reference,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000427168(DIRECT),False,ENSP00000427168.1=D6RCM3,MATR3
+ENSG00000280987,MATR3,P43243,ambiguous - not transferred,UniProt 2026_04 links P43243-1 to ENST00000361059.7 (protein ENSP00000354346.4) but assigns it to gene ENSG00000015479.21; in Ensembl 97 ENST00000361059 belongs to ENSG00000280987. Ensembl 97 made no link from ENSG00000280987 to P43243. | UniProt 2026_04 links P43243-1 to ENST00000509990.5 (protein ENSP00000423533.1) but assigns it to gene ENSG00000015479.21; in Ensembl 97 ENST00000509990 belongs to ENSG00000280987. Ensembl 97 made no link from ENSG00000280987 to P43243.,UniProtKB reviewed (Swiss-Prot),none for this gene,False,ENSP00000354346.4=P43243; ENSP00000423533.1=P43243,MATR3
+ENSG00000015479,MATR3,P43243,used,reviewed record with explicit cross-reference,UniProtKB reviewed (Swiss-Prot),"Uniprot/SWISSPROT: ENSP00000378284(DIRECT), ENSP00000423587(DIRECT), ENSP00000482895(DIRECT)",True,ENSP00000378284.3=P43243; ENSP00000423587.1=P43243-2; ENSP00000482895.1=P43243,MATR3
+ENSG00000015479,MATR3,A0A1B0GX04,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000421145(DIRECT),True,,
+ENSG00000015479,MATR3,A0ACI8R822,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8R823,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8R825,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8R828,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8R8U7,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8RLR3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8SA17,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8SDE3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8SEV6,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8SG39,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8TFJ9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8TG91,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8UY72,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8UYM3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8UZX6,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACI8V066,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2DQ91,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2DQB1,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2DQB5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2DQC8,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2DQK7,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2G7R9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A0ACP2IAA5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,A8MXP9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,B3KM87,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),Uniprot/SPTREMBL: ENSP00000426030(DIRECT),False,ENSP00000426030.1=B3KM87,
+ENSG00000015479,MATR3,D6R8Z5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,D6R991,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000423290(DIRECT),True,,
+ENSG00000015479,MATR3,D6R9F3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000422137(DIRECT),True,,
+ENSG00000015479,MATR3,D6R9N0,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,D6RAM9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,D6RAY2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000424646(DIRECT),True,,
+ENSG00000015479,MATR3,D6RB45,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,D6RBI2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000422700(DIRECT),True,,
+ENSG00000015479,MATR3,D6RBK5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000422649(DIRECT),True,,
+ENSG00000015479,MATR3,D6RBS2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000422590(DIRECT),True,,
+ENSG00000015479,MATR3,D6RCM3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,UniProtKB unreviewed (TrEMBL),none,True,none,MATR3
+ENSG00000015479,MATR3,D6RE02,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000425150(DIRECT),True,,
+ENSG00000015479,MATR3,D6REK4,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000426801(DIRECT),True,,
+ENSG00000015479,MATR3,D6REM6,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000426743(DIRECT),True,,
+ENSG00000015479,MATR3,D6RIA2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000427557(DIRECT),True,,
+ENSG00000015479,MATR3,F6SVW3,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000015479,MATR3,H0Y8T4,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000422054(DIRECT),True,,
+ENSG00000015479,MATR3,Q68E03,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000480093(DIRECT),False,,
+ENSG00000157214,STEAP2,Q8NFT2,used,reviewed record with explicit cross-reference,UniProtKB reviewed (Swiss-Prot),"Uniprot/SWISSPROT: ENSP00000287908(DIRECT), ENSP00000378119(DIRECT), ENSP00000378120(DIRECT), ENSP00000378123(DIRECT), ENSP00000378125(DIRECT), ENSP00000378128(DIRECT)",True,ENSP00000287908.3=Q8NFT2; ENSP00000378119.2=Q8NFT2; ENSP00000378120.2=Q8NFT2; ENSP00000378123.1=Q8NFT2-2; ENSP00000378125.2=Q8NFT2-2; ENSP00000378128.1=Q8NFT2-3,STEAP2
+ENSG00000157214,STEAP2,A0ACI8TL02,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACI8VJQ8,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2GP03,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2HK02,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2HK04,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2I186,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2IB52,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,A0ACP2IVK2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000157214,STEAP2,B5MC02,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000384191(DIRECT),True,,
+ENSG00000157214,STEAP2,C9JHX5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000415931(DIRECT),True,,
+ENSG00000157214,STEAP2,C9JLP2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000401783(DIRECT),True,,
+ENSG00000157214,STEAP2,Q6YPB2,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,"Uniprot/SPTREMBL: ENSP00000378123(SEQUENCE_MATCH), ENSP00000378125(SEQUENCE_MATCH)",False,,
+ENSG00000163378,EOGT,Q5NDL2,used,reviewed record with explicit cross-reference,UniProtKB reviewed (Swiss-Prot),"Uniprot/SWISSPROT: ENSP00000295571(DIRECT), ENSP00000373206(DIRECT), ENSP00000443780(DIRECT), ENSP00000444264(DIRECT)",True,ENSP00000295571.5=Q5NDL2-3; ENSP00000373206.3=Q5NDL2; ENSP00000443780.2=Q5NDL2; ENSP00000444264.2=Q5NDL2-3,EOGT
+ENSG00000163378,EOGT,A0A087WWA9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000163378,EOGT,A0ACI8UH72,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000163378,EOGT,A0ACP2I5A5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000163378,EOGT,A0ACP2I5C9,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,none,True,,
+ENSG00000163378,EOGT,C9J4G5,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000411832(DIRECT),True,,
+ENSG00000163378,EOGT,C9JQM7,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000408090(DIRECT),True,,
+ENSG00000163378,EOGT,F5H225,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000384124(DIRECT),True,,
+ENSG00000163378,EOGT,Q8N329,not used,unreviewed; a reviewed (Swiss-Prot) record is available for this gene,not fetched,Uniprot/SPTREMBL: ENSP00000480083(DIRECT),False,,

@@ -1,0 +1,661 @@
+gene_stable_id,object_type,object_stable_id,attrib_code,attrib_name,value
+ENSG00000237506,Gene,ENSG00000237506,GeneGC,Gene GC,51.92
+ENSG00000237506,Gene,ENSG00000237506,author,Author,Havana
+ENSG00000237506,Gene,ENSG00000237506,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000237506,Gene,ENSG00000237506,name,Name,RP1-138A5.1
+ENSG00000237506,Gene,ENSG00000237506,synonym,Synonym,dJ138A5.1
+ENSG00000237506,Gene,ENSG00000237506,xref_id,Xref ID,OTTHUMG00000021947
+ENSG00000237506,Transcript,ENST00000448168,TSL,Transcript Support Level,tslNA
+ENSG00000237506,Transcript,ENST00000448168,author,Author,Havana
+ENSG00000237506,Transcript,ENST00000448168,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000237506,Transcript,ENST00000448168,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000237506,Transcript,ENST00000448168,name,Name,RP1-138A5.1-001
+ENSG00000237506,Transcript,ENST00000448168,xref_id,Xref ID,OTTHUMT00000057415
+ENSG00000127589,Gene,ENSG00000127589,GeneGC,Gene GC,53.58
+ENSG00000127589,Gene,ENSG00000127589,author,Author,Havana
+ENSG00000127589,Gene,ENSG00000127589,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000127589,Gene,ENSG00000127589,name,Name,TUBBP1
+ENSG00000127589,Gene,ENSG00000127589,xref_id,Xref ID,OTTHUMG00000163834
+ENSG00000127589,Transcript,ENST00000248151,TSL,Transcript Support Level,tslNA
+ENSG00000127589,Transcript,ENST00000248151,author,Author,Havana
+ENSG00000127589,Transcript,ENST00000248151,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000127589,Transcript,ENST00000248151,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000127589,Transcript,ENST00000248151,name,Name,CTD-3107M8.3-001
+ENSG00000127589,Transcript,ENST00000248151,synonym,Synonym,CTD-3107M8.3-001
+ENSG00000127589,Transcript,ENST00000248151,xref_id,Xref ID,OTTHUMT00000375881
+ENSG00000127589,Transcript,ENST00000518096,TSL,Transcript Support Level,tslNA
+ENSG00000127589,Transcript,ENST00000518096,author,Author,Havana
+ENSG00000127589,Transcript,ENST00000518096,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000127589,Transcript,ENST00000518096,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000127589,Transcript,ENST00000518096,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000127589,Transcript,ENST00000518096,name,Name,CTD-3107M8.3-002
+ENSG00000127589,Transcript,ENST00000518096,synonym,Synonym,CTD-3107M8.3-002
+ENSG00000127589,Transcript,ENST00000518096,xref_id,Xref ID,OTTHUMT00000375880
+ENSG00000139269,Gene,ENSG00000139269,Ensembl_Select,Ensembl Select,ENST00000266646
+ENSG00000139269,Gene,ENSG00000139269,GeneGC,Gene GC,53.48
+ENSG00000139269,Gene,ENSG00000139269,author,Author,Havana
+ENSG00000139269,Gene,ENSG00000139269,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000139269,Gene,ENSG00000139269,name,Name,INHBE
+ENSG00000139269,Gene,ENSG00000139269,xref_id,Xref ID,OTTHUMG00000169995
+ENSG00000139269,Transcript,ENST00000266646,MANE_Select,MANE Select v0.5,NM_031479.5
+ENSG00000139269,Transcript,ENST00000266646,TSL,Transcript Support Level,tsl1 (assigned to previous version 2)
+ENSG00000139269,Transcript,ENST00000266646,appris,APPRIS,principal1
+ENSG00000139269,Transcript,ENST00000266646,author,Author,Havana
+ENSG00000139269,Transcript,ENST00000266646,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000139269,Transcript,ENST00000266646,ccds_transcript,CCDS transcript,CCDS8939.1
+ENSG00000139269,Transcript,ENST00000266646,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000139269,Transcript,ENST00000266646,hidden_remark,Hidden Remark,CCDS8939.1
+ENSG00000139269,Transcript,ENST00000266646,name,Name,RP11-181L23.3-001
+ENSG00000139269,Transcript,ENST00000266646,remark,Remark,MANE_select
+ENSG00000139269,Transcript,ENST00000266646,synonym,Synonym,RP11-181L23.3-001
+ENSG00000139269,Transcript,ENST00000266646,xref_id,Xref ID,OTTHUMT00000406773
+ENSG00000139269,Transcript,ENST00000547970,TSL,Transcript Support Level,tsl3
+ENSG00000139269,Transcript,ENST00000547970,author,Author,Havana
+ENSG00000139269,Transcript,ENST00000547970,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000139269,Transcript,ENST00000547970,cds_end_NF,CDS end not found,1
+ENSG00000139269,Transcript,ENST00000547970,hidden_remark,Hidden Remark,upstream atg shows good conservation in UCSC genome browser
+ENSG00000139269,Transcript,ENST00000547970,mRNA_end_NF,mRNA end not found,1
+ENSG00000139269,Transcript,ENST00000547970,name,Name,RP11-181L23.3-003
+ENSG00000139269,Transcript,ENST00000547970,synonym,Synonym,RP11-181L23.3-003
+ENSG00000139269,Transcript,ENST00000547970,xref_id,Xref ID,OTTHUMT00000406772
+ENSG00000139269,Transcript,ENST00000551553,TSL,Transcript Support Level,tsl1
+ENSG00000139269,Transcript,ENST00000551553,author,Author,Havana
+ENSG00000139269,Transcript,ENST00000551553,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000139269,Transcript,ENST00000551553,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000139269,Transcript,ENST00000551553,name,Name,RP11-181L23.3-002
+ENSG00000139269,Transcript,ENST00000551553,synonym,Synonym,RP11-181L23.3-002
+ENSG00000139269,Transcript,ENST00000551553,xref_id,Xref ID,OTTHUMT00000406771
+ENSG00000139269,Transcript,ENST00000553033,TSL,Transcript Support Level,tsl4
+ENSG00000139269,Transcript,ENST00000553033,author,Author,Havana
+ENSG00000139269,Transcript,ENST00000553033,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000139269,Transcript,ENST00000553033,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000139269,Transcript,ENST00000553033,name,Name,RP11-181L23.3-004
+ENSG00000139269,Transcript,ENST00000553033,synonym,Synonym,RP11-181L23.3-004
+ENSG00000139269,Transcript,ENST00000553033,xref_id,Xref ID,OTTHUMT00000406774
+ENSG00000286192,Gene,ENSG00000286192,GeneGC,Gene GC,55.53
+ENSG00000286192,Gene,ENSG00000286192,author,Author,Havana
+ENSG00000286192,Gene,ENSG00000286192,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000286192,Gene,ENSG00000286192,havana_cv,Havana CV term,overlapping locus
+ENSG00000286192,Gene,ENSG00000286192,name,Name,RP11-383A19.1
+ENSG00000286192,Gene,ENSG00000286192,xref_id,Xref ID,OTTHUMG00000193455
+ENSG00000286192,Transcript,ENST00000651235,appris,APPRIS,principal1
+ENSG00000286192,Transcript,ENST00000651235,author,Author,Havana
+ENSG00000286192,Transcript,ENST00000651235,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000286192,Transcript,ENST00000651235,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000286192,Transcript,ENST00000651235,name,Name,RP11-383A19.1-001
+ENSG00000286192,Transcript,ENST00000651235,readthrough_tra,readthrough transcript,readthrough
+ENSG00000286192,Transcript,ENST00000651235,remark,Remark,Assembled from SLRseq reads (ENA:SRP049776)
+ENSG00000286192,Transcript,ENST00000651235,remark,Remark,ID: align_id:3732539|asmbl_222704
+ENSG00000286192,Transcript,ENST00000651235,remark,Remark,"SLR-seq_HsBN_lib8 : HsBN_lib8:Read_5771-Barcode=BC067:length=2500, HsBN_lib8:Read_170725-Barcode=BC209:length=1747, HsBN_lib8:Read_132959-Barcode=BC085:length=1972, HsBN_lib8:Read_125083-Barcode=BC286:length=2488, HsBN_lib8:Read_144511-Barcode=BC237:length=2483, HsBN_lib8:Read_429646-Barcode=BC324:length=731, HsBN_lib8:Read_450750-Barcode=BC023:length=608, HsBN_lib8:Read_89042-Barcode=BC214:length=1979, HsBN_lib8:Read_365311-Barcode=BC024:length=588, HsBN_lib8:Read_430125-Barcode=BC324:length=555 ; SLR-seq_HsBN_lib10 : HsBN_lib10:Read_113184-Barcode=BC285:length=2273, HsBN_lib10:Read_428420-Barcode=BC111:length=638, HsBN_lib10:Read_429118-Barcode=BC015:length=524, HsBN_lib10:Read_400273-Barcode=BC316:length=870, HsBN_lib10:Read_152436-Barcode=BC166:length=2581, HsBN_lib10:Read_459763-Barcode=BC301:length=567, HsBN_lib10:Read_264536-Barcode=BC091:length=2023, HsBN_lib10:Read_309135-Barcode=BC274:length=1318, HsBN_lib10:Read_287301-Barcode=BC227:length=636, HsBN_lib10:Read_456688-Barcode=BC124:length=724, HsBN_lib10:Read_122086-Barcode=BC307:length=2309, HsBN_lib10:Read_453683-Barcode=BC187:length=692, HsBN_lib10:Read_330826-Barcode=BC290:length=1310 ; SLR-seq_HsBN_lib12 : HsBN_lib12:Read_401160-Barcode=BC115:length=1255, HsBN_lib12:Read_495629-Barcode=BC021:length=583, HsBN_lib12:Read_51060-Barcode=BC183:length=2488, HsBN_lib12:Read_366721-Barcode=BC326:length=1149, HsBN_lib12:Read_354132-Barcode=BC318:length=926, HsBN_lib12:Read_124046-Barcode=BC286:length=2394, HsBN_lib12:Read_266932-Barcode=BC104:length=1904, HsBN_lib12:Read_66045-Barcode=BC169:length=2499, HsBN_lib12:Read_303855-Barcode=BC072:length=612, HsBN_lib12:Read_58259-Barcode=BC177:length=2137, HsBN_lib12:Read_370576-Barcode=BC305:length=912, HsBN_lib12:Read_11726-Barcode=BC353:length=2498, HsBN_lib12:Read_371644-Barcode=BC034:length=540, HsBN_lib12:Read_34195-Barcode=BC251:length=2505, HsBN_lib12:Read_262982-Barcode=BC129:length=1929, HsBN_lib12:Read_218313-Barcode=BC178:length=2613, HsBN_lib12:Read_209604-Barcode=BC382:length=2104, HsBN_lib12:Read_134868-Barcode=BC102:length=2510, HsBN_lib12:Read_353469-Barcode=BC017:length=560, HsBN_lib12:Read_292579-Barcode=BC374:length=515, HsBN_lib12:Read_329653-Barcode=BC358:length=701 ; SLR-seq_HsBN_lib7 : HsBN_lib7:Read_503154-Barcode=BC226:length=621, HsBN_lib7:Read_228925-Barcode=BC254:length=2473, HsBN_lib7:Read_198836-Barcode=BC111:length=2507, HsBN_lib7:Read_226632-Barcode=BC250:length=2451, HsBN_lib7:Read_379541-Barcode=BC100:length=911, HsBN_lib7:Read_379266-Barcode=BC100:length=1070, HsBN_lib7:Read_253019-Barcode=BC367:length=2332, HsBN_lib7:Read_20273-Barcode=BC225:length=2496, HsBN_lib7:Read_159144-Barcode=BC258:length=2346, HsBN_lib7:Read_466348-Barcode=BC094:length=564, HsBN_lib7:Read_234241-Barcode=BC006:length=2458, HsBN_lib7:Read_401353-Barcode=BC330:length=572, HsBN_lib7:Read_76649-Barcode=BC198:length=2597, HsBN_lib7:Read_391487-Barcode=BC075:length=1120, HsBN_lib7:Read_173146-Barcode=BC130:length=2072 ; SLR-seq_TB0000033 : TB0000033-DNA_A01-LRAAD-01:Read_339743-Barcode=BC199:length=685, TB0000033-DNA_A01-LRAAD-01:Read_243190-Barcode=BC360:length=2606, TB0000033-DNA_A01-LRAAD-01:Read_365153-Barcode=BC262:length=589, TB0000033-DNA_A01-LRAAD-01:Read_72760-Barcode=BC109:length=2594, TB0000033-DNA_A01-LRAAD-01:Read_159203-Barcode=BC238:length=2258, TB0000033-DNA_A01-LRAAD-01:Read_224872-Barcode=BC332:length=2596, TB0000033-DNA_A01-LRAAD-01:Read_327771-Barcode=BC169:length=967, TB0000033-DNA_A01-LRAAD-01:Read_125948-Barcode=BC188:length=2264, TB0000033-DNA_A01-LRAAD-01:Read_351931-Barcode=BC231:length=515, TB0000033-DNA_A01-LRAAD-01:Read_329334-Barcode=BC173:length=658, TB0000033-DNA_A01-LRAAD-01:Read_8994-Barcode=BC016:length=2498, TB0000033-DNA_A01-LRAAD-01:Read_327739-Barcode=BC169:length=549, TB0000033-DNA_A01-LRAAD-01:Read_365147-Barcode=BC262:length=807, TB0000033-DNA_A01-LRAAD-01:Read_90149-Barcode=BC135:length=2499, TB0000033-DNA_A01-LRAAD-01:Read_76214-Barcode=BC115:length=2527, TB0000033-DNA_A01-LRAAD-01:Read_102553-Barcode=BC155:length=2531 ; SLR-seq_TB0000032 : TB0000032-DNA_A01-LRAAD-01:Read_402272-Barcode=BC336:length=921, TB0000032-DNA_A01-LRAAD-01:Read_419691-Barcode=BC377:length=956, TB0000032-DNA_A01-LRAAD-01:Read_284556-Barcode=BC052:length=544, TB0000032-DNA_A01-LRAAD-01:Read_108272-Barcode=BC157:length=2497, TB0000032-DNA_A01-LRAAD-01:Read_100062-Barcode=BC145:length=2482, TB0000032-DNA_A01-LRAAD-01:Read_368943-Barcode=BC254:length=1212, TB0000032-DNA_A01-LRAAD-01:Read_14901-Barcode=BC024:length=2577, TB0000032-DNA_A01-LRAAD-01:Read_348559-Barcode=BC205:length=993, TB0000032-DNA_A01-LRAAD-01:Read_38519-Barcode=BC058:length=2201, TB0000032-DNA_A01-LRAAD-01:Read_284642-Barcode=BC052:length=522, TB0000032-DNA_A01-LRAAD-01:Read_29156-Barcode=BC044:length=2348, TB0000032-DNA_A01-LRAAD-01:Read_73597-Barcode=BC109:length=1554, TB0000032-DNA_A01-LRAAD-01:Read_411673-Barcode=BC357:length=691, TB0000032-DNA_A01-LRAAD-01:Read_361279-Barcode=BC236:length=1456, TB0000032-DNA_A01-LRAAD-01:Read_285704-Barcode=BC055:length=750 ; SLR-seq_TB0000034 : TB0000034-DNA_A01-LRAAD-01:Read_382221-Barcode=BC267:length=589, TB0000034-DNA_A01-LRAAD-01:Read_267814-Barcode=BC004:length=864, TB0000034-DNA_A01-LRAAD-01:Read_313042-Barcode=BC110:length=950, TB0000034-DNA_A01-LRAAD-01:Read_354890-Barcode=BC207:length=749, TB0000034-DNA_A01-LRAAD-01:Read_372588-Barcode=BC248:length=619, TB0000034-DNA_A01-LRAAD-01:Read_354889-Barcode=BC207:length=1049, TB0000034-DNA_A01-LRAAD-01:Read_228473-Barcode=BC328:length=2497, TB0000034-DNA_A01-LRAAD-01:Read_399530-Barcode=BC309:length=782, TB0000034-DNA_A01-LRAAD-01:Read_266014-Barcode=BC384:length=2448, TB0000034-DNA_A01-LRAAD-01:Read_9089-Barcode=BC014:length=2464, TB0000034-DNA_A01-LRAAD-01:Read_111761-Barcode=BC159:length=2463, TB0000034-DNA_A01-LRAAD-01:Read_227698-Barcode=BC327:length=2341, TB0000034-DNA_A01-LRAAD-01:Read_51111-Barcode=BC075:length=2608, TB0000034-DNA_A01-LRAAD-01:Read_232392-Barcode=BC333:length=2513 ; SLR-seq_HsBN_lib6 : HsBN_lib6:Read_330064-Barcode=BC278:length=1148, HsBN_lib6:Read_483062-Barcode=BC071:length=591, HsBN_lib6:Read_363110-Barcode=BC337:length=500, HsBN_lib6:Read_134952-Barcode=BC196:length=2472, HsBN_lib6:Read_184742-Barcode=BC248:length=1503, HsBN_lib6:Read_66907-Barcode=BC203:length=2455, HsBN_lib6:Read_284032-Barcode=BC067:length=940, HsBN_lib6:Read_33770-Barcode=BC263:length=2047, HsBN_lib6:Read_178419-Barcode=BC378:length=2611, HsBN_lib6:Read_362658-Barcode=BC337:length=748, HsBN_lib6:Read_249569-Barcode=BC291:length=2502, HsBN_lib6:Read_237619-Barcode=BC354:length=2509, HsBN_lib6:Read_100256-Barcode=BC230:length=2564, HsBN_lib6:Read_303201-Barcode=BC242:length=690, HsBN_lib6:Read_137296-Barcode=BC061:length=2215, HsBN_lib6:Read_492558-Barcode=BC129:length=511, HsBN_lib6:Read_467298-Barcode=BC022:length=562 ; SLR-seq_HsBN_lib9 : HsBN_lib9:Read_289767-Barcode=BC212:length=626, HsBN_lib9:Read_358755-Barcode=BC243:length=606, HsBN_lib9:Read_297622-Barcode=BC147:length=549, HsBN_lib9:Read_122566-Barcode=BC252:length=2418, HsBN_lib9:Read_355979-Barcode=BC348:length=831, HsBN_lib9:Read_199758-Barcode=BC210:length=2458, HsBN_lib9:Read_466792-Barcode=BC149:length=831, HsBN_lib9:Read_289344-Barcode=BC212:length=536, HsBN_lib9:Read_291321-Barcode=BC255:length=940, HsBN_lib9:Read_202290-Barcode=BC241:length=2525, HsBN_lib9:Read_302315-Barcode=BC235:length=860, HsBN_lib9:Read_405435-Barcode=BC258:length=612, HsBN_lib9:Read_77066-Barcode=BC204:length=2495, HsBN_lib9:Read_16252-Barcode=BC147:length=2417, HsBN_lib9:Read_145976-Barcode=BC330:length=1658, HsBN_lib9:Read_150524-Barcode=BC306:length=2422, HsBN_lib9:Read_50256-Barcode=BC096:length=1726, HsBN_lib9:Read_390329-Barcode=BC208:length=773 ; SLR-seq_HsBN_lib11 : HsBN_lib11:Read_485279-Barcode=BC340:length=1002, HsBN_lib11:Read_393515-Barcode=BC048:length=1061, HsBN_lib11:Read_50022-Barcode=BC084:length=2464, HsBN_lib11:Read_482445-Barcode=BC091:length=552, HsBN_lib11:Read_442211-Barcode=BC375:length=1010, HsBN_lib11:Read_393466-Barcode=BC048:length=542, HsBN_lib11:Read_1123-Barcode=BC257:length=2404, HsBN_lib11:Read_90334-Barcode=BC229:length=1976, HsBN_lib11:Read_406100-Barcode=BC209:length=943, HsBN_lib11:Read_136017-Barcode=BC208:length=2483, HsBN_lib11:Read_485277-Barcode=BC340:length=563, HsBN_lib11:Read_179379-Barcode=BC127:length=2500, HsBN_lib11:Read_383256-Barcode=BC332:length=517, HsBN_lib11:Read_220108-Barcode=BC081:length=2315, HsBN_lib11:Read_50014-Barcode=BC014:length=2411, HsBN_lib11:Read_439035-Barcode=BC232:length=1201, HsBN_lib11:Read_322923-Barcode=BC177:length=716, HsBN_lib11:Read_312855-Barcode=BC274:length=803, HsBN_lib11:Read_319230-Barcode=BC247:length=954, HsBN_lib11:Read_22840-Barcode=BC269:length=2496, HsBN_lib11:Read_337703-Barcode=BC026:length=1145, HsBN_lib11:Read_441969-Barcode=BC375:length=858, HsBN_lib11:Read_128250-Barcode=BC179:length=2560, HsBN_lib11:Read_39300-Barcode=BC245:length=2525, HsBN_lib11:Read_428501-Barcode=BC015:length=1045 ; SLR-seq_TB0000035 : TB0000035-DNA_A01-LRAAD-01:Read_95018-Barcode=BC138:length=2481, TB0000035-DNA_A01-LRAAD-01:Read_13399-Barcode=BC020:length=2500, TB0000035-DNA_A01-LRAAD-01:Read_173497-Barcode=BC251:length=2163, TB0000035-DNA_A01-LRAAD-01:Read_170052-Barcode=BC246:length=2523, TB0000035-DNA_A01-LRAAD-01:Read_329616-Barcode=BC165:length=544, TB0000035-DNA_A01-LRAAD-01:Read_406080-Barcode=BC358:length=1097, TB0000035-DNA_A01-LRAAD-01:Read_237961-Barcode=BC345:length=2492, TB0000035-DNA_A01-LRAAD-01:Read_329617-Barcode=BC165:length=690, TB0000035-DNA_A01-LRAAD-01:Read_293754-Barcode=BC077:length=626, TB0000035-DNA_A01-LRAAD-01:Read_342224-Barcode=BC198:length=1277, TB0000035-DNA_A01-LRAAD-01:Read_154738-Barcode=BC224:length=2213, TB0000035-DNA_A01-LRAAD-01:Read_329615-Barcode=BC165:length=790 ;"
+ENSG00000286192,Transcript,ENST00000651235,xref_id,Xref ID,OTTHUMT00000501769
+ENSG00000213064,Gene,ENSG00000213064,Ensembl_Select,Ensembl Select,ENST00000271375
+ENSG00000213064,Gene,ENSG00000213064,GeneGC,Gene GC,43.38
+ENSG00000213064,Gene,ENSG00000213064,author,Author,Havana
+ENSG00000213064,Gene,ENSG00000213064,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000213064,Gene,ENSG00000213064,name,Name,SFT2D2
+ENSG00000213064,Gene,ENSG00000213064,synonym,Synonym,RP4-747L4.1
+ENSG00000213064,Gene,ENSG00000213064,xref_id,Xref ID,OTTHUMG00000034650
+ENSG00000213064,Transcript,ENST00000271375,MANE_Select,MANE Select v0.5,NM_199344.3
+ENSG00000213064,Transcript,ENST00000271375,TSL,Transcript Support Level,tsl1 (assigned to previous version 6)
+ENSG00000213064,Transcript,ENST00000271375,appris,APPRIS,principal1
+ENSG00000213064,Transcript,ENST00000271375,author,Author,Havana
+ENSG00000213064,Transcript,ENST00000271375,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000213064,Transcript,ENST00000271375,ccds_transcript,CCDS transcript,CCDS1271.1
+ENSG00000213064,Transcript,ENST00000271375,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000213064,Transcript,ENST00000271375,hidden_remark,Hidden Remark,RNAseq_3_extended
+ENSG00000213064,Transcript,ENST00000271375,name,Name,RP4-747L4.1-001
+ENSG00000213064,Transcript,ENST00000271375,remark,Remark,MANE_select
+ENSG00000213064,Transcript,ENST00000271375,synonym,Synonym,RP4-747L4.1-001
+ENSG00000213064,Transcript,ENST00000271375,xref_id,Xref ID,OTTHUMT00000083827
+ENSG00000213064,Transcript,ENST00000367829,TSL,Transcript Support Level,tsl5
+ENSG00000213064,Transcript,ENST00000367829,author,Author,Havana
+ENSG00000213064,Transcript,ENST00000367829,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000213064,Transcript,ENST00000367829,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000213064,Transcript,ENST00000367829,name,Name,RP4-747L4.1-003
+ENSG00000213064,Transcript,ENST00000367829,synonym,Synonym,RP4-747L4.1-003
+ENSG00000213064,Transcript,ENST00000367829,xref_id,Xref ID,OTTHUMT00000097968
+ENSG00000213064,Transcript,ENST00000471981,TSL,Transcript Support Level,tsl5
+ENSG00000213064,Transcript,ENST00000471981,author,Author,Havana
+ENSG00000213064,Transcript,ENST00000471981,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000213064,Transcript,ENST00000471981,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000213064,Transcript,ENST00000471981,name,Name,RP4-747L4.1-002
+ENSG00000213064,Transcript,ENST00000471981,remark,Remark,novel transcript
+ENSG00000213064,Transcript,ENST00000471981,synonym,Synonym,RP4-747L4.1-002
+ENSG00000213064,Transcript,ENST00000471981,xref_id,Xref ID,OTTHUMT00000097967
+ENSG00000213064,Transcript,ENST00000630869,TSL,Transcript Support Level,tsl4
+ENSG00000213064,Transcript,ENST00000630869,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Gene,ENSG00000280987,GeneGC,Gene GC,40.63
+ENSG00000280987,Gene,ENSG00000280987,author,Author,Havana
+ENSG00000280987,Gene,ENSG00000280987,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Gene,ENSG00000280987,havana_cv,Havana CV term,ncRNA host
+ENSG00000280987,Gene,ENSG00000280987,havana_cv,Havana CV term,overlapping locus
+ENSG00000280987,Gene,ENSG00000280987,name,Name,CTB-43P18.3
+ENSG00000280987,Gene,ENSG00000280987,xref_id,Xref ID,OTTHUMG00000189583
+ENSG00000280987,Transcript,ENST00000361059,TSL,Transcript Support Level,tsl2
+ENSG00000280987,Transcript,ENST00000361059,appris,APPRIS,principal1
+ENSG00000280987,Transcript,ENST00000361059,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000361059,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000361059,ccds_transcript,CCDS transcript,CCDS4210.1
+ENSG00000280987,Transcript,ENST00000361059,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Transcript,ENST00000361059,name,Name,CTB-43P18.3-012
+ENSG00000280987,Transcript,ENST00000361059,xref_id,Xref ID,OTTHUMT00000488733
+ENSG00000280987,Transcript,ENST00000394800,TSL,Transcript Support Level,tsl5
+ENSG00000280987,Transcript,ENST00000394800,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000394800,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000394800,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Transcript,ENST00000394800,name,Name,CTB-43P18.3-001
+ENSG00000280987,Transcript,ENST00000394800,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000394800,remark,Remark,GENCODE experimental pipeline
+ENSG00000280987,Transcript,ENST00000394800,xref_id,Xref ID,OTTHUMT00000251323
+ENSG00000280987,Transcript,ENST00000502394,TSL,Transcript Support Level,tsl4
+ENSG00000280987,Transcript,ENST00000502394,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000502394,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000502394,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000502394,hidden_remark,Hidden Remark,QC splicing correct
+ENSG00000280987,Transcript,ENST00000502394,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000502394,name,Name,CTB-43P18.3-006
+ENSG00000280987,Transcript,ENST00000502394,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000502394,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000502394,xref_id,Xref ID,OTTHUMT00000373033
+ENSG00000280987,Transcript,ENST00000502929,TSL,Transcript Support Level,tsl2
+ENSG00000280987,Transcript,ENST00000502929,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000502929,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000502929,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Transcript,ENST00000502929,hidden_remark,Hidden Remark,Checked for SNPs to explain non-canonical acceptor and none found
+ENSG00000280987,Transcript,ENST00000502929,hidden_remark,Hidden Remark,only 1bp change from canonical guidelines suggest not building but advised this will change
+ENSG00000280987,Transcript,ENST00000502929,name,Name,CTB-43P18.3-002
+ENSG00000280987,Transcript,ENST00000502929,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000502929,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000502929,remark,Remark,non canonical TEC
+ENSG00000280987,Transcript,ENST00000502929,remark,Remark,non-canonical acceptor splice site between exons 4 and 5
+ENSG00000280987,Transcript,ENST00000502929,xref_id,Xref ID,OTTHUMT00000373010
+ENSG00000280987,Transcript,ENST00000504203,TSL,Transcript Support Level,tsl2
+ENSG00000280987,Transcript,ENST00000504203,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000504203,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000504203,ccds_transcript,CCDS transcript,CCDS75316.1
+ENSG00000280987,Transcript,ENST00000504203,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Transcript,ENST00000504203,name,Name,CTB-43P18.3-010
+ENSG00000280987,Transcript,ENST00000504203,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000504203,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000504203,xref_id,Xref ID,OTTHUMT00000373019
+ENSG00000280987,Transcript,ENST00000505016,TSL,Transcript Support Level,tsl2
+ENSG00000280987,Transcript,ENST00000505016,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000505016,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000505016,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000505016,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000505016,name,Name,CTB-43P18.3-005
+ENSG00000280987,Transcript,ENST00000505016,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000505016,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000505016,xref_id,Xref ID,OTTHUMT00000373024
+ENSG00000280987,Transcript,ENST00000506147,TSL,Transcript Support Level,tsl4
+ENSG00000280987,Transcript,ENST00000506147,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000506147,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000506147,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000506147,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000506147,name,Name,CTB-43P18.3-008
+ENSG00000280987,Transcript,ENST00000506147,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000506147,upstream_ATG,upstream ATG,392
+ENSG00000280987,Transcript,ENST00000506147,xref_id,Xref ID,OTTHUMT00000373025
+ENSG00000280987,Transcript,ENST00000509644,TSL,Transcript Support Level,tsl3
+ENSG00000280987,Transcript,ENST00000509644,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000509644,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000509644,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000509644,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000509644,name,Name,CTB-43P18.3-011
+ENSG00000280987,Transcript,ENST00000509644,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000509644,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000509644,xref_id,Xref ID,OTTHUMT00000373032
+ENSG00000280987,Transcript,ENST00000509990,TSL,Transcript Support Level,tsl2
+ENSG00000280987,Transcript,ENST00000509990,appris,APPRIS,principal1
+ENSG00000280987,Transcript,ENST00000509990,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000509990,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000509990,ccds_transcript,CCDS transcript,CCDS4210.1
+ENSG00000280987,Transcript,ENST00000509990,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000280987,Transcript,ENST00000509990,name,Name,CTB-43P18.3-003
+ENSG00000280987,Transcript,ENST00000509990,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000509990,xref_id,Xref ID,OTTHUMT00000373020
+ENSG00000280987,Transcript,ENST00000512107,TSL,Transcript Support Level,tsl4
+ENSG00000280987,Transcript,ENST00000512107,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000512107,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000512107,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000512107,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000512107,name,Name,CTB-43P18.3-009
+ENSG00000280987,Transcript,ENST00000512107,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000512107,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000512107,xref_id,Xref ID,OTTHUMT00000373026
+ENSG00000280987,Transcript,ENST00000514694,TSL,Transcript Support Level,tsl4
+ENSG00000280987,Transcript,ENST00000514694,author,Author,Havana
+ENSG00000280987,Transcript,ENST00000514694,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000280987,Transcript,ENST00000514694,cds_end_NF,CDS end not found,1
+ENSG00000280987,Transcript,ENST00000514694,mRNA_end_NF,mRNA end not found,1
+ENSG00000280987,Transcript,ENST00000514694,name,Name,CTB-43P18.3-004
+ENSG00000280987,Transcript,ENST00000514694,readthrough_tra,readthrough transcript,readthrough
+ENSG00000280987,Transcript,ENST00000514694,remark,Remark,alternative 5' UTR
+ENSG00000280987,Transcript,ENST00000514694,xref_id,Xref ID,OTTHUMT00000373031
+ENSG00000015479,Gene,ENSG00000015479,GeneGC,Gene GC,38.80
+ENSG00000015479,Gene,ENSG00000015479,author,Author,Havana
+ENSG00000015479,Gene,ENSG00000015479,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Gene,ENSG00000015479,havana_cv,Havana CV term,overlapping locus
+ENSG00000015479,Gene,ENSG00000015479,name,Name,MATR3
+ENSG00000015479,Gene,ENSG00000015479,xref_id,Xref ID,OTTHUMG00000129229
+ENSG00000015479,Transcript,ENST00000394805,TSL,Transcript Support Level,tsl1
+ENSG00000015479,Transcript,ENST00000394805,appris,APPRIS,principal1
+ENSG00000015479,Transcript,ENST00000394805,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000394805,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000394805,ccds_transcript,CCDS transcript,CCDS4210.1
+ENSG00000015479,Transcript,ENST00000394805,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000015479,Transcript,ENST00000394805,name,Name,AC011404.1-002
+ENSG00000015479,Transcript,ENST00000394805,synonym,Synonym,AC011404.1-002
+ENSG00000015479,Transcript,ENST00000394805,xref_id,Xref ID,OTTHUMT00000251324
+ENSG00000015479,Transcript,ENST00000502422,TSL,Transcript Support Level,tsl1
+ENSG00000015479,Transcript,ENST00000502422,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000502422,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000502422,name,Name,AC011404.1-004
+ENSG00000015479,Transcript,ENST00000502422,synonym,Synonym,AC011404.1-004
+ENSG00000015479,Transcript,ENST00000502422,xref_id,Xref ID,OTTHUMT00000373011
+ENSG00000015479,Transcript,ENST00000502499,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000502499,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000502499,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000502499,ccds_transcript,CCDS transcript,CCDS75316.1
+ENSG00000015479,Transcript,ENST00000502499,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000015479,Transcript,ENST00000502499,hidden_remark,Hidden Remark,no inframe possible upstream ATG
+ENSG00000015479,Transcript,ENST00000502499,name,Name,AC011404.1-010
+ENSG00000015479,Transcript,ENST00000502499,synonym,Synonym,AC011404.1-010
+ENSG00000015479,Transcript,ENST00000502499,xref_id,Xref ID,OTTHUMT00000373017
+ENSG00000015479,Transcript,ENST00000502944,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000502944,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000502944,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000502944,name,Name,AC011404.1-042
+ENSG00000015479,Transcript,ENST00000502944,synonym,Synonym,AC011404.1-042
+ENSG00000015479,Transcript,ENST00000502944,xref_id,Xref ID,OTTHUMT00000373049
+ENSG00000015479,Transcript,ENST00000503340,TSL,Transcript Support Level,tsl3
+ENSG00000015479,Transcript,ENST00000503340,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000503340,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000503340,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000503340,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000503340,name,Name,AC011404.1-044
+ENSG00000015479,Transcript,ENST00000503340,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000503340,synonym,Synonym,AC011404.1-044
+ENSG00000015479,Transcript,ENST00000503340,xref_id,Xref ID,OTTHUMT00000373051
+ENSG00000015479,Transcript,ENST00000503811,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000503811,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000503811,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000503811,ccds_transcript,CCDS transcript,CCDS54908.1
+ENSG00000015479,Transcript,ENST00000503811,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000015479,Transcript,ENST00000503811,name,Name,AC011404.1-008
+ENSG00000015479,Transcript,ENST00000503811,synonym,Synonym,AC011404.1-008
+ENSG00000015479,Transcript,ENST00000503811,xref_id,Xref ID,OTTHUMT00000373015
+ENSG00000015479,Transcript,ENST00000504023,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000504023,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000504023,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000504023,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000504023,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000504023,name,Name,AC011404.1-045
+ENSG00000015479,Transcript,ENST00000504023,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000504023,synonym,Synonym,AC011404.1-045
+ENSG00000015479,Transcript,ENST00000504023,xref_id,Xref ID,OTTHUMT00000373052
+ENSG00000015479,Transcript,ENST00000504045,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000504045,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000504045,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000504045,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000504045,havana_cv,Havana CV term,not organism-supported
+ENSG00000015479,Transcript,ENST00000504045,hidden_remark,Hidden Remark,Rattus norvegicus
+ENSG00000015479,Transcript,ENST00000504045,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000504045,name,Name,AC011404.1-011
+ENSG00000015479,Transcript,ENST00000504045,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000504045,synonym,Synonym,AC011404.1-011
+ENSG00000015479,Transcript,ENST00000504045,xref_id,Xref ID,OTTHUMT00000373018
+ENSG00000015479,Transcript,ENST00000504311,TSL,Transcript Support Level,tsl3
+ENSG00000015479,Transcript,ENST00000504311,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000504311,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000504311,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000504311,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000504311,name,Name,AC011404.1-029
+ENSG00000015479,Transcript,ENST00000504311,synonym,Synonym,AC011404.1-029
+ENSG00000015479,Transcript,ENST00000504311,xref_id,Xref ID,OTTHUMT00000373036
+ENSG00000015479,Transcript,ENST00000504643,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000504643,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000504643,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000504643,name,Name,AC011404.1-007
+ENSG00000015479,Transcript,ENST00000504643,synonym,Synonym,AC011404.1-007
+ENSG00000015479,Transcript,ENST00000504643,xref_id,Xref ID,OTTHUMT00000373014
+ENSG00000015479,Transcript,ENST00000505625,TSL,Transcript Support Level,tsl1
+ENSG00000015479,Transcript,ENST00000505625,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000505625,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000505625,name,Name,AC011404.1-005
+ENSG00000015479,Transcript,ENST00000505625,synonym,Synonym,AC011404.1-005
+ENSG00000015479,Transcript,ENST00000505625,xref_id,Xref ID,OTTHUMT00000373012
+ENSG00000015479,Transcript,ENST00000507860,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000507860,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000507860,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000507860,name,Name,AC011404.1-030
+ENSG00000015479,Transcript,ENST00000507860,synonym,Synonym,AC011404.1-030
+ENSG00000015479,Transcript,ENST00000507860,xref_id,Xref ID,OTTHUMT00000373037
+ENSG00000015479,Transcript,ENST00000508689,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000508689,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000508689,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000508689,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000508689,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000508689,name,Name,AC011404.1-032
+ENSG00000015479,Transcript,ENST00000508689,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000508689,synonym,Synonym,AC011404.1-032
+ENSG00000015479,Transcript,ENST00000508689,xref_id,Xref ID,OTTHUMT00000373039
+ENSG00000015479,Transcript,ENST00000509918,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000509918,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000509918,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000509918,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000015479,Transcript,ENST00000509918,name,Name,AC011404.1-039
+ENSG00000015479,Transcript,ENST00000509918,synonym,Synonym,AC011404.1-039
+ENSG00000015479,Transcript,ENST00000509918,xref_id,Xref ID,OTTHUMT00000373046
+ENSG00000015479,Transcript,ENST00000510056,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000510056,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000510056,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000510056,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000015479,Transcript,ENST00000510056,name,Name,AC011404.1-009
+ENSG00000015479,Transcript,ENST00000510056,remark,Remark,GENCODE experimental pipeline
+ENSG00000015479,Transcript,ENST00000510056,synonym,Synonym,AC011404.1-009
+ENSG00000015479,Transcript,ENST00000510056,xref_id,Xref ID,OTTHUMT00000373016
+ENSG00000015479,Transcript,ENST00000511249,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000511249,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000511249,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000511249,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000511249,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000511249,name,Name,AC011404.1-034
+ENSG00000015479,Transcript,ENST00000511249,synonym,Synonym,AC011404.1-034
+ENSG00000015479,Transcript,ENST00000511249,xref_id,Xref ID,OTTHUMT00000373041
+ENSG00000015479,Transcript,ENST00000511333,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000511333,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000511333,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000511333,name,Name,AC011404.1-040
+ENSG00000015479,Transcript,ENST00000511333,synonym,Synonym,AC011404.1-040
+ENSG00000015479,Transcript,ENST00000511333,xref_id,Xref ID,OTTHUMT00000373047
+ENSG00000015479,Transcript,ENST00000511978,TSL,Transcript Support Level,tsl3
+ENSG00000015479,Transcript,ENST00000511978,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000511978,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000511978,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000015479,Transcript,ENST00000511978,name,Name,AC011404.1-037
+ENSG00000015479,Transcript,ENST00000511978,synonym,Synonym,AC011404.1-037
+ENSG00000015479,Transcript,ENST00000511978,xref_id,Xref ID,OTTHUMT00000373044
+ENSG00000015479,Transcript,ENST00000512040,TSL,Transcript Support Level,tsl3
+ENSG00000015479,Transcript,ENST00000512040,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000512040,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000512040,hidden_remark,Hidden Remark,NMD likely if extended
+ENSG00000015479,Transcript,ENST00000512040,legacy_biotype,Legacy biotype,processed_transcript
+ENSG00000015479,Transcript,ENST00000512040,name,Name,AC011404.1-041
+ENSG00000015479,Transcript,ENST00000512040,synonym,Synonym,AC011404.1-041
+ENSG00000015479,Transcript,ENST00000512040,xref_id,Xref ID,OTTHUMT00000373048
+ENSG00000015479,Transcript,ENST00000512876,TSL,Transcript Support Level,tsl3
+ENSG00000015479,Transcript,ENST00000512876,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000512876,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000512876,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000512876,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000512876,name,Name,AC011404.1-028
+ENSG00000015479,Transcript,ENST00000512876,synonym,Synonym,AC011404.1-028
+ENSG00000015479,Transcript,ENST00000512876,xref_id,Xref ID,OTTHUMT00000373035
+ENSG00000015479,Transcript,ENST00000513121,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000513121,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000513121,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000513121,name,Name,AC011404.1-031
+ENSG00000015479,Transcript,ENST00000513121,synonym,Synonym,AC011404.1-031
+ENSG00000015479,Transcript,ENST00000513121,xref_id,Xref ID,OTTHUMT00000373038
+ENSG00000015479,Transcript,ENST00000513678,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000513678,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000513678,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000513678,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000513678,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000513678,name,Name,AC011404.1-035
+ENSG00000015479,Transcript,ENST00000513678,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000513678,synonym,Synonym,AC011404.1-035
+ENSG00000015479,Transcript,ENST00000513678,xref_id,Xref ID,OTTHUMT00000373042
+ENSG00000015479,Transcript,ENST00000514402,TSL,Transcript Support Level,tsl2
+ENSG00000015479,Transcript,ENST00000514402,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000514402,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000514402,name,Name,AC011404.1-038
+ENSG00000015479,Transcript,ENST00000514402,synonym,Synonym,AC011404.1-038
+ENSG00000015479,Transcript,ENST00000514402,xref_id,Xref ID,OTTHUMT00000373045
+ENSG00000015479,Transcript,ENST00000514488,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000514488,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000514488,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000514488,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000514488,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000514488,name,Name,AC011404.1-043
+ENSG00000015479,Transcript,ENST00000514488,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000514488,synonym,Synonym,AC011404.1-043
+ENSG00000015479,Transcript,ENST00000514488,xref_id,Xref ID,OTTHUMT00000373050
+ENSG00000015479,Transcript,ENST00000514528,TSL,Transcript Support Level,tsl4
+ENSG00000015479,Transcript,ENST00000514528,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000514528,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000514528,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000514528,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000514528,name,Name,AC011404.1-033
+ENSG00000015479,Transcript,ENST00000514528,synonym,Synonym,AC011404.1-033
+ENSG00000015479,Transcript,ENST00000514528,xref_id,Xref ID,OTTHUMT00000373040
+ENSG00000015479,Transcript,ENST00000515833,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000515833,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000515833,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000515833,cds_end_NF,CDS end not found,1
+ENSG00000015479,Transcript,ENST00000515833,cds_start_NF,CDS start not found,1
+ENSG00000015479,Transcript,ENST00000515833,mRNA_end_NF,mRNA end not found,1
+ENSG00000015479,Transcript,ENST00000515833,mRNA_start_NF,mRNA start not found,1
+ENSG00000015479,Transcript,ENST00000515833,name,Name,AC011404.1-036
+ENSG00000015479,Transcript,ENST00000515833,synonym,Synonym,AC011404.1-036
+ENSG00000015479,Transcript,ENST00000515833,upstream_ATG,upstream ATG,-3
+ENSG00000015479,Transcript,ENST00000515833,xref_id,Xref ID,OTTHUMT00000373043
+ENSG00000015479,Transcript,ENST00000618441,TSL,Transcript Support Level,tsl1
+ENSG00000015479,Transcript,ENST00000618441,appris,APPRIS,principal1
+ENSG00000015479,Transcript,ENST00000618441,author,Author,Havana
+ENSG00000015479,Transcript,ENST00000618441,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000015479,Transcript,ENST00000618441,ccds_transcript,CCDS transcript,CCDS4210.1
+ENSG00000015479,Transcript,ENST00000618441,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000015479,Transcript,ENST00000618441,name,Name,AC011404.1-046
+ENSG00000015479,Transcript,ENST00000618441,remark,Remark,alternative 5' UTR
+ENSG00000015479,Transcript,ENST00000618441,synonym,Synonym,AC011404.1-046
+ENSG00000015479,Transcript,ENST00000618441,xref_id,Xref ID,OTTHUMT00000373053
+ENSG00000015479,Transcript,ENST00000620916,TSL,Transcript Support Level,tsl5
+ENSG00000015479,Transcript,ENST00000620916,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Gene,ENSG00000157214,Ensembl_Select,Ensembl Select,ENST00000394621
+ENSG00000157214,Gene,ENSG00000157214,GeneGC,Gene GC,37.44
+ENSG00000157214,Gene,ENSG00000157214,author,Author,Havana
+ENSG00000157214,Gene,ENSG00000157214,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Gene,ENSG00000157214,name,Name,STEAP2
+ENSG00000157214,Gene,ENSG00000157214,synonym,Synonym,esh2.13
+ENSG00000157214,Gene,ENSG00000157214,synonym,Synonym,mbhmh_h_9493m5958chr5.fgen
+ENSG00000157214,Gene,ENSG00000157214,xref_id,Xref ID,OTTHUMG00000023341
+ENSG00000157214,Transcript,ENST00000287908,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000287908,appris,APPRIS,principal1
+ENSG00000157214,Transcript,ENST00000287908,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000287908,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000287908,ccds_transcript,CCDS transcript,CCDS5615.1
+ENSG00000157214,Transcript,ENST00000287908,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,5RACE283_AC002064.1-001_from_encode_region_ENm013:_exons_2-4_/_5_liver
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,encode_confirmed
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,"exon 1 is equivalent to exon 1 of mouse  AC092404.1-003, -005 and -006"
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,exons_2-3
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,tissue_liver
+ENSG00000157214,Transcript,ENST00000287908,hidden_remark,Hidden Remark,variant was AC002064.1-013
+ENSG00000157214,Transcript,ENST00000287908,name,Name,AC002064.1-001
+ENSG00000157214,Transcript,ENST00000287908,synonym,Synonym,AC002064.1-001
+ENSG00000157214,Transcript,ENST00000287908,xref_id,Xref ID,OTTHUMT00000059662
+ENSG00000157214,Transcript,ENST00000394621,MANE_Select,MANE Select v0.5,NM_001244944.2
+ENSG00000157214,Transcript,ENST00000394621,TSL,Transcript Support Level,tsl1 (assigned to previous version 6)
+ENSG00000157214,Transcript,ENST00000394621,appris,APPRIS,principal1
+ENSG00000157214,Transcript,ENST00000394621,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000394621,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000394621,ccds_transcript,CCDS transcript,CCDS5615.1
+ENSG00000157214,Transcript,ENST00000394621,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000394621,havana_cv,Havana CV term,RNA-Seq supported only
+ENSG00000157214,Transcript,ENST00000394621,hidden_remark,Hidden Remark,align_id:3739014|asmbl_229179(slrseq_merged_multi_lifted)
+ENSG00000157214,Transcript,ENST00000394621,hidden_remark,Hidden Remark,ID: STEAP2-202
+ENSG00000157214,Transcript,ENST00000394621,name,Name,AC002064.1-011
+ENSG00000157214,Transcript,ENST00000394621,remark,Remark,genebuild_only_MANE
+ENSG00000157214,Transcript,ENST00000394621,remark,Remark,MANE_select
+ENSG00000157214,Transcript,ENST00000394621,synonym,Synonym,AC002064.1-011
+ENSG00000157214,Transcript,ENST00000394621,xref_id,Xref ID,OTTHUMT00000504235
+ENSG00000157214,Transcript,ENST00000394622,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000394622,appris,APPRIS,principal1
+ENSG00000157214,Transcript,ENST00000394622,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000394622,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000394622,ccds_transcript,CCDS transcript,CCDS5615.1
+ENSG00000157214,Transcript,ENST00000394622,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000394622,hidden_remark,Hidden Remark,3' end identified by dotter
+ENSG00000157214,Transcript,ENST00000394622,hidden_remark,Hidden Remark,exon 1 not conserved in mouse
+ENSG00000157214,Transcript,ENST00000394622,name,Name,AC002064.1-004
+ENSG00000157214,Transcript,ENST00000394622,remark,Remark,alternative 5' UTR
+ENSG00000157214,Transcript,ENST00000394622,synonym,Synonym,AC002064.1-004
+ENSG00000157214,Transcript,ENST00000394622,xref_id,Xref ID,OTTHUMT00000139684
+ENSG00000157214,Transcript,ENST00000394626,TSL,Transcript Support Level,tsl2
+ENSG00000157214,Transcript,ENST00000394626,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000394626,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000394626,ccds_transcript,CCDS transcript,CCDS43612.1
+ENSG00000157214,Transcript,ENST00000394626,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000394626,hidden_remark,Hidden Remark,last exon not conserved in mouse
+ENSG00000157214,Transcript,ENST00000394626,name,Name,AC002064.1-002
+ENSG00000157214,Transcript,ENST00000394626,remark,Remark,alternative 5' UTR
+ENSG00000157214,Transcript,ENST00000394626,synonym,Synonym,AC002064.1-002
+ENSG00000157214,Transcript,ENST00000394626,xref_id,Xref ID,OTTHUMT00000139682
+ENSG00000157214,Transcript,ENST00000394629,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000394629,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000394629,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000394629,ccds_transcript,CCDS transcript,CCDS43612.1
+ENSG00000157214,Transcript,ENST00000394629,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000394629,hidden_remark,Hidden Remark,last exon not conserved in mouse
+ENSG00000157214,Transcript,ENST00000394629,name,Name,AC002064.1-006
+ENSG00000157214,Transcript,ENST00000394629,synonym,Synonym,AC002064.1-006
+ENSG00000157214,Transcript,ENST00000394629,xref_id,Xref ID,OTTHUMT00000139686
+ENSG00000157214,Transcript,ENST00000394632,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000394632,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000394632,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000394632,ccds_transcript,CCDS transcript,CCDS59064.1
+ENSG00000157214,Transcript,ENST00000394632,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000394632,hidden_remark,Hidden Remark,exon 1 not conserved in mouse
+ENSG00000157214,Transcript,ENST00000394632,hidden_remark,Hidden Remark,last exon not conserved in mosue
+ENSG00000157214,Transcript,ENST00000394632,name,Name,AC002064.1-003
+ENSG00000157214,Transcript,ENST00000394632,synonym,Synonym,AC002064.1-003
+ENSG00000157214,Transcript,ENST00000394632,xref_id,Xref ID,OTTHUMT00000139683
+ENSG00000157214,Transcript,ENST00000402625,TSL,Transcript Support Level,tsl5
+ENSG00000157214,Transcript,ENST00000402625,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000402625,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000402625,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000157214,Transcript,ENST00000402625,havana_cv,Havana CV term,dotter confirmed
+ENSG00000157214,Transcript,ENST00000402625,havana_cv,Havana CV term,not organism-supported
+ENSG00000157214,Transcript,ENST00000402625,hidden_remark,Hidden Remark,right on the edge!
+ENSG00000157214,Transcript,ENST00000402625,name,Name,AC002064.1-010
+ENSG00000157214,Transcript,ENST00000402625,synonym,Synonym,AC002064.1-010
+ENSG00000157214,Transcript,ENST00000402625,xref_id,Xref ID,OTTHUMT00000317399
+ENSG00000157214,Transcript,ENST00000426158,TSL,Transcript Support Level,tsl3
+ENSG00000157214,Transcript,ENST00000426158,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000426158,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000426158,cds_end_NF,CDS end not found,1
+ENSG00000157214,Transcript,ENST00000426158,mRNA_end_NF,mRNA end not found,1
+ENSG00000157214,Transcript,ENST00000426158,name,Name,AC002064.1-007
+ENSG00000157214,Transcript,ENST00000426158,synonym,Synonym,AC002064.1-007
+ENSG00000157214,Transcript,ENST00000426158,xref_id,Xref ID,OTTHUMT00000258055
+ENSG00000157214,Transcript,ENST00000428074,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000428074,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000428074,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000428074,cds_end_NF,CDS end not found,1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,283-E-A4-5RACE283_chr7
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_A03.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_B04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_C04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_D04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_E04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_F04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_G04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,5472_H04.seq.Contig1
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,encode_confirmed
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,exons_1-3
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,first exon not conserved in mouse
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,RACEfrag
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,UGL283-E-A4
+ENSG00000157214,Transcript,ENST00000428074,hidden_remark,Hidden Remark,upstream_ATG-42
+ENSG00000157214,Transcript,ENST00000428074,mRNA_end_NF,mRNA end not found,1
+ENSG00000157214,Transcript,ENST00000428074,name,Name,AC002064.1-009
+ENSG00000157214,Transcript,ENST00000428074,remark,Remark,alternative 5' UTR
+ENSG00000157214,Transcript,ENST00000428074,synonym,Synonym,AC002064.1-009
+ENSG00000157214,Transcript,ENST00000428074,upstream_ATG,upstream ATG,232
+ENSG00000157214,Transcript,ENST00000428074,xref_id,Xref ID,OTTHUMT00000258057
+ENSG00000157214,Transcript,ENST00000482369,TSL,Transcript Support Level,tsl1
+ENSG00000157214,Transcript,ENST00000482369,author,Author,Havana
+ENSG00000157214,Transcript,ENST00000482369,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000157214,Transcript,ENST00000482369,hidden_remark,Hidden Remark,5RACE283_chr7
+ENSG00000157214,Transcript,ENST00000482369,hidden_remark,Hidden Remark,encode_confirmed
+ENSG00000157214,Transcript,ENST00000482369,hidden_remark,Hidden Remark,exons_1-3
+ENSG00000157214,Transcript,ENST00000482369,hidden_remark,Hidden Remark,RACEfrag
+ENSG00000157214,Transcript,ENST00000482369,hidden_remark,Hidden Remark,UGLSUPPLE
+ENSG00000157214,Transcript,ENST00000482369,name,Name,AC002064.1-008
+ENSG00000157214,Transcript,ENST00000482369,synonym,Synonym,AC002064.1-008
+ENSG00000157214,Transcript,ENST00000482369,xref_id,Xref ID,OTTHUMT00000258056
+ENSG00000163378,Gene,ENSG00000163378,Ensembl_Select,Ensembl Select,ENST00000383701
+ENSG00000163378,Gene,ENSG00000163378,GeneGC,Gene GC,41.57
+ENSG00000163378,Gene,ENSG00000163378,author,Author,Havana
+ENSG00000163378,Gene,ENSG00000163378,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Gene,ENSG00000163378,name,Name,EOGT
+ENSG00000163378,Gene,ENSG00000163378,synonym,Synonym,C3orf64
+ENSG00000163378,Gene,ENSG00000163378,xref_id,Xref ID,OTTHUMG00000156279
+ENSG00000163378,Transcript,ENST00000295571,TSL,Transcript Support Level,tsl1
+ENSG00000163378,Transcript,ENST00000295571,appris,APPRIS,principal3
+ENSG00000163378,Transcript,ENST00000295571,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000295571,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000295571,ccds_transcript,CCDS transcript,CCDS2908.1
+ENSG00000163378,Transcript,ENST00000295571,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000163378,Transcript,ENST00000295571,name,Name,CTD-2013N24.1-003
+ENSG00000163378,Transcript,ENST00000295571,synonym,Synonym,CTD-2013N24.1-003
+ENSG00000163378,Transcript,ENST00000295571,xref_id,Xref ID,OTTHUMT00000343723
+ENSG00000163378,Transcript,ENST00000383701,MANE_Select,MANE Select v0.5,NM_001278689.2
+ENSG00000163378,Transcript,ENST00000383701,TSL,Transcript Support Level,tsl1 (assigned to previous version 7)
+ENSG00000163378,Transcript,ENST00000383701,appris,APPRIS,alternative2
+ENSG00000163378,Transcript,ENST00000383701,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000383701,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000383701,ccds_transcript,CCDS transcript,CCDS63684.1
+ENSG00000163378,Transcript,ENST00000383701,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000163378,Transcript,ENST00000383701,name,Name,CTD-2013N24.1-002
+ENSG00000163378,Transcript,ENST00000383701,remark,Remark,MANE_select
+ENSG00000163378,Transcript,ENST00000383701,synonym,Synonym,CTD-2013N24.1-002
+ENSG00000163378,Transcript,ENST00000383701,xref_id,Xref ID,OTTHUMT00000343722
+ENSG00000163378,Transcript,ENST00000403140,TSL,Transcript Support Level,tsl2
+ENSG00000163378,Transcript,ENST00000403140,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000403140,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000403140,name,Name,CTD-2013N24.1-004
+ENSG00000163378,Transcript,ENST00000403140,synonym,Synonym,CTD-2013N24.1-004
+ENSG00000163378,Transcript,ENST00000403140,xref_id,Xref ID,OTTHUMT00000343724
+ENSG00000163378,Transcript,ENST00000424374,TSL,Transcript Support Level,tsl5
+ENSG00000163378,Transcript,ENST00000424374,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000424374,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000424374,cds_end_NF,CDS end not found,1
+ENSG00000163378,Transcript,ENST00000424374,mRNA_end_NF,mRNA end not found,1
+ENSG00000163378,Transcript,ENST00000424374,name,Name,CTD-2013N24.1-007
+ENSG00000163378,Transcript,ENST00000424374,remark,Remark,alternative 5' UTR
+ENSG00000163378,Transcript,ENST00000424374,synonym,Synonym,CTD-2013N24.1-007
+ENSG00000163378,Transcript,ENST00000424374,xref_id,Xref ID,OTTHUMT00000343727
+ENSG00000163378,Transcript,ENST00000456376,TSL,Transcript Support Level,tsl3
+ENSG00000163378,Transcript,ENST00000456376,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000456376,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000456376,cds_end_NF,CDS end not found,1
+ENSG00000163378,Transcript,ENST00000456376,mRNA_end_NF,mRNA end not found,1
+ENSG00000163378,Transcript,ENST00000456376,name,Name,CTD-2013N24.1-006
+ENSG00000163378,Transcript,ENST00000456376,remark,Remark,alternative 5' UTR
+ENSG00000163378,Transcript,ENST00000456376,synonym,Synonym,CTD-2013N24.1-006
+ENSG00000163378,Transcript,ENST00000456376,xref_id,Xref ID,OTTHUMT00000343726
+ENSG00000163378,Transcript,ENST00000480846,TSL,Transcript Support Level,tsl3
+ENSG00000163378,Transcript,ENST00000480846,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000480846,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000480846,name,Name,CTD-2013N24.1-008
+ENSG00000163378,Transcript,ENST00000480846,synonym,Synonym,CTD-2013N24.1-008
+ENSG00000163378,Transcript,ENST00000480846,xref_id,Xref ID,OTTHUMT00000343728
+ENSG00000163378,Transcript,ENST00000496647,TSL,Transcript Support Level,tsl2
+ENSG00000163378,Transcript,ENST00000496647,author,Author,Havana
+ENSG00000163378,Transcript,ENST00000496647,author_email,Author email address,vega@sanger.ac.uk
+ENSG00000163378,Transcript,ENST00000496647,name,Name,CTD-2013N24.1-005
+ENSG00000163378,Transcript,ENST00000496647,synonym,Synonym,CTD-2013N24.1-005
+ENSG00000163378,Transcript,ENST00000496647,xref_id,Xref ID,OTTHUMT00000343725
+ENSG00000163378,Transcript,ENST00000540764,TSL,Transcript Support Level,tsl1
+ENSG00000163378,Transcript,ENST00000540764,appris,APPRIS,alternative2
+ENSG00000163378,Transcript,ENST00000540764,ccds_transcript,CCDS transcript,CCDS63684.1
+ENSG00000163378,Transcript,ENST00000540764,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000163378,Transcript,ENST00000540955,TSL,Transcript Support Level,tsl2
+ENSG00000163378,Transcript,ENST00000540955,appris,APPRIS,principal3
+ENSG00000163378,Transcript,ENST00000540955,ccds_transcript,CCDS transcript,CCDS2908.1
+ENSG00000163378,Transcript,ENST00000540955,gencode_basic,GENCODE basic annotation,GENCODE basic
+ENSG00000163378,Transcript,ENST00000615922,TSL,Transcript Support Level,tslNA
+ENSG00000163378,Transcript,ENST00000615922,gencode_basic,GENCODE basic annotation,GENCODE basic

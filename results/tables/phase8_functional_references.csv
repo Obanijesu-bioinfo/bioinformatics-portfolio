@@ -1,0 +1,8 @@
+ensembl_gene_id,target_symbol,uniprot_accession,supports,pubmed_id,title,url
+ENSG00000139269,INHBE,P58166,function,38533769,Activin E is a transforming growth factor beta ligand that signals specifically through activin receptor-like kinase 7.,https://pubmed.ncbi.nlm.nih.gov/38533769/
+ENSG00000015479,MATR3,P43243,function,11525732,The fate of dsRNA in the nucleus: a p54(nrb)-containing complex mediates the nuclear retention of promiscuously A-to-I edited RNAs.,https://pubmed.ncbi.nlm.nih.gov/11525732/
+ENSG00000015479,MATR3,P43243,function,28431233,A Compendium of RNA-Binding Proteins that Regulate MicroRNA Biogenesis.,https://pubmed.ncbi.nlm.nih.gov/28431233/
+ENSG00000015479,MATR3,P43243,function,28712728,HEXIM1 and NEAT1 Long non-coding RNA form a multi-subunit complex that regulates DNA-mediated innate immune response.,https://pubmed.ncbi.nlm.nih.gov/28712728/
+ENSG00000015479,MATR3,P43243,function,32245947,An oncopeptide regulates m6A recognition by the m6A reader IGF2BP1 and tumorigenesis.,https://pubmed.ncbi.nlm.nih.gov/32245947/
+ENSG00000157214,STEAP2,Q8NFT2,subcellular_location,12429817,"Cloning and characterization of a novel six-transmembrane protein STEAP2, expressed in normal and malignant prostate.",https://pubmed.ncbi.nlm.nih.gov/12429817/
+ENSG00000163378,EOGT,Q5NDL2,function,23671640,The EGF repeat-specific O-GlcNAc-transferase Eogt interacts with Notch signaling and pyrimidine metabolism pathways in Drosophila.,https://pubmed.ncbi.nlm.nih.gov/23671640/

@@ -1,0 +1,19 @@
+check,result,detail
+Ensembl 97 protein FASTA matches published BSD checksum,PASS,"observed (849, 13824), published (849, 13824)"
+Ensembl 97 FASTA has every target translation with the same version as the Step 2 transcript table,PASS,51 translations
+Every UniProt response came from release 2026_04,PASS,39 responses
+Every active fetched entry is a human (taxon 9606) record,PASS,14 entries
+Every used accession has an explicit cross-reference (Ensembl 97 or UniProt 2026_04),PASS,14 used pairs
+No accession is used on the basis of a gene-name-only link,PASS,
+Reviewed records preferred: no unreviewed record used for a gene that has a reviewed one,PASS,
+INHBE ENSG00000139269: primary record P58166 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000266646 identical: True
+AC069288.1 ENSG00000286192: primary record A0A3B3ITW8 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000498895 identical: True
+SFT2D2 ENSG00000213064: primary record O95562 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000271375 identical: True
+MATR3 ENSG00000280987: primary record A0A0R4J2E8 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000354346 identical: True
+MATR3 ENSG00000015479: primary record P43243 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000378284 identical: True
+STEAP2 ENSG00000157214: primary record Q8NFT2 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000378119 identical: True
+EOGT ENSG00000163378: primary record Q5NDL2 has a protein sequence identical to an Ensembl 97 protein of this gene,PASS,canonical ENSP00000373206 identical: True
+Reviewed MATR3 record P43243 is not assigned to ENSG00000280987,PASS,
+Pseudogene RPSAP15: no protein function assigned,PASS,no UniProtKB record mapped
+Pseudogene TUBBP1: no protein function assigned,PASS,no UniProtKB record mapped
+No pre-existing output was overwritten (all outputs created new),PASS,files opened in exclusive-create mode

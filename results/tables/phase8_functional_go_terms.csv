@@ -1,0 +1,47 @@
+ensembl_gene_id,target_symbol,uniprot_accession,go_id,aspect,go_term,go_evidence,evidence_sources
+ENSG00000139269,INHBE,P58166,GO:0031012,cellular_component,extracellular matrix,HDA:BHF-UCL,PubMed:25037231
+ENSG00000139269,INHBE,P58166,GO:0005576,cellular_component,extracellular region,ISS:UniProt,
+ENSG00000139269,INHBE,P58166,GO:0005125,molecular_function,cytokine activity,ISS:UniProtKB,
+ENSG00000139269,INHBE,P58166,GO:0008083,molecular_function,growth factor activity,IEA:InterPro,
+ENSG00000139269,INHBE,P58166,GO:0005179,molecular_function,hormone activity,IEA:InterPro,
+ENSG00000139269,INHBE,P58166,GO:0007178,biological_process,cell surface receptor protein serine/threonine kinase signaling pathway,IBA:GO_Central,
+ENSG00000139269,INHBE,P58166,GO:1904178,biological_process,negative regulation of adipose tissue development,ISS:UniProtKB,
+ENSG00000286192,AC069288.1,A0A3B3ITW8,GO:0008168,molecular_function,methyltransferase activity,IEA:InterPro,
+ENSG00000213064,SFT2D2,O95562,GO:0005737,cellular_component,cytoplasm,IEA:UniProtKB-ARBA,
+ENSG00000213064,SFT2D2,O95562,GO:0012505,cellular_component,endomembrane system,IEA:UniProtKB-ARBA,
+ENSG00000213064,SFT2D2,O95562,GO:0070062,cellular_component,extracellular exosome,HDA:UniProtKB,PubMed:19056867
+ENSG00000213064,SFT2D2,O95562,GO:0016020,cellular_component,membrane,IEA:UniProtKB-SubCell,
+ENSG00000213064,SFT2D2,O95562,GO:0016192,biological_process,vesicle-mediated transport,IEA:InterPro,
+ENSG00000280987,MATR3,A0A0R4J2E8,GO:0016363,cellular_component,nuclear matrix,IEA:UniProtKB-SubCell,
+ENSG00000280987,MATR3,A0A0R4J2E8,GO:0003723,molecular_function,RNA binding,IEA:UniProtKB-UniRule,
+ENSG00000280987,MATR3,A0A0R4J2E8,GO:0008270,molecular_function,zinc ion binding,IEA:InterPro,
+ENSG00000015479,MATR3,P43243,GO:0016020,cellular_component,membrane,HDA:UniProtKB,PubMed:19946888
+ENSG00000015479,MATR3,P43243,GO:0005637,cellular_component,nuclear inner membrane,TAS:ProtInc,PubMed:2033075
+ENSG00000015479,MATR3,P43243,GO:0016363,cellular_component,nuclear matrix,IEA:UniProtKB-SubCell,
+ENSG00000015479,MATR3,P43243,GO:0005634,cellular_component,nucleus,IBA:GO_Central,
+ENSG00000015479,MATR3,P43243,GO:0042802,molecular_function,identical protein binding,IPI:IntAct,PubMed:25416956; PubMed:32296183
+ENSG00000015479,MATR3,P43243,GO:0035198,molecular_function,miRNA binding,IDA:UniProtKB,PubMed:28431233
+ENSG00000015479,MATR3,P43243,GO:0003723,molecular_function,RNA binding,HDA:UniProtKB,PubMed:22658674; PubMed:22681889
+ENSG00000015479,MATR3,P43243,GO:0005198,molecular_function,structural molecule activity,TAS:ProtInc,PubMed:2033075
+ENSG00000015479,MATR3,P43243,GO:0008270,molecular_function,zinc ion binding,IEA:InterPro,
+ENSG00000015479,MATR3,P43243,GO:0002218,biological_process,activation of innate immune response,IDA:UniProtKB,PubMed:28712728
+ENSG00000015479,MATR3,P43243,GO:0003170,biological_process,heart valve development,ISS:BHF-UCL,
+ENSG00000015479,MATR3,P43243,GO:0010608,biological_process,post-transcriptional regulation of gene expression,IDA:CACAO,PubMed:21771347
+ENSG00000015479,MATR3,P43243,GO:0003281,biological_process,ventricular septum development,ISS:BHF-UCL,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0005829,cellular_component,cytosol,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0005769,cellular_component,early endosome,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0005768,cellular_component,endosome,IBA:GO_Central,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0010008,cellular_component,endosome membrane,ISS:UniProtKB,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0000139,cellular_component,Golgi membrane,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0005886,cellular_component,plasma membrane,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0030140,cellular_component,trans-Golgi network transport vesicle,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0008823,molecular_function,cupric reductase (NADH) activity,IBA:GO_Central,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0052851,molecular_function,ferric-chelate reductase (NADPH) activity,IBA:GO_Central,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0015677,biological_process,copper ion import,IBA:GO_Central,
+ENSG00000157214,STEAP2,Q8NFT2,GO:0006897,biological_process,endocytosis,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0006893,biological_process,Golgi to plasma membrane transport,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0045055,biological_process,regulated exocytosis,IDA:UniProtKB,PubMed:12095985
+ENSG00000157214,STEAP2,Q8NFT2,GO:0009725,biological_process,response to hormone,IDA:UniProtKB,PubMed:12095985
+ENSG00000163378,EOGT,Q5NDL2,GO:0005788,cellular_component,endoplasmic reticulum lumen,IBA:GO_Central,
+ENSG00000163378,EOGT,Q5NDL2,GO:0097363,molecular_function,protein O-acetylglucosaminyltransferase activity,ISS:UniProtKB,
+ENSG00000163378,EOGT,Q5NDL2,GO:0006493,biological_process,protein O-linked glycosylation,ISS:UniProtKB,

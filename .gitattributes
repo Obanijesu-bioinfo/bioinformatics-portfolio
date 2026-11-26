@@ -1,0 +1,4 @@
+# Raw UniProt 2026_04 responses and their logs must stay byte-identical to what was
+# received, because their SHA-256 values are recorded in request_log.csv.
+# "-text" disables line-ending conversion for these files on commit and checkout.
+results/tables/phase8_raw/uniprot_2026_04/** -text

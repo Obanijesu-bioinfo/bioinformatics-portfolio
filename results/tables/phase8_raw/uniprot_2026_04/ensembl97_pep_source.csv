@@ -1,0 +1,2 @@
+file,url,last_modified,retrieved_utc,bytes,bsd_sum_published,bsd_sum_observed,sha256
+Homo_sapiens.GRCh38.pep.all.fa.gz,https://ftp.ensembl.org/pub/release-97/fasta/homo_sapiens/pep/Homo_sapiens.GRCh38.pep.all.fa.gz,"Sat, 25 May 2019 11:57:18 GMT",2026-11-26T03:47:08Z,14155330,849 13824,849 13824,d64bbc09be3d6dcaabfc909274daae0f6cb0d936cea0af3b2d2595ded9f02297
