@@ -1,0 +1,7 @@
+comparison,threshold,histone_dominated_sets,higher_in_treatment,lower_in_treatment
+C1,0.4,108,0,108
+C1,0.5,104,0,104
+C1,0.6,101,0,101
+C2,0.4,89,89,0
+C2,0.5,78,78,0
+C2,0.6,69,69,0
