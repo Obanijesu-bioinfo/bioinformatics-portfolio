@@ -1,0 +1,148 @@
+record,check,result,detail
+all,"Nine records, unique gene IDs, both MATR3 IDs present",PASS,
+RPSAP15 ENSG00000237506,Phase 6 values copied exactly from the record's own comparison,PASS,"C1: LFC 1.393, padj 1.73e-10"
+RPSAP15 ENSG00000237506,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+RPSAP15 ENSG00000237506,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+RPSAP15 ENSG00000237506,UniProt accession and status match the Step 3 functional table,PASS,
+RPSAP15 ENSG00000237506,Every cited PubMed ID is in the saved UniProt records,PASS,none cited
+RPSAP15 ENSG00000237506,A3 sensitivity values present and copied exactly,PASS,significant_in_both
+RPSAP15 ENSG00000237506,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
+RPSAP15 ENSG00000237506,"Pseudogene: no UniProt record, no protein function, interpretation does not claim a protein",PASS,
+RPSAP15 ENSG00000237506,Interpretation does not claim proof of function or mechanism,PASS,
+RPSAP15 ENSG00000237506,Biological-interpretation confidence is never 'High',PASS,Very low (pseudogene; no protein function)
+RPSAP15 ENSG00000237506,All interpretation fields are filled,PASS,
+RPSAP15 ENSG00000237506,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Good
+RPSAP15 ENSG00000237506,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+RPSAP15 ENSG00000237506,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,1.04 to 1.75
+RPSAP15 ENSG00000237506,No claim that reads are divided or redistributed between gene models,PASS,
+TUBBP1 ENSG00000127589,Phase 6 values copied exactly from the record's own comparison,PASS,"C1: LFC 5.092, padj 2.75e-08"
+TUBBP1 ENSG00000127589,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+TUBBP1 ENSG00000127589,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+TUBBP1 ENSG00000127589,UniProt accession and status match the Step 3 functional table,PASS,
+TUBBP1 ENSG00000127589,Every cited PubMed ID is in the saved UniProt records,PASS,none cited
+TUBBP1 ENSG00000127589,A3 sensitivity values present and copied exactly,PASS,significant_in_both
+TUBBP1 ENSG00000127589,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
+TUBBP1 ENSG00000127589,"Pseudogene: no UniProt record, no protein function, interpretation does not claim a protein",PASS,
+TUBBP1 ENSG00000127589,Interpretation does not claim proof of function or mechanism,PASS,
+TUBBP1 ENSG00000127589,Biological-interpretation confidence is never 'High',PASS,Very low (pseudogene; no protein function)
+TUBBP1 ENSG00000127589,All interpretation fields are filled,PASS,
+TUBBP1 ENSG00000127589,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Low
+TUBBP1 ENSG00000127589,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+TUBBP1 ENSG00000127589,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,3.66 to 6.52
+TUBBP1 ENSG00000127589,No claim that reads are divided or redistributed between gene models,PASS,
+INHBE ENSG00000139269,Phase 6 values copied exactly from the record's own comparison,PASS,"C1: LFC -1.673, padj 3.17e-08"
+INHBE ENSG00000139269,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+INHBE ENSG00000139269,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+INHBE ENSG00000139269,UniProt accession and status match the Step 3 functional table,PASS,
+INHBE ENSG00000139269,Every cited PubMed ID is in the saved UniProt records,PASS,"25037231, 38533769"
+INHBE ENSG00000139269,A3 sensitivity values present and copied exactly,PASS,significant_in_both
+INHBE ENSG00000139269,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
+INHBE ENSG00000139269,Interpretation does not claim proof of function or mechanism,PASS,
+INHBE ENSG00000139269,Biological-interpretation confidence is never 'High',PASS,Moderate
+INHBE ENSG00000139269,All interpretation fields are filled,PASS,
+INHBE ENSG00000139269,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Good
+INHBE ENSG00000139269,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+INHBE ENSG00000139269,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,-2.15 to -1.20
+INHBE ENSG00000139269,No claim that reads are divided or redistributed between gene models,PASS,
+AC069288.1 ENSG00000286192,Phase 6 values copied exactly from the record's own comparison,PASS,"C1: LFC -3.483, padj 8.17e-08"
+AC069288.1 ENSG00000286192,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+AC069288.1 ENSG00000286192,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+AC069288.1 ENSG00000286192,UniProt accession and status match the Step 3 functional table,PASS,
+AC069288.1 ENSG00000286192,Every cited PubMed ID is in the saved UniProt records,PASS,none cited
+AC069288.1 ENSG00000286192,A3 sensitivity values present and copied exactly,PASS,significant_in_both
+AC069288.1 ENSG00000286192,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
+AC069288.1 ENSG00000286192,AC069288.1: no MRM2 annotation used in the interpretation,PASS,unreviewed record flagged; its GO term appears only in fact columns
+AC069288.1 ENSG00000286192,AC069288.1: automatic/electronic-only annotation flagged,PASS,
+AC069288.1 ENSG00000286192,Interpretation does not claim proof of function or mechanism,PASS,
+AC069288.1 ENSG00000286192,Biological-interpretation confidence is never 'High',PASS,Very low (no known function)
+AC069288.1 ENSG00000286192,All interpretation fields are filled,PASS,
+AC069288.1 ENSG00000286192,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Moderate; precision Low
+AC069288.1 ENSG00000286192,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+AC069288.1 ENSG00000286192,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,-4.50 to -2.47
+AC069288.1 ENSG00000286192,No claim that reads are divided or redistributed between gene models,PASS,
+AC069288.1 ENSG00000286192,Overlapping/readthrough record: workflow note and 'may not be independent' wording present,PASS,
+SFT2D2 ENSG00000213064,Phase 6 values copied exactly from the record's own comparison,PASS,"C2: LFC 2.610, padj 1.52e-46"
+SFT2D2 ENSG00000213064,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+SFT2D2 ENSG00000213064,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+SFT2D2 ENSG00000213064,UniProt accession and status match the Step 3 functional table,PASS,
+SFT2D2 ENSG00000213064,Every cited PubMed ID is in the saved UniProt records,PASS,19056867
+SFT2D2 ENSG00000213064,C2 record carries no C1 or A3 statistics,PASS,
+SFT2D2 ENSG00000213064,SFT2D2: function evidence is by similarity only and is stated as such,PASS,
+SFT2D2 ENSG00000213064,Interpretation does not claim proof of function or mechanism,PASS,
+SFT2D2 ENSG00000213064,Biological-interpretation confidence is never 'High',PASS,Low (function not experimentally established)
+SFT2D2 ENSG00000213064,All interpretation fields are filled,PASS,
+SFT2D2 ENSG00000213064,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Good
+SFT2D2 ENSG00000213064,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+SFT2D2 ENSG00000213064,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,2.27 to 2.95
+SFT2D2 ENSG00000213064,No claim that reads are divided or redistributed between gene models,PASS,
+MATR3 ENSG00000280987,Phase 6 values copied exactly from the record's own comparison,PASS,"C2: LFC 1.768, padj 2.64e-26"
+MATR3 ENSG00000280987,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+MATR3 ENSG00000280987,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+MATR3 ENSG00000280987,UniProt accession and status match the Step 3 functional table,PASS,
+MATR3 ENSG00000280987,Every cited PubMed ID is in the saved UniProt records,PASS,none cited
+MATR3 ENSG00000280987,C2 record carries no C1 or A3 statistics,PASS,
+MATR3 ENSG00000280987,MATR3 primary: reviewed P43243 not used; unreviewed record flagged automatic-only,PASS,
+MATR3 ENSG00000280987,MATR3: kept as a separate record; text refers to the other model without claiming independence,PASS,
+MATR3 ENSG00000280987,Interpretation does not claim proof of function or mechanism,PASS,
+MATR3 ENSG00000280987,Biological-interpretation confidence is never 'High',PASS,Low (unreviewed / automatic annotation only)
+MATR3 ENSG00000280987,All interpretation fields are filled,PASS,
+MATR3 ENSG00000280987,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Moderate; precision Good
+MATR3 ENSG00000280987,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+MATR3 ENSG00000280987,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,1.47 to 2.07
+MATR3 ENSG00000280987,No claim that reads are divided or redistributed between gene models,PASS,
+MATR3 ENSG00000280987,Overlapping/readthrough record: workflow note and 'may not be independent' wording present,PASS,
+MATR3 ENSG00000015479,Phase 6 values copied exactly from the record's own comparison,PASS,"C2: LFC -0.585, padj 0.000326"
+MATR3 ENSG00000015479,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+MATR3 ENSG00000015479,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+MATR3 ENSG00000015479,UniProt accession and status match the Step 3 functional table,PASS,
+MATR3 ENSG00000015479,Every cited PubMed ID is in the saved UniProt records,PASS,"11525732, 19946888, 2033075, 21771347, 22658674, 22681889, 25416956, 28431233, 28712728, 32245947, 32296183"
+MATR3 ENSG00000015479,C2 record carries no C1 or A3 statistics,PASS,
+MATR3 ENSG00000015479,MATR3: kept as a separate record; text refers to the other model without claiming independence,PASS,
+MATR3 ENSG00000015479,Interpretation does not claim proof of function or mechanism,PASS,
+MATR3 ENSG00000015479,Biological-interpretation confidence is never 'High',PASS,Low (expression signal has caveats)
+MATR3 ENSG00000015479,All interpretation fields are filled,PASS,
+MATR3 ENSG00000015479,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Low; precision Good
+MATR3 ENSG00000015479,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+MATR3 ENSG00000015479,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,-0.81 to -0.36
+MATR3 ENSG00000015479,No claim that reads are divided or redistributed between gene models,PASS,
+MATR3 ENSG00000015479,Overlapping/readthrough record: workflow note and 'may not be independent' wording present,PASS,
+STEAP2 ENSG00000157214,Phase 6 values copied exactly from the record's own comparison,PASS,"C2: LFC 1.113, padj 8.73e-23"
+STEAP2 ENSG00000157214,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+STEAP2 ENSG00000157214,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+STEAP2 ENSG00000157214,UniProt accession and status match the Step 3 functional table,PASS,
+STEAP2 ENSG00000157214,Every cited PubMed ID is in the saved UniProt records,PASS,"12095985, 12429817"
+STEAP2 ENSG00000157214,C2 record carries no C1 or A3 statistics,PASS,
+STEAP2 ENSG00000157214,Interpretation does not claim proof of function or mechanism,PASS,
+STEAP2 ENSG00000157214,Biological-interpretation confidence is never 'High',PASS,Low (function not experimentally established)
+STEAP2 ENSG00000157214,All interpretation fields are filled,PASS,
+STEAP2 ENSG00000157214,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Good
+STEAP2 ENSG00000157214,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+STEAP2 ENSG00000157214,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,0.91 to 1.32
+STEAP2 ENSG00000157214,No claim that reads are divided or redistributed between gene models,PASS,
+EOGT ENSG00000163378,Phase 6 values copied exactly from the record's own comparison,PASS,"C2: LFC -0.815, padj 7.51e-15"
+EOGT ENSG00000163378,Direction matches the sign of the MLE fold change and Phase 6 direction,PASS,
+EOGT ENSG00000163378,Gene ID/version matches the Ensembl 97 annotation table,PASS,
+EOGT ENSG00000163378,UniProt accession and status match the Step 3 functional table,PASS,
+EOGT ENSG00000163378,Every cited PubMed ID is in the saved UniProt records,PASS,23671640
+EOGT ENSG00000163378,C2 record carries no C1 or A3 statistics,PASS,
+EOGT ENSG00000163378,Interpretation does not claim proof of function or mechanism,PASS,
+EOGT ENSG00000163378,Biological-interpretation confidence is never 'High',PASS,Low (expression signal has caveats)
+EOGT ENSG00000163378,All interpretation fields are filled,PASS,
+EOGT ENSG00000163378,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Moderate; precision Good
+EOGT ENSG00000163378,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
+EOGT ENSG00000163378,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,-1.00 to -0.63
+EOGT ENSG00000163378,No claim that reads are divided or redistributed between gene models,PASS,
+TUBBP1 ENSG00000127589,"TUBBP1: High signal confidence kept, effect-size precision Low, text separates direction from size",PASS,standard error 0.73 >= 0.5 log2 units; low expression in one group (mean 39 < 50 normalised counts); estimate shifts by 1.30 log2 units when A3 is excluded
+report,Report has no claim that reads are divided or redistributed between gene models,PASS,none found
+report,"Report describes the actual counting workflow (StringTie, prepDE.py, Phase 5 sum)",PASS,
+report,Report defines expression-signal confidence separately from effect-size precision,PASS,
+report,Summary row for RPSAP15 ENSG00000237506 matches the table,PASS,| C1 | RPSAP15 | ENSG00000237506.3 | 1.39 | 1.73e-10 | highe...
+report,Summary row for TUBBP1 ENSG00000127589 matches the table,PASS,| C1 | TUBBP1 | ENSG00000127589.4 | 5.09 | 2.75e-08 | higher...
+report,Summary row for INHBE ENSG00000139269 matches the table,PASS,| C1 | INHBE | ENSG00000139269.3 | −1.67 | 3.17e-08 | lower ...
+report,Summary row for AC069288.1 ENSG00000286192 matches the table,PASS,| C1 | AC069288.1 | ENSG00000286192.1 | −3.48 | 8.17e-08 | l...
+report,Summary row for SFT2D2 ENSG00000213064 matches the table,PASS,| C2 | SFT2D2 | ENSG00000213064.10 | 2.61 | 1.52e-46 | highe...
+report,Summary row for MATR3 ENSG00000280987 matches the table,PASS,| C2 | MATR3 (primary record) | ENSG00000280987.4 | 1.77 | 2...
+report,Summary row for MATR3 ENSG00000015479 matches the table,PASS,| C2 | MATR3 (overlapping model) | ENSG00000015479.18 | −0.5...
+report,Summary row for STEAP2 ENSG00000157214 matches the table,PASS,| C2 | STEAP2 | ENSG00000157214.14 | 1.11 | 8.73e-23 | highe...
+report,Summary row for EOGT ENSG00000163378 matches the table,PASS,| C2 | EOGT | ENSG00000163378.14 | −0.81 | 7.51e-15 | lower ...
+report,"TUBBP1 section states High signal, Low precision and the table's interval",PASS,12.7x to 91.8x higher
