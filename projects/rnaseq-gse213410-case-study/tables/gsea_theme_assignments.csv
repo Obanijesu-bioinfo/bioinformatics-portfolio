@@ -1,0 +1,596 @@
+comparison,database,ID,Description,direction,NES,p.adjust,setSize,histone_fraction_leading_edge,theme
+C1,GO_BP,GO:0006334,nucleosome assembly,lower in treatment,-2.406271487226605,1.398758272263089e-06,100,0.90625,Histone-gene dominated (shared histone genes)
+C1,GO_BP,GO:0034728,nucleosome organization,lower in treatment,-2.21265682296231,7.6232110537381e-05,119,0.8823529411764706,Histone-gene dominated (shared histone genes)
+C1,GO_BP,GO:0045653,negative regulation of megakaryocyte differentiation,lower in treatment,-2.270922478080227,0.00908034535063446,16,0.9,Histone-gene dominated (shared histone genes)
+C1,GO_BP,GO:0061644,protein localization to CENP-A containing chromatin,lower in treatment,-2.2124940815562195,0.016036173906679378,16,1.0,Histone-gene dominated (shared histone genes)
+C1,GO_BP,GO:0001916,positive regulation of T cell mediated cytotoxicity,lower in treatment,-2.1651260150689104,0.016036173906679378,22,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0098727,maintenance of cell number,higher in treatment,1.8182732461817284,0.016036173906679378,175,0.0,Other
+C1,GO_BP,GO:0007005,mitochondrion organization,lower in treatment,-1.5800649140945104,0.016036173906679378,381,0.0,Other
+C1,GO_BP,GO:0001836,release of cytochrome c from mitochondria,lower in treatment,-2.06082776614437,0.01765216128473899,50,0.0,Other
+C1,GO_BP,GO:0042572,retinol metabolic process,lower in treatment,-2.052032101683115,0.01765216128473899,28,0.0,Other
+C1,GO_BP,GO:1990748,cellular detoxification,lower in treatment,-1.9350236716447733,0.01765216128473899,91,0.0,Other
+C1,GO_BP,GO:0019827,stem cell population maintenance,higher in treatment,1.7442322831714059,0.01765216128473899,172,0.0,Other
+C1,GO_BP,GO:0098754,detoxification,lower in treatment,-1.8942615426122211,0.022379182495845296,112,0.0,Other
+C1,GO_BP,GO:0030518,nuclear receptor-mediated steroid hormone signaling pathway,higher in treatment,1.8378558861955696,0.022379182495845296,123,0.0,Other
+C1,GO_BP,GO:0043401,steroid hormone receptor signaling pathway,higher in treatment,1.8378558861955696,0.022379182495845296,123,0.0,Other
+C1,GO_BP,GO:1900151,"regulation of nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay",higher in treatment,2.287152786802896,0.0242959936373026,23,0.0,"RNA processing, splicing and transport"
+C1,GO_BP,GO:0097237,cellular response to toxic substance,lower in treatment,-1.8789273146828687,0.0254803148194832,102,0.0,Other
+C1,GO_BP,GO:0032757,positive regulation of interleukin-8 production,higher in treatment,2.1353971047278666,0.030377345869147167,41,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0002709,regulation of T cell mediated immunity,lower in treatment,-1.966633501435953,0.0319787315694068,65,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0002456,T cell mediated immunity,lower in treatment,-1.9141477802609916,0.0319787315694068,87,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0098869,cellular oxidant detoxification,lower in treatment,-1.901807538674856,0.0319787315694068,67,0.0,Other
+C1,GO_BP,GO:0065004,protein-DNA complex assembly,lower in treatment,-1.6697834356693717,0.03568036650834731,208,0.6,Histone-gene dominated (shared histone genes)
+C1,GO_BP,GO:0001914,regulation of T cell mediated cytotoxicity,lower in treatment,-2.0641781870670695,0.037669554956470834,25,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0016226,iron-sulfur cluster assembly,lower in treatment,-1.9780964650237374,0.04102900125369629,27,0.0,Other
+C1,GO_BP,GO:0031163,metallo-sulfur cluster assembly,lower in treatment,-1.9780964650237374,0.04102900125369629,27,0.0,Other
+C1,GO_BP,GO:0016441,post-transcriptional gene silencing,higher in treatment,1.858150037686192,0.04102900125369629,74,0.0,Chromatin and epigenetic regulation
+C1,GO_BP,GO:0032637,interleukin-8 production,higher in treatment,1.943304046510984,0.041323529087030984,53,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0032677,regulation of interleukin-8 production,higher in treatment,1.943304046510984,0.041323529087030984,53,0.0,"Infection, immune and disease-labelled sets"
+C1,GO_BP,GO:0050657,nucleic acid transport,higher in treatment,1.6625034362997648,0.04442058289578834,150,0.0,"RNA processing, splicing and transport"
+C1,GO_BP,GO:0050658,RNA transport,higher in treatment,1.6625034362997648,0.04442058289578834,150,0.0,"RNA processing, splicing and transport"
+C1,GO_MF,GO:0030527,structural constituent of chromatin,lower in treatment,-3.0560305499941123,4.2719892497643804e-19,79,0.9772727272727273,Histone-gene dominated (shared histone genes)
+C1,GO_MF,GO:0046982,protein heterodimerization activity,lower in treatment,-1.7439914238518468,0.0013883448654155434,298,0.42857142857142855,Other
+C1,GO_MF,GO:0003713,transcription coactivator activity,higher in treatment,1.726986994726447,0.0013883448654155434,270,0.0,Other
+C1,GO_MF,GO:0030545,signaling receptor regulator activity,lower in treatment,-1.6665084993945982,0.0017049261924969,319,0.0,Other
+C1,GO_MF,GO:0005179,hormone activity,lower in treatment,-2.091506641766026,0.002728859247616102,50,0.0,Other
+C1,GO_MF,GO:0048018,receptor ligand activity,lower in treatment,-1.676323592485118,0.002728859247616102,284,0.0,Other
+C1,GO_MF,GO:0030546,signaling receptor activator activity,lower in treatment,-1.66890075293974,0.0038623588297579704,294,0.0,Other
+C1,GO_MF,GO:0016783,sulfurtransferase activity,lower in treatment,-2.0555058275320865,0.012101684628195846,10,0.0,Other
+C1,GO_MF,GO:0008171,O-methyltransferase activity,lower in treatment,-2.058276545190316,0.018918020430452483,24,0.0,Other
+C1,GO_MF,GO:0061980,regulatory RNA binding,higher in treatment,2.0237256446018113,0.018918020430452483,45,0.0,"RNA processing, splicing and transport"
+C1,GO_MF,GO:0120545,nucleic acid conformation isomerase activity,higher in treatment,1.6577117482428894,0.018918020430452483,150,0.0,Other
+C1,GO_MF,GO:0016209,antioxidant activity,lower in treatment,-1.925094206378394,0.025144340414209813,56,0.0,Other
+C1,GO_MF,GO:0140938,histone H3 methyltransferase activity,higher in treatment,1.9905679205994673,0.02871871410550601,38,0.0,Chromatin and epigenetic regulation
+C1,GO_MF,GO:0062105,RNA 2'-O-methyltransferase activity,lower in treatment,-1.9677922022934848,0.02871871410550601,10,0.0,"RNA processing, splicing and transport"
+C1,GO_MF,GO:0016627,"oxidoreductase activity, acting on the CH-CH group of donors",lower in treatment,-1.914291694201627,0.02871871410550601,57,0.0,Other
+C1,GO_MF,GO:0017056,structural constituent of nuclear pore,higher in treatment,2.1192720538707808,0.029538305491321984,22,0.0,"RNA processing, splicing and transport"
+C1,GO_MF,GO:0004386,helicase activity,higher in treatment,1.6949410138071936,0.029538305491321984,138,0.0,Other
+C1,GO_MF,GO:0140142,nucleocytoplasmic carrier activity,higher in treatment,1.9849686187535602,0.036350246505936795,31,0.0,"RNA processing, splicing and transport"
+C1,GO_MF,GO:0001965,G-protein alpha-subunit binding,higher in treatment,2.008568592782749,0.04013634310119055,24,0.0,Other
+C1,GO_MF,GO:0043522,leucine zipper domain binding,lower in treatment,-1.9064508548914054,0.04786248301732413,10,0.0,Other
+C1,GO_CC,GO:0000786,nucleosome,lower in treatment,-2.6715853759509054,2.48461373373273e-13,110,0.9347826086956522,Histone-gene dominated (shared histone genes)
+C1,GO_CC,GO:0032993,protein-DNA complex,lower in treatment,-2.0377821830249374,3.1554405301279043e-06,200,0.7857142857142857,Histone-gene dominated (shared histone genes)
+C1,GO_CC,GO:0043505,CENP-A containing nucleosome,lower in treatment,-2.247710265920704,0.0020156834789666076,16,1.0,Histone-gene dominated (shared histone genes)
+C1,GO_CC,GO:0061638,CENP-A containing chromatin,lower in treatment,-2.247710265920704,0.0020156834789666076,16,1.0,Histone-gene dominated (shared histone genes)
+C1,GO_CC,GO:0034506,"chromosome, centromeric core domain",lower in treatment,-2.232160521097237,0.0031460216239124613,17,1.0,Histone-gene dominated (shared histone genes)
+C1,GO_CC,GO:0005743,mitochondrial inner membrane,lower in treatment,-1.5130192038411667,0.005043223322973705,464,0.0,Other
+C1,GO_CC,GO:0031012,extracellular matrix,lower in treatment,-1.5369742563573279,0.01824164873482961,357,0.0,"Extracellular matrix, collagen and adhesion"
+C1,GO_CC,GO:0030312,external encapsulating structure,lower in treatment,-1.5292738439822007,0.01824164873482961,358,0.0,"Extracellular matrix, collagen and adhesion"
+C1,GO_CC,GO:0031252,cell leading edge,higher in treatment,1.3771785935688519,0.026275216242189155,415,0.0,Other
+C1,GO_CC,GO:0005940,septin ring,higher in treatment,2.17818457112532,0.02900408466893494,10,0.0,Other
+C1,GO_CC,GO:0031105,septin complex,higher in treatment,2.17818457112532,0.02900408466893494,10,0.0,Other
+C1,KEGG,hsa05322,Systemic lupus erythematosus,lower in treatment,-2.606810271435385,3.279652966463814e-12,98,0.8571428571428571,Histone-gene dominated (shared histone genes)
+C1,KEGG,hsa05034,Alcoholism,lower in treatment,-2.1954336367904546,5.237694703665018e-08,160,0.7017543859649122,Histone-gene dominated (shared histone genes)
+C1,KEGG,hsa04613,Neutrophil extracellular trap formation,lower in treatment,-2.1277823893463363,1.0200811930929003e-06,149,0.7872340425531915,Histone-gene dominated (shared histone genes)
+C1,KEGG,hsa04217,Necroptosis,lower in treatment,-1.8672306639033556,0.0028163657618100473,120,0.3333333333333333,"Infection, immune and disease-labelled sets"
+C1,KEGG,hsa03013,Nucleocytoplasmic transport,higher in treatment,1.8287520604286391,0.006958165291002006,101,0.0,"RNA processing, splicing and transport"
+C1,KEGG,hsa03440,Homologous recombination,lower in treatment,-1.6898905279878345,0.032014789488678516,128,0.5476190476190477,Histone-gene dominated (shared histone genes)
+C1,KEGG,hsa04517,IgSF CAM signaling,higher in treatment,1.4562548996289963,0.032014789488678516,259,0.0,"Extracellular matrix, collagen and adhesion"
+C1,KEGG,hsa04215,Apoptosis - multiple species,lower in treatment,-1.898484734866843,0.04686805649840078,27,0.0,Other
+C1,KEGG,hsa04156,Integrated stress response (ISR) signaling pathway,lower in treatment,-1.7612791647454324,0.04686805649840078,51,0.0,Other
+C1,Reactome,R-HSA-73728,RNA Polymerase I Promoter Opening,lower in treatment,-2.71600332555733,7.062160987638048e-11,58,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9821002,Chromatin modifications during the maternal to zygotic transition (MZT),lower in treatment,-2.702981567313296,7.062160987638048e-11,64,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5334118,DNA methylation,lower in treatment,-2.6910966380711057,7.062160987638048e-11,59,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9843970,Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex,lower in treatment,-2.6704083026116887,7.062160987638048e-11,66,0.9629629629629629,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-427359,SIRT1 negatively regulates rRNA expression,lower in treatment,-2.675854864777896,3.063968399756851e-10,63,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-68616,Assembly of the ORC complex at the origin of replication,lower in treatment,-2.6231859736605276,3.945083656330424e-10,64,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3214815,HDACs deacetylate histones,lower in treatment,-2.5774514757775915,3.945083656330424e-10,90,0.8918918918918919,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),lower in treatment,-2.4809845879494494,4.897722838948751e-10,104,0.7297297297297297,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2299718,Condensation of Prophase Chromosomes,lower in treatment,-2.6185332251849482,5.617505714478256e-10,69,0.9666666666666667,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-912446,Meiotic recombination,lower in treatment,-2.576741519698992,9.92855043073297e-10,81,0.9354838709677419,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,lower in treatment,-2.596859440735063,2.7488513010827084e-09,60,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,lower in treatment,-2.541210707325124,4.652156996049003e-09,70,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9710421,Defective pyroptosis,lower in treatment,-2.5215789966514706,5.721792914094128e-09,68,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-212300,PRC2 methylates histones and DNA,lower in treatment,-2.5196951263014307,7.745119785276315e-09,70,0.9310344827586207,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9616222,Transcriptional regulation of granulopoiesis,lower in treatment,-2.4878616551113644,8.085270370079725e-09,79,0.9,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5625740,RHO GTPases activate PKNs,lower in treatment,-2.4266829816650124,8.085270370079725e-09,87,0.7777777777777778,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-977225,Amyloid fiber formation,lower in treatment,-2.425050669370789,8.085270370079725e-09,91,0.8333333333333334,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1500620,Meiosis,lower in treatment,-2.3461035931440892,3.1090737712442306e-08,104,0.8529411764705882,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9610379,HCMV Late Events,lower in treatment,-2.3439729757479935,3.1090737712442306e-08,111,0.825,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5578749,Transcriptional regulation by small RNAs,lower in treatment,-2.4862671320032375,4.1876172735627355e-08,72,0.9629629629629629,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9645723,Diseases of programmed cell death,lower in treatment,-2.3808402030361333,4.841109427942165e-08,93,0.775,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9764725,Negative Regulation of CDH1 Gene Transcription,lower in treatment,-2.378313897455906,4.874174967919226e-08,85,0.9285714285714286,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3214858,RMTs methylate histone arginines,lower in treatment,-2.42897645100503,6.247125472142958e-08,74,0.9393939393939394,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,lower in treatment,-2.5322506781049023,7.065916005853545e-08,51,0.8076923076923077,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-110331,Cleavage of the damaged purine,lower in treatment,-2.5322506781049023,7.065916005853545e-08,51,0.8076923076923077,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73927,Depurination,lower in treatment,-2.5322506781049023,7.065916005853545e-08,51,0.8076923076923077,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,lower in treatment,-2.3372953056849965,9.431774172093854e-08,87,0.9,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,lower in treatment,-2.329784089363941,1.069050915731372e-07,87,0.9310344827586207,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-171306,Packaging Of Telomere Ends,lower in treatment,-2.4647037081146403,1.3946362321766591e-07,47,0.95,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9843940,Regulation of endogenous retroelements by KRAB-ZFP proteins,lower in treatment,-2.252823928448469,2.465587926466621e-07,99,0.9285714285714286,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73929,"Base-Excision Repair, AP Site Formation",lower in treatment,-2.3687527263549017,4.5904490015808896e-07,58,0.7777777777777778,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1474165,Reproduction,lower in treatment,-2.1641093853226216,4.5904490015808896e-07,126,0.7380952380952381,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,lower in treatment,-2.27280627090537,6.118348116837273e-07,85,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73772,RNA Polymerase I Promoter Escape,lower in treatment,-2.2634928958984806,7.450681109884724e-07,85,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9764560,Regulation of CDH1 Gene Transcription,lower in treatment,-2.2839872841896294,8.165566835304943e-07,92,0.9285714285714286,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9845323,Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs),lower in treatment,-2.238808164480717,1.0413755358080933e-06,91,0.9285714285714286,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,lower in treatment,-2.3142926719337806,1.7748647508451487e-06,56,0.84,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-110329,Cleavage of the damaged pyrimidine,lower in treatment,-2.3142926719337806,1.7748647508451487e-06,56,0.84,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73928,Depyrimidination,lower in treatment,-2.3142926719337806,1.7748647508451487e-06,56,0.84,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9818564,Epigenetic regulation of gene expression by MLL3 and MLL4 complexes,lower in treatment,-2.138883704480019,1.7748647508451487e-06,122,0.7142857142857143,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9841922,MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis,lower in treatment,-2.138883704480019,1.7748647508451487e-06,122,0.7142857142857143,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9851695,Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes,lower in treatment,-2.138883704480019,1.7748647508451487e-06,122,0.7142857142857143,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,lower in treatment,-2.277274830255386,2.0267318082971885e-06,68,0.7916666666666666,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,lower in treatment,-2.118107492880344,2.1323903050967337e-06,103,0.896551724137931,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5619507,Activation of HOX genes during differentiation,lower in treatment,-2.118107492880344,2.1323903050967337e-06,103,0.896551724137931,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,lower in treatment,-2.1409279903592084,2.788243204810667e-06,106,0.896551724137931,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,lower in treatment,-2.096130555334236,3.133196243226325e-06,103,0.9,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1912408,Pre-NOTCH Transcription and Translation,lower in treatment,-2.1831824961323223,3.1704267163475335e-06,91,0.9310344827586207,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3214847,HATs acetylate histones,lower in treatment,-2.047743495690247,3.1704267163475335e-06,135,0.825,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3214842,HDMs demethylate histones,lower in treatment,-2.3618859054029406,4.34191193218113e-06,46,0.84,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2559580,Oxidative Stress Induced Senescence,lower in treatment,-2.0783577632420025,6.019828104805241e-06,116,0.8387096774193549,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1912422,Pre-NOTCH Expression and Processing,lower in treatment,-2.1005611279422545,9.099062035774079e-06,107,0.7560975609756098,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9816359,Maternal to zygotic transition (MZT),lower in treatment,-2.115399753689765,1.2775162946392152e-05,101,0.9629629629629629,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73854,RNA Polymerase I Promoter Clearance,lower in treatment,-2.0230680407276673,1.4713263325864636e-05,103,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9909649,Regulation of PD-L1(CD274) transcription,lower in treatment,-2.1323575506025514,1.614547728980533e-05,95,0.9629629629629629,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-211000,Gene Silencing by RNA,lower in treatment,-2.0965937022132697,1.62138478361406e-05,97,0.9629629629629629,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-427413,NoRC negatively regulates rRNA expression,lower in treatment,-2.132017518742417,1.6272611746140817e-05,100,0.9,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-68867,Assembly of the pre-replicative complex,lower in treatment,-2.014964521198594,1.893994635741435e-05,128,0.8125,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2559583,Cellular Senescence,lower in treatment,-1.9138863280989995,1.986074445776144e-05,180,0.6170212765957447,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1221632,Meiotic synapsis,lower in treatment,-2.1825297712705765,2.3850270895980226e-05,65,0.84,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73884,Base Excision Repair,lower in treatment,-2.14358978477166,2.8796804620533823e-05,86,0.6,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,higher in treatment,2.3118078220321094,4.17218548972178e-05,66,0.0,Other
+C1,Reactome,R-HSA-9842860,Regulation of endogenous retroelements,lower in treatment,-1.9454852402536273,4.357969509148618e-05,132,0.8387096774193549,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,lower in treatment,-2.0723481150692606,4.5283839289908744e-05,100,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,lower in treatment,-2.131300497412907,5.039921234757099e-05,68,0.8571428571428571,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-774815,Nucleosome assembly,lower in treatment,-2.131300497412907,5.039921234757099e-05,68,0.8571428571428571,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9917777,Epigenetic regulation by WDR5-containing histone modifying complexes,lower in treatment,-1.8986677134281098,6.062302114964999e-05,153,0.7878787878787878,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-73864,RNA Polymerase I Transcription,lower in treatment,-2.003246051221641,7.587119875956818e-05,104,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9609690,HCMV Early Events,lower in treatment,-1.9338389567220222,8.208696800680079e-05,127,0.967741935483871,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-69002,DNA Replication Pre-Initiation,lower in treatment,-1.8915401103041822,0.00010578641470828778,144,0.7368421052631579,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9609646,HCMV Infection,lower in treatment,-1.8757805076140892,0.00020258204147722506,151,0.8048780487804879,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3371497,HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand,higher in treatment,2.3063341225034613,0.00020658376922534603,50,0.0,Other
+C1,Reactome,R-HSA-373760,L1CAM interactions,higher in treatment,2.0104237597400987,0.00023180219181040415,110,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-168325,Viral Messenger RNA Synthesis,higher in treatment,2.2738316989245364,0.00028113450469239074,43,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9670095,Inhibition of DNA recombination at telomere,lower in treatment,-2.055934934963347,0.0003308052765550537,63,0.875,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-2029480,Fcgamma receptor (FCGR) dependent phagocytosis,higher in treatment,2.066137817897631,0.0003743063799872496,78,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9856651,MITF-M-dependent gene expression,higher in treatment,1.994550937369276,0.00039049870906450066,90,0.0,Other
+C1,Reactome,R-HSA-168274,Export of Viral Ribonucleoproteins from Nucleus,higher in treatment,2.336849975770046,0.00047515101290941273,33,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-5689901,Metalloprotease DUBs,lower in treatment,-2.150428225299712,0.0005146511086886698,35,0.8461538461538461,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-68875,Mitotic Prophase,lower in treatment,-1.8124802757685263,0.0007319479494902144,136,0.7272727272727273,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3371556,Cellular response to heat stress,higher in treatment,2.02146795640872,0.0007597027364918206,84,0.0,Other
+C1,Reactome,R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,higher in treatment,1.5720454345081822,0.0007784658827065582,290,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-69306,DNA Replication,lower in treatment,-1.760078159564851,0.0008469642323569898,179,0.5,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9824594,Regulation of MITF-M-dependent genes involved in apoptosis,higher in treatment,2.3023261406626525,0.001021914088521386,14,0.0,Other
+C1,Reactome,R-HSA-3214841,PKMTs methylate histone lysines,lower in treatment,-1.947723866582754,0.001376519575502248,66,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9821993,Replacement of protamines by nucleosomes in the male pronucleus,lower in treatment,-2.043701615004536,0.002189690114462692,36,1.0,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9931509,"Expression of BMAL (ARNTL), CLOCK, and NPAS2",higher in treatment,2.251509141968507,0.0027449028443172017,35,0.0,Other
+C1,Reactome,R-HSA-9754678,SARS-CoV-2 modulates host translation machinery,lower in treatment,-1.9770326083911332,0.0032843374563700503,46,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9770562,mRNA Polyadenylation,higher in treatment,1.7126759556121605,0.0034080102372221234,127,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-9018519,Estrogen-dependent gene expression,lower in treatment,-1.7330974818776066,0.0035880305215567954,141,0.896551724137931,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-168276,NS1 Mediated Effects on Host Pathways,higher in treatment,2.1095190057507893,0.0037230825486047835,38,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-157118,Signaling by NOTCH,lower in treatment,-1.6149085310165188,0.0037532490884590874,220,0.47692307692307695,Other
+C1,Reactome,R-HSA-9735869,SARS-CoV-1 modulates host translation machinery,lower in treatment,-1.972298676407715,0.0037587237559753824,34,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9022692,Regulation of MECP2 expression and activity,higher in treatment,2.178618630423854,0.0040491464587613666,30,0.0,Other
+C1,Reactome,R-HSA-1266695,Interleukin-7 signaling,lower in treatment,-1.9647216336618467,0.004166571379712717,31,0.8333333333333334,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-157579,Telomere Maintenance,lower in treatment,-1.7493002327922118,0.004784548359847439,107,0.6785714285714286,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9707616,Heme signaling,higher in treatment,2.0121727295126415,0.005029268448912797,44,0.0,Other
+C1,Reactome,R-HSA-201681,TCF dependent signaling in response to WNT,lower in treatment,-1.6229149887487597,0.005029268448912797,199,0.6590909090909091,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-180746,Nuclear import of Rev protein,higher in treatment,2.0924774667173387,0.0067020618908018225,33,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-3371568,Attenuation phase,higher in treatment,2.143008855756493,0.006969500425355431,14,0.0,Other
+C1,Reactome,R-HSA-72187,mRNA 3'-end processing,higher in treatment,1.6682078821799413,0.007081152221689746,151,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-9013149,RAC1 GTPase cycle,higher in treatment,1.5542124148308636,0.007084250321425643,170,0.0,Other
+C1,Reactome,R-HSA-168271,Transport of Ribonucleoproteins into the Host Nucleus,higher in treatment,2.0646800851101954,0.007721897965151209,31,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9633012,Response of EIF2AK4 (GCN2) to amino acid deficiency,lower in treatment,-1.7475695032939242,0.008023313601847246,98,0.0,Other
+C1,Reactome,R-HSA-9648895,Response of EIF2AK1 (HRI) to heme deficiency,lower in treatment,-2.0284955818305233,0.0085933819229189,15,0.0,Other
+C1,Reactome,R-HSA-8939243,RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known,higher in treatment,1.9261102150928553,0.015919924544072706,37,0.0,Other
+C1,Reactome,R-HSA-5693565,Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks,lower in treatment,-1.7625502379533764,0.016213026513522417,73,0.7368421052631579,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9730414,MITF-M-regulated melanocyte development,higher in treatment,1.5435333358769932,0.016213026513522417,135,0.0,Other
+C1,Reactome,R-HSA-168333,NEP/NS2 Interacts with the Cellular Export Machinery,higher in treatment,1.9509456177526683,0.017800351770554067,31,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-4570464,SUMOylation of RNA binding proteins,higher in treatment,1.8793621130671163,0.017848383317194204,46,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-162906,HIV Infection,higher in treatment,1.4617194845348664,0.017848383317194204,207,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-8856828,Clathrin-mediated endocytosis,higher in treatment,1.5739928423032843,0.0192143350694841,133,0.0,Other
+C1,Reactome,R-HSA-2029485,Role of phospholipids in phagocytosis,higher in treatment,2.03663837836055,0.01984837537439308,18,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-156842,Eukaryotic Translation Elongation,lower in treatment,-1.6785517701161714,0.019849509433750415,90,0.0,Other
+C1,Reactome,R-HSA-77595,Processing of Intronless Pre-mRNAs,higher in treatment,1.9978901934666382,0.02414477505939248,20,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-8986944,Transcriptional Regulation by MECP2,higher in treatment,1.7946016908585727,0.024310574139419616,54,0.0,Other
+C1,Reactome,R-HSA-2173793,Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer,higher in treatment,1.7870790247314505,0.024889404494217303,48,0.0,Other
+C1,Reactome,R-HSA-1442490,Collagen degradation,lower in treatment,-1.7823699576671326,0.024889404494217303,47,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-73886,Chromosome Maintenance,lower in treatment,-1.608214694491478,0.024889404494217303,134,0.6129032258064516,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-5693606,DNA Double Strand Break Response,lower in treatment,-1.741845507910808,0.02546464125587022,74,0.7368421052631579,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-3301854,Nuclear Pore Complex (NPC) Disassembly,higher in treatment,1.9853717183896002,0.0282625625657236,35,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-2408557,Selenocysteine synthesis,lower in treatment,-1.648386746241874,0.028458836086973114,90,0.0,Other
+C1,Reactome,R-HSA-1655829,Regulation of cholesterol biosynthesis by SREBP (SREBF),higher in treatment,1.7278910871799729,0.030105621978948983,55,0.0,Other
+C1,Reactome,R-HSA-9664407,Parasite infection,higher in treatment,1.7263176439293535,0.030105621978948983,55,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9664417,Leishmania phagocytosis,higher in treatment,1.7263176439293535,0.030105621978948983,55,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9664422,FCGR3A-mediated phagocytosis,higher in treatment,1.7263176439293535,0.030105621978948983,55,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9909648,Regulation of PD-L1(CD274) expression,lower in treatment,-1.5132597028444632,0.030860688616756195,186,0.8125,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-72163,mRNA Splicing - Major Pathway,higher in treatment,1.4495144323389477,0.03131970907676739,204,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-4085377,SUMOylation of SUMOylation proteins,higher in treatment,1.8807577699690612,0.0325961133075481,34,0.0,Other
+C1,Reactome,R-HSA-1474290,Collagen formation,lower in treatment,-1.6634457359433927,0.0325961133075481,77,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-2187338,Visual phototransduction,lower in treatment,-1.7489249124616482,0.03260073295607517,61,0.0,Other
+C1,Reactome,R-HSA-1368108,"BMAL1:CLOCK,NPAS2 activates circadian expression",higher in treatment,1.843655081332774,0.03263601762536508,25,0.0,Other
+C1,Reactome,R-HSA-9764265,Regulation of CDH1 Expression and Function,lower in treatment,-1.5317187294755419,0.03273576160005587,189,0.8387096774193549,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,lower in treatment,-1.5317187294755419,0.03273576160005587,189,0.8387096774193549,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-437239,Recycling pathway of L1,higher in treatment,1.7539333530276215,0.033654069451051115,43,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-177243,Interactions of Rev with host cellular proteins,higher in treatment,1.8937475089189735,0.0342268647276239,36,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-389948,Co-inhibition by PD-1,lower in treatment,-1.4952608511278909,0.0342268647276239,197,0.7878787878787878,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-1660516,Synthesis of PIPs at the early endosome membrane,higher in treatment,1.9512180201190361,0.03490335585711501,16,0.0,Other
+C1,Reactome,R-HSA-9926550,"Regulation of MITF-M-dependent genes involved in extracellular matrix, focal adhesion and epithelial-to-mesenchymal transition",higher in treatment,2.0375403007747313,0.03711692995941306,11,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-9634815,Transcriptional Regulation by NPAS4,higher in treatment,1.8745827529850347,0.03711692995941306,33,0.0,Other
+C1,Reactome,R-HSA-9764562,Regulation of CDH1 mRNA translation by microRNAs,higher in treatment,2.01838637497491,0.037780821334513756,10,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-9933387,"RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression",higher in treatment,1.8690422056250695,0.037780821334513756,24,0.0,Other
+C1,Reactome,R-HSA-5693607,Processing of DNA double-strand break ends,lower in treatment,-1.6133506465059995,0.037780821334513756,93,0.5925925925925926,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9013148,CDC42 GTPase cycle,higher in treatment,1.5038487200040582,0.037780821334513756,148,0.0,Other
+C1,Reactome,R-HSA-2029482,Regulation of actin dynamics for phagocytic cup formation,higher in treatment,1.6791427108735102,0.04290192777142363,55,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-72172,mRNA Splicing,higher in treatment,1.376460468955603,0.04290192777142363,212,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-6794362,Protein-protein interactions at synapses,higher in treatment,1.6225835214428137,0.04356980507346947,80,0.0,"Membrane channels, transporters and receptors"
+C1,Reactome,R-HSA-5693567,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA),lower in treatment,-1.5125037508632007,0.043954569049333446,130,0.47058823529411764,DNA replication and repair
+C1,Reactome,R-HSA-170822,Regulation of Glucokinase by Glucokinase Regulatory Protein,higher in treatment,1.8574680706758342,0.04461715442511906,30,0.0,Other
+C1,Reactome,R-HSA-5619107,Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC),higher in treatment,1.8574680706758342,0.04461715442511906,30,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-9857377,Regulation of MITF-M-dependent genes involved in lysosome biogenesis and autophagy,higher in treatment,1.9041032265265776,0.044890591223817236,12,0.0,Other
+C1,Reactome,R-HSA-9931521,The CRY:PER:kinase complex represses transactivation by the BMAL:CLOCK (ARNTL:CLOCK) complex,higher in treatment,1.8991541738471356,0.044890591223817236,12,0.0,Other
+C1,Reactome,R-HSA-9932444,ATP-dependent chromatin remodelers,higher in treatment,1.8423284900337114,0.044890591223817236,30,0.0,Chromatin and epigenetic regulation
+C1,Reactome,R-HSA-9932451,SWI/SNF chromatin remodelers,higher in treatment,1.8423284900337114,0.044890591223817236,30,0.0,Chromatin and epigenetic regulation
+C1,Reactome,R-HSA-3000480,Scavenging by Class A Receptors,lower in treatment,-1.8214829372947474,0.044890591223817236,13,0.0,Other
+C1,Reactome,R-HSA-159227,Transport of the SLBP independent Mature mRNA,higher in treatment,1.8144118801493836,0.044890591223817236,34,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-196071,Metabolism of steroid hormones,lower in treatment,-1.8140492136135402,0.044890591223817236,20,0.0,Other
+C1,Reactome,R-HSA-8948216,Collagen chain trimerization,lower in treatment,-1.7289767238311986,0.044890591223817236,38,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-6811440,Retrograde transport at the Trans-Golgi-Network,higher in treatment,1.7148654583588352,0.044890591223817236,49,0.0,Other
+C1,Reactome,R-HSA-159234,Transport of Mature mRNAs Derived from Intronless Transcripts,higher in treatment,1.702820604949822,0.044890591223817236,42,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-9918487,Dengue Virus Genome Translation and Replication,higher in treatment,1.626724497546625,0.044890591223817236,78,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-2408522,Selenoamino acid metabolism,lower in treatment,-1.5756572633939283,0.044890591223817236,113,0.0,Other
+C1,Reactome,R-HSA-9013404,RAC2 GTPase cycle,higher in treatment,1.5703494282542292,0.044890591223817236,82,0.0,Other
+C1,Reactome,R-HSA-9711097,Cellular response to starvation,lower in treatment,-1.5040347672280334,0.044890591223817236,150,0.0,Other
+C1,Reactome,R-HSA-400206,Regulation of lipid metabolism by PPARalpha,higher in treatment,1.4933345194216463,0.044890591223817236,107,0.0,Other
+C1,Reactome,R-HSA-162599,Late Phase of HIV Life Cycle,higher in treatment,1.4901768318650837,0.044890591223817236,131,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-1650814,Collagen biosynthesis and modifying enzymes,lower in treatment,-1.6859091235363668,0.0452485234806957,60,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-9665348,Signaling by ERBB2 ECD mutants,higher in treatment,1.8747453320188614,0.04541592541743716,16,0.0,Other
+C1,Reactome,R-HSA-2022090,Assembly of collagen fibrils and other multimeric structures,lower in treatment,-1.6692596607216692,0.046101163241153306,50,0.0,"Extracellular matrix, collagen and adhesion"
+C1,Reactome,R-HSA-195721,Signaling by WNT,lower in treatment,-1.4066562341943945,0.046324021966962295,285,0.4507042253521127,Other
+C1,Reactome,R-HSA-72764,Eukaryotic Translation Termination,lower in treatment,-1.5825017342306344,0.047743340848217686,90,0.0,Other
+C1,Reactome,R-HSA-8878171,Transcriptional regulation by RUNX1,lower in treatment,-1.4658641034134372,0.04821047619928921,199,0.7714285714285715,Histone-gene dominated (shared histone genes)
+C1,Reactome,R-HSA-9954714,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,lower in treatment,-1.630364690352665,0.04868867350960712,87,0.0,"RNA processing, splicing and transport"
+C1,Reactome,R-HSA-9671555,Signaling by PDGFR in disease,higher in treatment,1.8163021961207284,0.049370844031821064,19,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-165054,Rev-mediated nuclear export of HIV RNA,higher in treatment,1.7910653165505752,0.049370844031821064,34,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-381119,Unfolded Protein Response (UPR),lower in treatment,-1.597330526161639,0.049370844031821064,89,0.0,Other
+C1,Reactome,R-HSA-162587,HIV Life Cycle,higher in treatment,1.4418902483384564,0.049370844031821064,143,0.0,"Infection, immune and disease-labelled sets"
+C1,Reactome,R-HSA-71291,Metabolism of amino acids and derivatives,lower in treatment,-1.4021450439254817,0.049370844031821064,310,0.0,Other
+C1,Reactome,R-HSA-9909396,Circadian clock,higher in treatment,1.524224781171483,0.04995091157405174,110,0.0,Other
+C2,GO_BP,GO:0034502,protein localization to chromosome,higher in treatment,2.1195590779818074,0.0015085703400034972,117,0.16326530612244897,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0022613,ribonucleoprotein complex biogenesis,higher in treatment,1.703063243118384,0.0015085703400034972,449,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0032200,telomere organization,higher in treatment,1.8900580105923221,0.0039848868957955775,187,0.14666666666666667,DNA replication and repair
+C2,GO_BP,GO:0000375,"RNA splicing, via transesterification reactions",higher in treatment,1.7473569974376666,0.00425459941912274,299,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0006334,nucleosome assembly,higher in treatment,1.9673296345108053,0.0049668369005704495,101,0.5681818181818182,Histone-gene dominated (shared histone genes)
+C2,GO_BP,GO:0034728,nucleosome organization,higher in treatment,1.9536827226920208,0.0049668369005704495,120,0.49019607843137253,Chromatin and epigenetic regulation
+C2,GO_BP,GO:0031507,heterochromatin formation,higher in treatment,1.8813318957332839,0.0049668369005704495,137,0.20833333333333334,Chromatin and epigenetic regulation
+C2,GO_BP,GO:0065004,protein-DNA complex assembly,higher in treatment,1.8001363172049942,0.0049668369005704495,209,0.2976190476190476,Other
+C2,GO_BP,GO:0033044,regulation of chromosome organization,higher in treatment,1.7808735041477186,0.0049668369005704495,237,0.011764705882352941,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0000070,mitotic sister chromatid segregation,higher in treatment,1.7767792018504125,0.0049668369005704495,188,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0000377,"RNA splicing, via transesterification reactions with bulged adenosine as nucleophile",higher in treatment,1.7184836094620524,0.0049668369005704495,295,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0000398,"mRNA splicing, via spliceosome",higher in treatment,1.7184836094620524,0.0049668369005704495,295,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0042254,ribosome biogenesis,higher in treatment,1.6884399402939285,0.0049668369005704495,307,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0045786,negative regulation of cell cycle,higher in treatment,1.6674780446873727,0.0049668369005704495,338,0.007142857142857143,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0008380,RNA splicing,higher in treatment,1.6279470490240968,0.0049668369005704495,432,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0006397,mRNA processing,higher in treatment,1.61103157379911,0.0049668369005704495,468,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0007059,chromosome segregation,higher in treatment,1.602092047340972,0.0049668369005704495,402,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:1901987,regulation of cell cycle phase transition,higher in treatment,1.5979143980484132,0.0049668369005704495,400,0.006578947368421052,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0044770,cell cycle phase transition,higher in treatment,1.5572543194050745,0.0049668369005704495,500,0.005076142131979695,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0010948,negative regulation of cell cycle process,higher in treatment,1.708370585125197,0.005554831025948935,274,0.008928571428571428,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0040029,epigenetic regulation of gene expression,higher in treatment,1.7044878300638746,0.005554831025948935,258,0.15853658536585366,Chromatin and epigenetic regulation
+C2,GO_BP,GO:0000819,sister chromatid segregation,higher in treatment,1.7358231810203646,0.006421316296328476,227,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0098813,nuclear chromosome segregation,higher in treatment,1.6633629840047854,0.006421316296328476,294,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0060292,long-term synaptic depression,lower in treatment,-2.157934643769215,0.006445693212170266,30,0.0,"Membrane channels, transporters and receptors"
+C2,GO_BP,GO:0000723,telomere maintenance,higher in treatment,1.7952869351892373,0.008230958963437169,160,0.0,DNA replication and repair
+C2,GO_BP,GO:0010830,regulation of myotube differentiation,lower in treatment,-2.122209353800509,0.009890288423976205,30,0.0,Other
+C2,GO_BP,GO:0022612,gland morphogenesis,lower in treatment,-1.919540289539486,0.009890288423976205,101,0.0,Other
+C2,GO_BP,GO:0007346,regulation of mitotic cell cycle,higher in treatment,1.5282577795238583,0.01101538694765804,456,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0007064,mitotic sister chromatid cohesion,higher in treatment,2.076511763616693,0.011196455125971522,30,0.05,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:2001252,positive regulation of chromosome organization,higher in treatment,1.86044990616369,0.011196455125971522,102,0.021739130434782608,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0071824,protein-DNA complex organization,higher in treatment,1.7120942875552436,0.011196455125971522,228,0.2777777777777778,Other
+C2,GO_BP,GO:0061138,morphogenesis of a branching epithelium,lower in treatment,-1.749886495916397,0.01289115059513035,159,0.0,Other
+C2,GO_BP,GO:1901990,regulation of mitotic cell cycle phase transition,higher in treatment,1.6149792080835923,0.013332867886913161,307,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0071526,semaphorin-plexin signaling pathway,lower in treatment,-2.055608226688295,0.014393814565102848,46,0.0,Other
+C2,GO_BP,GO:1901988,negative regulation of cell cycle phase transition,higher in treatment,1.6673763028599087,0.015552605172102265,235,0.010638297872340425,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:2001251,negative regulation of chromosome organization,higher in treatment,1.9050763251441425,0.01569132056639241,95,0.02127659574468085,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0140014,mitotic nuclear division,higher in treatment,1.6345040741602614,0.015991929320568022,265,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0045787,positive regulation of cell cycle,higher in treatment,1.6155319883567227,0.016789080708095663,291,0.009345794392523364,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0006364,rRNA processing,higher in treatment,1.6535626327575397,0.01696923422899506,217,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0001763,morphogenesis of a branching structure,lower in treatment,-1.6885104986354977,0.017212471808360354,172,0.0,Other
+C2,GO_BP,GO:0044772,mitotic cell cycle phase transition,higher in treatment,1.5210442047091468,0.022540900822455478,406,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0048762,mesenchymal cell differentiation,lower in treatment,-1.618259951128537,0.02411482086530623,218,0.0,Other
+C2,GO_BP,GO:0016072,rRNA metabolic process,higher in treatment,1.6062232150992495,0.024377115244911846,261,0.00909090909090909,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0045930,negative regulation of mitotic cell cycle,higher in treatment,1.6628056862052039,0.025927407597746654,208,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0048846,axon extension involved in axon guidance,lower in treatment,-2.1233501189524135,0.027507836515007936,19,0.0,Other
+C2,GO_BP,GO:1902284,neuron projection extension involved in neuron projection guidance,lower in treatment,-2.1233501189524135,0.027507836515007936,19,0.0,Other
+C2,GO_BP,GO:0006352,DNA-templated transcription initiation,higher in treatment,1.6531375240685837,0.027507836515007936,203,0.012195121951219513,Other
+C2,GO_BP,GO:1901342,regulation of vasculature development,lower in treatment,-1.6240070000919389,0.027507836515007936,241,0.0,Other
+C2,GO_BP,GO:0045765,regulation of angiogenesis,lower in treatment,-1.6015689346185997,0.027507836515007936,235,0.0,Other
+C2,GO_BP,GO:0000280,nuclear division,higher in treatment,1.5143538051032381,0.027507836515007936,386,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0051606,detection of stimulus,lower in treatment,-1.6800236820190393,0.02804453187001049,164,0.0,"Membrane channels, transporters and receptors"
+C2,GO_BP,GO:0001525,angiogenesis,lower in treatment,-1.4683986973029821,0.02804453187001049,448,0.0,Other
+C2,GO_BP,GO:0044703,multi-organism reproductive process,lower in treatment,-1.661655699679889,0.03246405417265205,159,0.021739130434782608,Other
+C2,GO_BP,GO:0051310,metaphase chromosome alignment,higher in treatment,1.7691433144689295,0.033127983734277555,101,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0060485,mesenchyme development,lower in treatment,-1.5731641900144242,0.036472284564660694,268,0.0,Other
+C2,GO_BP,GO:1900452,regulation of long-term synaptic depression,lower in treatment,-2.0804482939048934,0.03739711839738806,14,0.0,"Membrane channels, transporters and receptors"
+C2,GO_BP,GO:0031023,microtubule organizing center organization,higher in treatment,1.6807616254019915,0.037633119982274255,155,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0051052,regulation of DNA metabolic process,higher in treatment,1.4500264031691286,0.03816608826611559,456,0.012658227848101266,DNA replication and repair
+C2,GO_BP,GO:0000075,cell cycle checkpoint signaling,higher in treatment,1.6631789165218949,0.04166095243389201,179,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0009582,detection of abiotic stimulus,lower in treatment,-1.77704004609717,0.041802883332694614,104,0.0,"Membrane channels, transporters and receptors"
+C2,GO_BP,GO:0032204,regulation of telomere maintenance,higher in treatment,1.7575325998216345,0.041802883332694614,109,0.0,DNA replication and repair
+C2,GO_BP,GO:0006403,RNA localization,higher in treatment,1.6101925904778445,0.041802883332694614,191,0.0,"RNA processing, splicing and transport"
+C2,GO_BP,GO:0009581,detection of external stimulus,lower in treatment,-1.7647152941585622,0.04274389298606779,101,0.0,"Membrane channels, transporters and receptors"
+C2,GO_BP,GO:0018279,protein N-linked glycosylation via asparagine,higher in treatment,1.9000377140116869,0.04461374247953449,43,0.0,Other
+C2,GO_BP,GO:0008608,attachment of spindle microtubules to kinetochore,higher in treatment,1.9297174336336003,0.04597665529860703,55,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0007062,sister chromatid cohesion,higher in treatment,1.885163168029633,0.046877567462379734,56,0.037037037037037035,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0051306,mitotic sister chromatid separation,higher in treatment,1.8492554485120851,0.046877567462379734,63,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_BP,GO:0006302,double-strand break repair,higher in treatment,1.5219987146773293,0.048244482083299005,315,0.0,DNA replication and repair
+C2,GO_BP,GO:0010562,positive regulation of phosphorus metabolic process,lower in treatment,-1.5146305503984303,0.048244482083299005,260,0.0,Other
+C2,GO_BP,GO:0045937,positive regulation of phosphate metabolic process,lower in treatment,-1.5146305503984303,0.048244482083299005,260,0.0,Other
+C2,GO_BP,GO:0042391,regulation of membrane potential,lower in treatment,-1.443970491957184,0.048244482083299005,396,0.0,Other
+C2,GO_BP,GO:0048285,organelle fission,higher in treatment,1.4664957737217725,0.04841612451918537,433,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_MF,GO:0030527,structural constituent of chromatin,higher in treatment,2.2143918152678337,0.00021419671535574778,80,1.0,Histone-gene dominated (shared histone genes)
+C2,GO_MF,GO:0015267,channel activity,lower in treatment,-1.7259682332247193,0.00021419671535574778,383,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0022803,passive transmembrane transporter activity,lower in treatment,-1.7259682332247193,0.00021419671535574778,383,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0022836,gated channel activity,lower in treatment,-1.7682316026009077,0.0007386021891963181,246,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0004714,transmembrane receptor protein tyrosine kinase activity,lower in treatment,-2.092774039688449,0.004473128556891456,57,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0005216,monoatomic ion channel activity,lower in treatment,-1.6143188883154218,0.004473128556891456,348,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0140097,"catalytic activity, acting on DNA",higher in treatment,1.6999060278808746,0.004617973416730162,231,0.0,DNA replication and repair
+C2,GO_MF,GO:0019199,transmembrane receptor protein kinase activity,lower in treatment,-1.9707780080786859,0.004724416116750217,73,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0005201,extracellular matrix structural constituent,lower in treatment,-1.8319035565572024,0.007004039746214621,129,0.0,"Extracellular matrix, collagen and adhesion"
+C2,GO_MF,GO:0120545,nucleic acid conformation isomerase activity,higher in treatment,1.7642418079607143,0.009562844154260612,150,0.0,Other
+C2,GO_MF,GO:0005261,monoatomic cation channel activity,lower in treatment,-1.6226162020428037,0.009562844154260612,268,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0046873,metal ion transmembrane transporter activity,lower in treatment,-1.567814283799678,0.009562844154260612,358,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0017154,semaphorin receptor activity,lower in treatment,-2.0598898371766103,0.010271768972077933,12,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0004386,helicase activity,higher in treatment,1.7489438227139515,0.020503108397772533,138,0.0,Other
+C2,GO_MF,GO:0140098,"catalytic activity, acting on RNA",higher in treatment,1.4742429119493174,0.020503108397772533,384,0.0,"RNA processing, splicing and transport"
+C2,GO_MF,GO:0030545,signaling receptor regulator activity,lower in treatment,-1.4981335429343614,0.02554390451880111,319,0.0,Other
+C2,GO_MF,GO:0005244,voltage-gated monoatomic ion channel activity,lower in treatment,-1.6580878457636423,0.028559091739845523,139,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0022832,voltage-gated channel activity,lower in treatment,-1.6486434755840853,0.03546095733915413,140,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0015291,secondary active transmembrane transporter activity,lower in treatment,-1.5704277314085817,0.03546095733915413,221,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0005539,glycosaminoglycan binding,lower in treatment,-1.6613063788914508,0.037588087019838325,158,0.0,"Extracellular matrix, collagen and adhesion"
+C2,GO_MF,GO:0015026,coreceptor activity,lower in treatment,-1.8972417470187886,0.04130001974539603,46,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0044183,protein folding chaperone,higher in treatment,1.8322029787616676,0.04130001974539603,61,0.0,Other
+C2,GO_MF,GO:0015079,potassium ion transmembrane transporter activity,lower in treatment,-1.6406966326686918,0.04130001974539603,129,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0048018,receptor ligand activity,lower in treatment,-1.4987163288855176,0.04130001974539603,283,0.0,Other
+C2,GO_MF,GO:0001228,"DNA-binding transcription activator activity, RNA polymerase II-specific",lower in treatment,-1.484543750777606,0.04130001974539603,303,0.0,Other
+C2,GO_MF,GO:0030546,signaling receptor activator activity,lower in treatment,-1.4618022357151135,0.04271166828730069,293,0.0,Other
+C2,GO_MF,GO:0046943,carboxylic acid transmembrane transporter activity,lower in treatment,-1.5513220855878094,0.04462204847975348,143,0.0,"Membrane channels, transporters and receptors"
+C2,GO_MF,GO:0001216,DNA-binding transcription activator activity,lower in treatment,-1.440730099845736,0.04462204847975348,310,0.0,Other
+C2,GO_MF,GO:0046982,protein heterodimerization activity,higher in treatment,1.4771275610547454,0.04948198219530467,298,0.47058823529411764,Other
+C2,GO_CC,GO:0031012,extracellular matrix,lower in treatment,-2.0144935382900164,7.844316664118567e-09,355,0.0,"Extracellular matrix, collagen and adhesion"
+C2,GO_CC,GO:0030312,external encapsulating structure,lower in treatment,-2.010899241749623,7.844316664118567e-09,356,0.0,"Extracellular matrix, collagen and adhesion"
+C2,GO_CC,GO:0098687,chromosomal region,higher in treatment,1.8892823389344768,3.1971605516365713e-07,394,0.06382978723404255,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0000775,"chromosome, centromeric region",higher in treatment,1.9060333138090628,3.8017189126477024e-05,259,0.0851063829787234,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0000786,nucleosome,higher in treatment,2.112057736450224,0.00013398621632227455,111,0.7560975609756098,Histone-gene dominated (shared histone genes)
+C2,GO_CC,GO:0000793,condensed chromosome,higher in treatment,1.785370682716571,0.00024988486039768053,261,0.01,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0045121,membrane raft,lower in treatment,-1.7819421332532366,0.00024988486039768053,245,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0098857,membrane microdomain,lower in treatment,-1.7757498481357055,0.00025960044662040865,247,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0005681,spliceosomal complex,higher in treatment,1.8712502391759813,0.00027304344004666024,196,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0032993,protein-DNA complex,higher in treatment,1.8156777804414441,0.0003636441067987162,201,0.5254237288135594,Histone-gene dominated (shared histone genes)
+C2,GO_CC,GO:0002116,semaphorin receptor complex,lower in treatment,-2.137846007851791,0.001790996711270552,13,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0000776,kinetochore,higher in treatment,1.8039720884707635,0.001790996711270552,170,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0045211,postsynaptic membrane,lower in treatment,-1.6374707515368991,0.001790996711270552,280,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0071013,catalytic step 2 spliceosome,higher in treatment,1.9402270727293969,0.001956698434358997,87,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0043235,receptor complex,lower in treatment,-1.6050902010767636,0.002171882283721139,310,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0005643,nuclear pore,higher in treatment,1.8993084134395395,0.0025062914668882927,91,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0000779,"condensed chromosome, centromeric region",higher in treatment,1.7453500018826114,0.0027553639740621476,182,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0000781,"chromosome, telomeric region",higher in treatment,1.7639492456923913,0.0032099902344028264,165,0.1232876712328767,DNA replication and repair
+C2,GO_CC,GO:0005819,spindle,higher in treatment,1.5113328804212915,0.00392830039874437,426,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0034702,monoatomic ion channel complex,lower in treatment,-1.5580772460999057,0.004578209276808774,296,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0097060,synaptic membrane,lower in treatment,-1.4856896343884283,0.005208446459694956,391,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0098552,side of membrane,lower in treatment,-1.434323253262936,0.005208446459694956,486,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0034703,cation channel complex,lower in treatment,-1.6482725018510807,0.0066264728789158095,193,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0009897,external side of plasma membrane,lower in treatment,-1.6034411779963587,0.009413419997692535,217,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0005684,U2-type spliceosomal complex,higher in treatment,1.763535568519508,0.01776029003321539,93,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0030122,AP-2 adaptor complex,higher in treatment,1.8649849706199446,0.020526681655804603,10,0.0,Other
+C2,GO_CC,GO:0030128,clathrin coat of endocytic vesicle,higher in treatment,1.8649849706199446,0.020526681655804603,10,0.0,Other
+C2,GO_CC,GO:0030532,small nuclear ribonucleoprotein complex,higher in treatment,1.7526969200637987,0.023685863102459803,76,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0034708,methyltransferase complex,higher in treatment,1.6639425151443203,0.03527395270020693,106,0.0,Other
+C2,GO_CC,GO:0140168,nuclear ribonucleoprotein granule,higher in treatment,1.3874220615636579,0.03527395270020693,457,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0045178,basal part of cell,lower in treatment,-1.4469676204855078,0.04019198024009952,255,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0120114,Sm-like protein family complex,higher in treatment,1.7070995887167446,0.04086204687826048,86,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0009925,basal plasma membrane,lower in treatment,-1.45355145416017,0.04086204687826048,241,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0005686,U2 snRNP,higher in treatment,1.9294756977797334,0.04642166820987047,26,0.0,"RNA processing, splicing and transport"
+C2,GO_CC,GO:0044853,plasma membrane raft,lower in treatment,-1.653550578203098,0.04642166820987047,96,0.0,"Membrane channels, transporters and receptors"
+C2,GO_CC,GO:0000940,outer kinetochore,higher in treatment,1.9361642444318874,0.04829309531661295,20,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,GO_CC,GO:0034705,potassium channel complex,lower in treatment,-1.6584337665146585,0.04829309531661295,84,0.0,"Membrane channels, transporters and receptors"
+C2,KEGG,hsa05322,Systemic lupus erythematosus,higher in treatment,2.2130076742515894,3.3672919889691125e-05,99,0.8181818181818182,Histone-gene dominated (shared histone genes)
+C2,KEGG,hsa03440,Homologous recombination,higher in treatment,2.156825357525349,3.3672919889691125e-05,128,0.23404255319148937,DNA replication and repair
+C2,KEGG,hsa04820,Cytoskeleton in muscle cells,lower in treatment,-1.9162202382718967,4.297407350224305e-05,187,0.0,Other
+C2,KEGG,hsa03040,Spliceosome,higher in treatment,1.8535611284812847,0.003939960701226512,141,0.0,"RNA processing, splicing and transport"
+C2,KEGG,hsa04110,Cell cycle,higher in treatment,1.7901664271789866,0.003939960701226512,151,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,KEGG,hsa05034,Alcoholism,higher in treatment,1.7872687541923855,0.004517237375663646,160,0.6428571428571429,Histone-gene dominated (shared histone genes)
+C2,KEGG,hsa04974,Protein digestion and absorption,lower in treatment,-1.8423937934624652,0.03010878943508932,75,0.0,Other
+C2,Reactome,R-HSA-68886,M Phase,higher in treatment,2.1650347877066207,1.3166921163525225e-11,392,0.18309859154929578,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-73894,DNA Repair,higher in treatment,2.036347157459465,6.012183276162613e-08,323,0.17687074829931973,DNA replication and repair
+C2,Reactome,R-HSA-5693532,DNA Double-Strand Break Repair,higher in treatment,2.2489064354919086,9.343078038422045e-08,166,0.2261904761904762,DNA replication and repair
+C2,Reactome,R-HSA-5693567,HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA),higher in treatment,2.2948336619352916,3.578717256999121e-07,131,0.2753623188405797,DNA replication and repair
+C2,Reactome,R-HSA-5693538,Homology Directed Repair,higher in treatment,2.2821704855994027,4.356735664394895e-07,137,0.25806451612903225,DNA replication and repair
+C2,Reactome,R-HSA-69620,Cell Cycle Checkpoints,higher in treatment,2.0147541794407204,4.356735664394895e-07,286,0.1328125,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-9645723,Diseases of programmed cell death,higher in treatment,2.394011250427884,7.095647312131959e-07,94,0.6764705882352942,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-69306,DNA Replication,higher in treatment,2.144838556535516,7.203790891887213e-07,180,0.38666666666666666,DNA replication and repair
+C2,Reactome,R-HSA-5693607,Processing of DNA double-strand break ends,higher in treatment,2.366401027526583,1.131879613587571e-06,94,0.32727272727272727,DNA replication and repair
+C2,Reactome,R-HSA-69481,G2/M Checkpoints,higher in treatment,2.19125876548962,1.131879613587571e-06,153,0.2235294117647059,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-212300,PRC2 methylates histones and DNA,higher in treatment,2.375156210915067,2.017301947249584e-06,71,0.8518518518518519,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9609690,HCMV Early Events,higher in treatment,2.2059801144835167,2.2239546438675973e-06,127,0.6046511627906976,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9609646,HCMV Infection,higher in treatment,2.162641972367634,2.2239546438675973e-06,151,0.5306122448979592,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5334118,DNA methylation,higher in treatment,2.4059911053514336,5.6642219332798755e-06,60,0.8928571428571429,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9710421,Defective pyroptosis,higher in treatment,2.3654415032812866,5.6642219332798755e-06,69,0.8518518518518519,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2559586,DNA Damage/Telomere Stress Induced Senescence,higher in treatment,2.3640137075651344,5.797370021594223e-06,69,0.6551724137931034,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2299718,Condensation of Prophase Chromosomes,higher in treatment,2.3417702877230537,7.502143977336283e-06,70,0.8214285714285714,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-69002,DNA Replication Pre-Initiation,higher in treatment,2.0697093206191797,9.763845390696032e-06,145,0.46774193548387094,DNA replication and repair
+C2,Reactome,R-HSA-3214815,HDACs deacetylate histones,higher in treatment,2.266784771929766,1.0001267463751384e-05,91,0.7647058823529411,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-68867,Assembly of the pre-replicative complex,higher in treatment,2.112861403247208,1.2752407536630664e-05,129,0.4857142857142857,DNA replication and repair
+C2,Reactome,R-HSA-72172,mRNA Splicing,higher in treatment,1.9595736106034782,1.2752407536630664e-05,212,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-427413,NoRC negatively regulates rRNA expression,higher in treatment,2.1902305432609515,1.3890146899882232e-05,101,0.6415094339622641,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-110330,Recognition and association of DNA glycosylase with site containing an affected purine,higher in treatment,2.310510786958149,1.4189359699606317e-05,52,0.9047619047619048,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-110331,Cleavage of the damaged purine,higher in treatment,2.310510786958149,1.4189359699606317e-05,52,0.9047619047619048,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73927,Depurination,higher in treatment,2.310510786958149,1.4189359699606317e-05,52,0.9047619047619048,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5625740,RHO GTPases activate PKNs,higher in treatment,2.221642129599553,1.7278553643177137e-05,88,0.725,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9610379,HCMV Late Events,higher in treatment,2.161342167244222,1.7278553643177137e-05,112,0.6382978723404256,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-3214847,HATs acetylate histones,higher in treatment,2.1170986729932664,1.7278553643177137e-05,136,0.543859649122807,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-171306,Packaging Of Telomere Ends,higher in treatment,2.3460753608197926,1.8531815666341716e-05,48,0.95,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-69473,G2/M DNA damage checkpoint,higher in treatment,2.2370076791098623,1.9454134739517538e-05,93,0.35294117647058826,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-912446,Meiotic recombination,higher in treatment,2.232498780203872,2.1681786327360072e-05,82,0.7419354838709677,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9816359,Maternal to zygotic transition (MZT),higher in treatment,2.1604678959994543,2.1804367921200904e-05,102,0.6578947368421053,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9909648,Regulation of PD-L1(CD274) expression,higher in treatment,1.924011341209687,2.1951294033903e-05,188,0.37662337662337664,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-72163,mRNA Splicing - Major Pathway,higher in treatment,1.9344296684096933,2.2633776789922253e-05,204,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-427389,ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression,higher in treatment,2.2060075575946336,2.3325605287588204e-05,71,0.92,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-68877,Mitotic Prometaphase,higher in treatment,1.952551024541155,2.343064137910675e-05,197,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-73886,Chromosome Maintenance,higher in treatment,2.0424670167092587,2.4598598132715138e-05,135,0.375,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-72203,Processing of Capped Intron-Containing Pre-mRNA,higher in treatment,1.8316492001967395,2.4598598132715138e-05,290,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-9821002,Chromatin modifications during the maternal to zygotic transition (MZT),higher in treatment,2.263297605813173,2.538084282396809e-05,65,0.9259259259259259,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5250941,Negative epigenetic regulation of rRNA expression,higher in treatment,2.1193561267628547,2.8059019877106265e-05,104,0.6944444444444444,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-110328,Recognition and association of DNA glycosylase with site containing an affected pyrimidine,higher in treatment,2.242780044779594,3.498547381868272e-05,57,0.7222222222222222,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-110329,Cleavage of the damaged pyrimidine,higher in treatment,2.242780044779594,3.498547381868272e-05,57,0.7222222222222222,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73928,Depyrimidination,higher in treatment,2.242780044779594,3.498547381868272e-05,57,0.7222222222222222,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-68616,Assembly of the ORC complex at the origin of replication,higher in treatment,2.2389538242553257,3.498547381868272e-05,65,0.8717948717948718,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73772,RNA Polymerase I Promoter Escape,higher in treatment,2.1730422655165023,3.498547381868272e-05,86,0.78125,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-3247509,Chromatin modifying enzymes,higher in treatment,1.780794985220742,3.498547381868272e-05,262,0.34831460674157305,Chromatin and epigenetic regulation
+C2,Reactome,R-HSA-389948,Co-inhibition by PD-1,higher in treatment,1.901347342496373,3.845477736074625e-05,199,0.3625,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-5688426,Deubiquitination,higher in treatment,1.814353481534759,3.845477736074625e-05,244,0.1875,Other
+C2,Reactome,R-HSA-195258,RHO GTPase Effectors,higher in treatment,1.785785493297587,4.701331312950215e-05,301,0.2653061224489796,Other
+C2,Reactome,R-HSA-427359,SIRT1 negatively regulates rRNA expression,higher in treatment,2.2480347203088478,4.754139800345007e-05,64,0.8846153846153846,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9839923,Dengue Virus Infection,higher in treatment,1.6950494256481263,4.925943467920197e-05,381,0.19879518072289157,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-68882,Mitotic Anaphase,higher in treatment,1.8584822977722357,5.041835034793874e-05,214,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-606279,Deposition of new CENPA-containing nucleosomes at the centromere,higher in treatment,2.2227443684279833,5.717323466889436e-05,69,0.6896551724137931,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-774815,Nucleosome assembly,higher in treatment,2.2227443684279833,5.717323466889436e-05,69,0.6896551724137931,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73884,Base Excision Repair,higher in treatment,2.1586686965550683,5.717323466889436e-05,87,0.5531914893617021,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9845323,Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs),higher in treatment,2.0918299321417293,7.157250619252927e-05,92,0.7931034482758621,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73728,RNA Polymerase I Promoter Opening,higher in treatment,2.2588523839031436,7.411217284941195e-05,59,1.0,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2555396,Mitotic Metaphase and Anaphase,higher in treatment,1.873481726292563,7.411217284941195e-05,215,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-9843970,Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex,higher in treatment,2.2011117316441204,8.688392447055564e-05,67,0.8928571428571429,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-8939236,RUNX1 regulates transcription of genes involved in differentiation of HSCs,higher in treatment,2.119966757441876,8.688392447055564e-05,108,0.58,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-4839726,Chromatin organization,higher in treatment,1.7703918183542398,8.688392447055564e-05,276,0.3563218390804598,Chromatin and epigenetic regulation
+C2,Reactome,R-HSA-5693565,Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks,higher in treatment,2.1449421481220563,9.102321105563731e-05,74,0.4838709677419355,DNA replication and repair
+C2,Reactome,R-HSA-5625886,Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3,higher in treatment,2.2280962254787133,9.164367262866216e-05,61,1.0,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-68875,Mitotic Prophase,higher in treatment,1.9847295070271713,9.503494219747034e-05,137,0.5370370370370371,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-212165,Epigenetic regulation of gene expression,higher in treatment,1.7434763605280788,0.0001075777330361118,301,0.2761904761904762,Chromatin and epigenetic regulation
+C2,Reactome,R-HSA-9909649,Regulation of PD-L1(CD274) transcription,higher in treatment,2.061796319021639,0.00012205614290391639,97,0.7419354838709677,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5693606,DNA Double Strand Break Response,higher in treatment,2.1277264846997643,0.0001380737562253027,75,0.4838709677419355,DNA replication and repair
+C2,Reactome,R-HSA-5250924,B-WICH complex positively regulates rRNA expression,higher in treatment,2.0735778768117306,0.0001380737562253027,86,0.8064516129032258,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5250913,Positive epigenetic regulation of rRNA expression,higher in treatment,2.016518698830484,0.00015437945346350167,101,0.7575757575757576,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5689880,Ub-specific processing proteases,higher in treatment,1.8993723202449588,0.00015456107634992934,172,0.24324324324324326,Other
+C2,Reactome,R-HSA-73854,RNA Polymerase I Promoter Clearance,higher in treatment,2.0021556944797525,0.00015772521511889993,104,0.6666666666666666,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-6804756,Regulation of TP53 Activity through Phosphorylation,higher in treatment,2.133326208809027,0.0001668433912013899,89,0.0,Other
+C2,Reactome,R-HSA-157579,Telomere Maintenance,higher in treatment,2.0652298276887007,0.00017192511888812533,108,0.44680851063829785,DNA replication and repair
+C2,Reactome,R-HSA-2467813,Separation of Sister Chromatids,higher in treatment,1.8442826761883235,0.00019831812527397927,171,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-2559582,Senescence-Associated Secretory Phenotype (SASP),higher in treatment,1.974182108653341,0.0002311329575234375,103,0.5918367346938775,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-73929,"Base-Excision Repair, AP Site Formation",higher in treatment,2.1744108728904754,0.00024397241384258592,59,0.7222222222222222,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-1474244,Extracellular matrix organization,lower in treatment,-1.6807333445354722,0.00024397241384258592,260,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-1500620,Meiosis,higher in treatment,2.026379153178694,0.0002521446774559616,105,0.6052631578947368,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9917777,Epigenetic regulation by WDR5-containing histone modifying complexes,higher in treatment,1.871252664475936,0.00030679459544901485,155,0.5087719298245614,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-201722,Formation of the beta-catenin:TCF transactivating complex,higher in treatment,2.0865699212120448,0.0003647842481530067,89,0.7575757575757576,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-69275,G2/M Transition,higher in treatment,1.7901947626160355,0.00037278670949572525,184,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-73864,RNA Polymerase I Transcription,higher in treatment,1.9879112041782268,0.0004004410939793415,105,0.6666666666666666,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-1221632,Meiotic synapsis,higher in treatment,2.0208602969705223,0.0004368131019222317,66,0.7307692307692307,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-388841,Regulation of T cell activation by CD28 family,higher in treatment,1.704055677188643,0.0004572513326701897,242,0.3372093023255814,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-9918481,Dengue Virus-Host Interactions,higher in treatment,1.670462767728569,0.00048181736385882344,278,0.28865979381443296,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-1912422,Pre-NOTCH Expression and Processing,higher in treatment,1.9761082167863828,0.0005785006770467184,107,0.7352941176470589,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9843940,Regulation of endogenous retroelements by KRAB-ZFP proteins,higher in treatment,1.9183408860946913,0.000621924588758013,101,0.7931034482758621,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5617472,Activation of anterior HOX genes in hindbrain development during early embryogenesis,higher in treatment,1.9505823814726593,0.0006659658733243254,105,0.696969696969697,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5619507,Activation of HOX genes during differentiation,higher in treatment,1.9505823814726593,0.0006659658733243254,105,0.696969696969697,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5633007,Regulation of TP53 Activity,higher in treatment,1.803486786639868,0.000690399133869186,150,0.0,Other
+C2,Reactome,R-HSA-9818564,Epigenetic regulation of gene expression by MLL3 and MLL4 complexes,higher in treatment,1.8551934496599245,0.0006971280951675187,124,0.6170212765957447,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9841922,MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis,higher in treatment,1.8551934496599245,0.0006971280951675187,124,0.6170212765957447,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9851695,Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes,higher in treatment,1.8551934496599245,0.0006971280951675187,124,0.6170212765957447,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-1912408,Pre-NOTCH Transcription and Translation,higher in treatment,1.9717485437677524,0.0007011614508032795,91,0.8064516129032258,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-453274,Mitotic G2-G2/M phases,higher in treatment,1.767247947102685,0.0007165388341605091,186,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-201681,TCF dependent signaling in response to WNT,higher in treatment,1.7376208461459302,0.0007903690552791436,205,0.3815789473684211,Other
+C2,Reactome,R-HSA-5578749,Transcriptional regulation by small RNAs,higher in treatment,1.9654927211014142,0.0009530309916726144,73,0.8928571428571429,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-3000178,ECM proteoglycans,lower in treatment,-1.984704935887471,0.0009710804583012397,60,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-9764725,Negative Regulation of CDH1 Gene Transcription,higher in treatment,1.933614274105218,0.0009710804583012397,86,0.8529411764705882,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9670095,Inhibition of DNA recombination at telomere,higher in treatment,2.0069001351399116,0.0009866114413399514,64,0.8260869565217391,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-9764560,Regulation of CDH1 Gene Transcription,higher in treatment,1.9267610411647416,0.0010308728262235056,94,0.8285714285714286,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5693571,Nonhomologous End-Joining (NHEJ),higher in treatment,1.94765202301816,0.0011781652457020923,66,0.6666666666666666,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2500257,Resolution of Sister Chromatid Cohesion,higher in treatment,1.8244430603211237,0.0011781652457020923,120,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-3700989,Transcriptional Regulation by TP53,higher in treatment,1.5741702096821797,0.0012033652849292647,330,0.0,Other
+C2,Reactome,R-HSA-397014,Muscle contraction,lower in treatment,-1.7253543828489244,0.0013308471105554973,171,0.0,Other
+C2,Reactome,R-HSA-5663220,RHO GTPases Activate Formins,higher in treatment,1.7827604387134655,0.0014801786855431589,133,0.0,Other
+C2,Reactome,R-HSA-5685942,HDR through Homologous Recombination (HRR),higher in treatment,1.9774375886998528,0.0015124034502210285,69,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9616222,Transcriptional regulation of granulopoiesis,higher in treatment,1.912795187528977,0.0019097743319321202,82,0.8518518518518519,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-4420332,Defective B3GALT6 causes EDSP2 and SEMDJL1,lower in treatment,-2.066027913119549,0.00212722724048223,19,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-425407,SLC-mediated transmembrane transport,lower in treatment,-1.6974052941324966,0.00212722724048223,182,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-9842860,Regulation of endogenous retroelements,higher in treatment,1.7857631926517534,0.002138662463668937,134,0.6410256410256411,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2559583,Cellular Senescence,higher in treatment,1.7134376446319957,0.0021877845344163063,179,0.42028985507246375,Other
+C2,Reactome,R-HSA-3214858,RMTs methylate histone arginines,higher in treatment,1.8905547047957911,0.002356167124320372,76,0.6666666666666666,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-211000,Gene Silencing by RNA,higher in treatment,1.8822119496671235,0.0024279702238441977,96,0.7352941176470589,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-1474165,Reproduction,higher in treatment,1.7990285001356523,0.002448837510904537,126,0.6052631578947368,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-2559580,Oxidative Stress Induced Senescence,higher in treatment,1.8134822159181192,0.0024718859606956823,116,0.6041666666666666,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-8936459,RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function,higher in treatment,1.8435667547457586,0.0035318562334592262,88,0.9259259259259259,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-977225,Amyloid fiber formation,higher in treatment,1.8179307008475223,0.0036873216230255018,92,0.7073170731707317,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-5693554,Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA),higher in treatment,2.015305517217941,0.0038217651181629455,27,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9675135,Diseases of DNA repair,higher in treatment,1.955276043858215,0.0038379779588118717,50,0.0,DNA replication and repair
+C2,Reactome,R-HSA-5693579,Homologous DNA Pairing and Strand Exchange,higher in treatment,2.011519506992431,0.0042107492425260806,42,0.0,DNA replication and repair
+C2,Reactome,R-HSA-162906,HIV Infection,higher in treatment,1.6216547168398416,0.005059450800255094,206,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-195721,Signaling by WNT,higher in treatment,1.5172098729123678,0.005284270776048526,291,0.30526315789473685,Other
+C2,Reactome,R-HSA-3560801,Defective B3GAT3 causes JDSSDHD,lower in treatment,-1.9874969440205592,0.005422660546482491,19,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-9675136,Diseases of DNA Double-Strand Break Repair,higher in treatment,1.96730568751314,0.007034655408943649,40,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9701190,Defective homologous recombination repair (HRR) due to BRCA2 loss of function,higher in treatment,1.96730568751314,0.007034655408943649,40,0.0,DNA replication and repair
+C2,Reactome,R-HSA-157118,Signaling by NOTCH,higher in treatment,1.6439769891593312,0.007034655408943649,220,0.34523809523809523,Other
+C2,Reactome,R-HSA-9648025,EML4 and NUDC in mitotic spindle formation,higher in treatment,1.7183441948015374,0.007074302943089252,110,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-6785807,Interleukin-4 and Interleukin-13 signaling,lower in treatment,-1.7294937056176898,0.007751510547923969,80,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-5576891,Cardiac conduction,lower in treatment,-1.7179864023592082,0.00819762118933721,113,0.0,Other
+C2,Reactome,R-HSA-5693616,Presynaptic phase of homologous DNA pairing and strand exchange,higher in treatment,1.9654757254479298,0.008236749145401956,39,0.0,DNA replication and repair
+C2,Reactome,R-HSA-6790901,rRNA modification in the nucleus and cytosol,higher in treatment,1.868962387736562,0.008405063195324313,59,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-8866654,E3 ubiquitin ligases ubiquitinate target proteins,higher in treatment,1.815095380367234,0.008405063195324313,56,0.34615384615384615,Other
+C2,Reactome,R-HSA-9821993,Replacement of protamines by nucleosomes in the male pronucleus,higher in treatment,1.9298891215541016,0.009372694494672932,37,0.875,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-8852135,Protein ubiquitination,higher in treatment,1.7460629274049444,0.009920052238534737,76,0.3,Other
+C2,Reactome,R-HSA-191273,Cholesterol biosynthesis,higher in treatment,2.0627600032765114,0.010583960047219676,26,0.0,Other
+C2,Reactome,R-HSA-380320,Recruitment of NuMA to mitotic centrosomes,higher in treatment,1.7474759681272587,0.012798808328369014,88,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-9709570,Impaired BRCA2 binding to RAD51,higher in treatment,1.9201532444004457,0.012851742672229303,34,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9764265,Regulation of CDH1 Expression and Function,higher in treatment,1.5726227594559001,0.012851742672229303,191,0.4482758620689655,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-9764274,Regulation of Expression and Function of Type I Classical Cadherins,higher in treatment,1.5726227594559001,0.012851742672229303,191,0.4482758620689655,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-8854518,AURKA Activation by TPX2,higher in treatment,1.7145324474917158,0.01445905476587357,72,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-9709603,Impaired BRCA2 binding to PALB2,higher in treatment,1.9764956099500548,0.01465951846518296,24,0.0,DNA replication and repair
+C2,Reactome,R-HSA-162599,Late Phase of HIV Life Cycle,higher in treatment,1.6069789372472287,0.014921630663241326,130,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-9958863,SLC-mediated transport of amino acids,lower in treatment,-1.8462515807867859,0.015376439003252735,31,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-388844,Receptor-type tyrosine-protein phosphatases,lower in treatment,-1.8879505472784899,0.015808550898133527,19,0.0,Other
+C2,Reactome,R-HSA-9694635,Translation of Structural Proteins,higher in treatment,1.7851110729752102,0.015808550898133527,59,0.0,Other
+C2,Reactome,R-HSA-72187,mRNA 3'-end processing,higher in treatment,1.6131053992754585,0.017930991166595755,151,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-9701192,Defective homologous recombination repair (HRR) due to BRCA1 loss of function,higher in treatment,1.9600484810243253,0.018066298978751248,25,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9701193,Defective homologous recombination repair (HRR) due to PALB2 loss of function,higher in treatment,1.9600484810243253,0.018066298978751248,25,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9704331,Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA1 binding function,higher in treatment,1.9600484810243253,0.018066298978751248,25,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9704646,Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA2/RAD51/RAD51C binding function,higher in treatment,1.9600484810243253,0.018066298978751248,25,0.0,DNA replication and repair
+C2,Reactome,R-HSA-69618,Mitotic Spindle Checkpoint,higher in treatment,1.6838819222737575,0.018258669062187906,111,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-69242,S Phase,higher in treatment,1.5506937610106417,0.01864765789944883,150,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-352230,Amino acid transport across the plasma membrane,lower in treatment,-1.8529080098219233,0.018780705069383397,27,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-611105,Respiratory electron transport,higher in treatment,1.598254361137758,0.020435230463416016,151,0.0,Other
+C2,Reactome,R-HSA-5685938,HDR through Single Strand Annealing (SSA),higher in treatment,1.8773991099560707,0.021422138752208955,36,0.0,DNA replication and repair
+C2,Reactome,R-HSA-174143,APC/C-mediated degradation of cell cycle proteins,higher in treatment,1.7052830882492573,0.021422138752208955,75,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-453276,Regulation of mitotic cell cycle,higher in treatment,1.7052830882492573,0.021422138752208955,75,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-141424,Amplification of signal from the kinetochores,higher in treatment,1.673903200579386,0.021422138752208955,94,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-141444,Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal,higher in treatment,1.673903200579386,0.021422138752208955,94,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-162909,Host Interactions of HIV factors,higher in treatment,1.6321790303547976,0.021422138752208955,112,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-162587,HIV Life Cycle,higher in treatment,1.5783094530919919,0.021422138752208955,142,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-1971475,Glycosaminoglycan-protein linkage region biosynthesis,lower in treatment,-1.8181675824561643,0.023370787665056646,28,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-4615885,SUMOylation of DNA replication proteins,higher in treatment,1.8330068931726937,0.024300751823462013,45,0.0,DNA replication and repair
+C2,Reactome,R-HSA-1650814,Collagen biosynthesis and modifying enzymes,lower in treatment,-1.7480076953352492,0.024407240639799193,62,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-181429,Serotonin Neurotransmitter Release Cycle,lower in treatment,-1.898233606454982,0.02463019047161404,18,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-180786,Extension of Telomeres,higher in treatment,1.748784584217475,0.024710133590824326,50,0.0,DNA replication and repair
+C2,Reactome,R-HSA-380270,Recruitment of mitotic centrosome proteins and complexes,higher in treatment,1.6638013244961551,0.024710133590824326,81,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-380287,Centrosome maturation,higher in treatment,1.6638013244961551,0.024710133590824326,81,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-5693537,Resolution of D-Loop Structures,higher in treatment,1.8164440067342136,0.024897648231311832,37,0.0,DNA replication and repair
+C2,Reactome,R-HSA-5689603,UCH proteinases,higher in treatment,1.6719362866520069,0.02581469951312827,86,0.16279069767441862,Other
+C2,Reactome,R-HSA-2565942,Regulation of PLK1 Activity at G2/M Transition,higher in treatment,1.6770944932908913,0.026381347104816186,87,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-3560783,"Defective B4GALT7 causes EDS, progeroid type",lower in treatment,-1.8159155460107412,0.02754403600427122,19,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-2022928,HS-GAG biosynthesis,lower in treatment,-1.7858699570584387,0.02769296667546052,31,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-109581,Apoptosis,higher in treatment,1.6207652498965335,0.029127040268121403,106,0.0,Other
+C2,Reactome,R-HSA-6791312,TP53 Regulates Transcription of Cell Cycle Genes,higher in treatment,1.7046842220020264,0.02947608343906209,47,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-5696399,Global Genome Nucleotide Excision Repair (GG-NER),higher in treatment,1.6710361138155274,0.029701840351683703,82,0.0,DNA replication and repair
+C2,Reactome,R-HSA-2028269,Signaling by Hippo,higher in treatment,1.9273241261676666,0.03218852295328216,18,0.0,Other
+C2,Reactome,R-HSA-388396,GPCR downstream signalling,lower in treatment,-1.33886657802502,0.03218852295328216,408,0.0,Other
+C2,Reactome,R-HSA-69052,Switching of origins to a post-replicative state,higher in treatment,1.6342323034089656,0.03224270697924127,79,0.0,DNA replication and repair
+C2,Reactome,R-HSA-114508,Effects of PIP2 hydrolysis,lower in treatment,-1.8106150973170934,0.03300449253634371,25,0.0,Other
+C2,Reactome,R-HSA-69239,Synthesis of DNA,higher in treatment,1.6601089198044028,0.03300449253634371,108,0.0,DNA replication and repair
+C2,Reactome,R-HSA-9759476,Regulation of Homotypic Cell-Cell Adhesion,higher in treatment,1.4474540368618642,0.03300449253634371,202,0.4393939393939394,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-8951664,Neddylation,higher in treatment,1.4813166141820306,0.03493550129483391,215,0.0,Other
+C2,Reactome,R-HSA-389977,Post-chaperonin tubulin folding pathway,higher in treatment,1.7962842577479874,0.03496625785565959,16,0.0,Other
+C2,Reactome,R-HSA-72312,rRNA processing,higher in treatment,1.4630682720072719,0.03496625785565959,204,0.0,"RNA processing, splicing and transport"
+C2,Reactome,R-HSA-9918432,Maturation of DENV proteins,higher in treatment,1.6819140101614025,0.035107378864056966,48,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-9018519,Estrogen-dependent gene expression,higher in treatment,1.5170890673821804,0.03614831614877707,142,0.625,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-212676,Dopamine Neurotransmitter Release Cycle,lower in treatment,-1.7429581083027894,0.038509097721458385,23,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-5689901,Metalloprotease DUBs,higher in treatment,1.7652024530378911,0.03957205875274529,35,0.6,Histone-gene dominated (shared histone genes)
+C2,Reactome,R-HSA-419037,NCAM1 interactions,lower in treatment,-1.7153545308233948,0.04075869512849477,38,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-2219528,PI3K/AKT Signaling in Cancer,lower in treatment,-1.5508358557358566,0.04428465143911018,94,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-176814,Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins,higher in treatment,1.610221271789092,0.04445855135235281,64,0.0,"Cell cycle, mitosis and chromosome organisation"
+C2,Reactome,R-HSA-3656237,Defective EXT2 causes exostoses 2,lower in treatment,-1.8249064037002822,0.0458693199475236,14,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-3656253,"Defective EXT1 causes exostoses 1, TRPS2 and CHDS",lower in treatment,-1.8249064037002822,0.0458693199475236,14,0.0,"Extracellular matrix, collagen and adhesion"
+C2,Reactome,R-HSA-9969896,Lanosterol biosynthesis,higher in treatment,1.7883513748695805,0.04702775954153286,13,0.0,Other
+C2,Reactome,R-HSA-9909615,Regulation of PD-L1(CD274) Post-translational modification,higher in treatment,1.5729679018369453,0.04702775954153286,83,0.0,"Infection, immune and disease-labelled sets"
+C2,Reactome,R-HSA-418594,G alpha (i) signalling events,lower in treatment,-1.4071528624569065,0.04702775954153286,200,0.0,Other
+C2,Reactome,R-HSA-9709957,Sensory Perception,lower in treatment,-1.4500706013032316,0.048977010282750415,165,0.0,"Membrane channels, transporters and receptors"
+C2,Reactome,R-HSA-5693568,Resolution of D-loop Structures through Holliday Junction Intermediates,higher in treatment,1.7760603365379037,0.0491300462064102,36,0.0,DNA replication and repair
+C2,Reactome,R-HSA-3371453,Regulation of HSF1-mediated heat shock response,higher in treatment,1.5877324284646706,0.0491300462064102,66,0.0,Other
+C2,Reactome,R-HSA-446203,Asparagine N-linked glycosylation,higher in treatment,1.3968283822352072,0.049685587023239504,286,0.0,Other

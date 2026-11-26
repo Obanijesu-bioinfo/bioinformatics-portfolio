@@ -1,0 +1,19 @@
+comparison,theme,sets_higher_in_treatment,sets_lower_in_treatment
+C1,Histone-gene dominated (shared histone genes),0,104
+C1,DNA replication and repair,0,1
+C1,"Cell cycle, mitosis and chromosome organisation",0,0
+C1,Chromatin and epigenetic regulation,4,0
+C1,"RNA processing, splicing and transport",18,2
+C1,"Extracellular matrix, collagen and adhesion",4,7
+C1,"Membrane channels, transporters and receptors",1,0
+C1,"Infection, immune and disease-labelled sets",23,7
+C1,Other,41,36
+C2,Histone-gene dominated (shared histone genes),78,0
+C2,DNA replication and repair,40,0
+C2,"Cell cycle, mitosis and chromosome organisation",62,0
+C2,Chromatin and epigenetic regulation,6,0
+C2,"RNA processing, splicing and transport",26,0
+C2,"Extracellular matrix, collagen and adhesion",3,15
+C2,"Membrane channels, transporters and receptors",0,40
+C2,"Infection, immune and disease-labelled sets",11,2
+C2,Other,35,29
