@@ -8,10 +8,11 @@ RPSAP15 ENSG00000237506,Every cited PubMed ID is in the saved UniProt records,PA
 RPSAP15 ENSG00000237506,A3 sensitivity values present and copied exactly,PASS,significant_in_both
 RPSAP15 ENSG00000237506,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
 RPSAP15 ENSG00000237506,"Pseudogene: no UniProt record, no protein function, interpretation does not claim a protein",PASS,
+RPSAP15 ENSG00000237506,"Pseudogene: sequence-similarity caveat counted in expression signal only, not in effect-size precision",PASS,signal Moderate; issues: pseudogene: reads from related parent or paralogous sequences may contribute (sequence similarity not assessed)
 RPSAP15 ENSG00000237506,Interpretation does not claim proof of function or mechanism,PASS,
 RPSAP15 ENSG00000237506,Biological-interpretation confidence is never 'High',PASS,Very low (pseudogene; no protein function)
 RPSAP15 ENSG00000237506,All interpretation fields are filled,PASS,
-RPSAP15 ENSG00000237506,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Good
+RPSAP15 ENSG00000237506,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Moderate; precision Good
 RPSAP15 ENSG00000237506,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
 RPSAP15 ENSG00000237506,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,1.04 to 1.75
 RPSAP15 ENSG00000237506,No claim that reads are divided or redistributed between gene models,PASS,
@@ -23,10 +24,11 @@ TUBBP1 ENSG00000127589,Every cited PubMed ID is in the saved UniProt records,PAS
 TUBBP1 ENSG00000127589,A3 sensitivity values present and copied exactly,PASS,significant_in_both
 TUBBP1 ENSG00000127589,Limitations state that C1 without A3 is exploratory (two control replicates),PASS,
 TUBBP1 ENSG00000127589,"Pseudogene: no UniProt record, no protein function, interpretation does not claim a protein",PASS,
+TUBBP1 ENSG00000127589,"Pseudogene: sequence-similarity caveat counted in expression signal only, not in effect-size precision",PASS,signal Moderate; issues: pseudogene: reads from related parent or paralogous sequences may contribute (sequence similarity not assessed)
 TUBBP1 ENSG00000127589,Interpretation does not claim proof of function or mechanism,PASS,
 TUBBP1 ENSG00000127589,Biological-interpretation confidence is never 'High',PASS,Very low (pseudogene; no protein function)
 TUBBP1 ENSG00000127589,All interpretation fields are filled,PASS,
-TUBBP1 ENSG00000127589,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal High; precision Low
+TUBBP1 ENSG00000127589,Signal confidence and effect-size precision recomputed from the stated rules,PASS,signal Moderate; precision Low
 TUBBP1 ENSG00000127589,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
 TUBBP1 ENSG00000127589,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,3.66 to 6.52
 TUBBP1 ENSG00000127589,No claim that reads are divided or redistributed between gene models,PASS,
@@ -132,7 +134,7 @@ EOGT ENSG00000163378,Signal confidence and effect-size precision recomputed from
 EOGT ENSG00000163378,"Shrinkage collapse affects effect-size precision only, not signal confidence",PASS,
 EOGT ENSG00000163378,Wald interval recomputes from the Phase 6 log2FC and SE,PASS,-1.00 to -0.63
 EOGT ENSG00000163378,No claim that reads are divided or redistributed between gene models,PASS,
-TUBBP1 ENSG00000127589,"TUBBP1: High signal confidence kept, effect-size precision Low, text separates direction from size",PASS,standard error 0.73 >= 0.5 log2 units; low expression in one group (mean 39 < 50 normalised counts); estimate shifts by 1.30 log2 units when A3 is excluded
+TUBBP1 ENSG00000127589,"TUBBP1: Moderate signal confidence (pseudogene caveat only), effect-size precision Low, text separates direction from size",PASS,standard error 0.73 >= 0.5 log2 units; low expression in one group (mean 39 < 50 normalised counts); estimate shifts by 1.30 log2 units when A3 is excluded
 report,Report has no claim that reads are divided or redistributed between gene models,PASS,none found
 report,"Report describes the actual counting workflow (StringTie, prepDE.py, Phase 5 sum)",PASS,
 report,Report defines expression-signal confidence separately from effect-size precision,PASS,
@@ -145,4 +147,4 @@ report,Summary row for MATR3 ENSG00000280987 matches the table,PASS,| C2 | MATR3
 report,Summary row for MATR3 ENSG00000015479 matches the table,PASS,| C2 | MATR3 (overlapping model) | ENSG00000015479.18 | −0.5...
 report,Summary row for STEAP2 ENSG00000157214 matches the table,PASS,| C2 | STEAP2 | ENSG00000157214.14 | 1.11 | 8.73e-23 | highe...
 report,Summary row for EOGT ENSG00000163378 matches the table,PASS,| C2 | EOGT | ENSG00000163378.14 | −0.81 | 7.51e-15 | lower ...
-report,"TUBBP1 section states High signal, Low precision and the table's interval",PASS,12.7x to 91.8x higher
+report,"TUBBP1 section states Moderate signal, Low precision and the table's interval",PASS,12.7x to 91.8x higher

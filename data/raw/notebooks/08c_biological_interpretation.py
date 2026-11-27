@@ -30,6 +30,14 @@ Revision 2026-11-26 (targeted scientific revision)
      estimates -> prepDE.py-derived counts -> Phase 5 plain sum per gene) and the
      resulting potential ambiguity. The report's text is also checked here.
 
+Revision 2026-11-27 (pseudogene expression-signal caveat)
+  3. Pseudogene status now counts as one expression-signal caveat: reads from related
+     parent or paralogous sequences may contribute to a pseudogene's gene-level estimate.
+     Sequence similarity was not assessed, so this is a possible concern, not evidence of
+     misassignment. Effect-size precision and biological-interpretation rules are unchanged.
+     Effect on the nine records: RPSAP15 and TUBBP1 (the only pseudogenes) move from High
+     to Moderate expression-signal confidence.
+
 Rules followed in the interpretation text: differential expression is not treated as
 proof of function or mechanism; pseudogene expression is not treated as protein
 production; MRM2 annotation is not assigned to AC069288.1; the two MATR3 gene models are
@@ -64,6 +72,8 @@ WORKFLOW_NOTE = ("Counting workflow: the data submitters estimated transcript-le
                  "one gene. Neither prepDE.py nor Phase 5 allocates reads between genes. Where transcripts of overlapping "
                  "gene models are compatible with the same reads, any ambiguity lies in StringTie's transcript-level "
                  "estimates, which were not examined here, so the separate gene-level estimates may not be independent.")
+PSEUDO_SIGNAL_CAVEAT = ("pseudogene: reads from related parent or paralogous sequences may contribute "
+                        "(sequence similarity not assessed)")
 OVERLAP_BANNED = re.compile(r"divided between|redistribut|split between|shared out|are divided", re.I)
 
 # ---------------------------------------------------------------------------
@@ -103,7 +113,7 @@ INTERPRETATION = {
         "interp_cannot_conclude": "That a protein is made; that the lncRNA transcript has a function; that the "
             "change has a biological effect.",
         "interp_limitations": PSEUDO_NOTE + " Effect-size precision is low: A3 has a higher value than the "
-            "other two controls, so excluding A3 increases the estimated fold change; High expression-signal "
+            "other two controls, so excluding A3 increases the estimated fold change; expression-signal "
             "confidence refers to the direction and consistency of the change, not its exact size. " + C1_EXPLORATORY,
     },
     "ENSG00000139269": {  # INHBE
@@ -306,6 +316,8 @@ def assign_confidence(r):
             issues.append("not robust to excluding A3")
     if r["fact_gene_model_note"] != "none":
         issues.append("gene-level estimate may be ambiguous (overlapping/readthrough gene models)")
+    if "pseudogene" in r["fact_gene_biotype"]:
+        issues.append(PSEUDO_SIGNAL_CAVEAT)
     de = "High" if not issues else ("Moderate" if len(issues) == 1 else "Low")
 
     fn = r["fact_function_evidence_class"]
@@ -486,6 +498,12 @@ def main():
                   not r["fact_uniprot_accession"] and r["fact_uniprot_function"] == "none"
                   and "No protein function" in r["interp_known_function"]
                   and "That a protein is made" in r["interp_cannot_conclude"])
+            # Revision 3: caveat lowers signal confidence by one step only; precision is untouched
+            check(rec, "Pseudogene: sequence-similarity caveat counted in expression signal only, not in effect-size precision",
+                  PSEUDO_SIGNAL_CAVEAT in r["conf_expression_signal_issues"]
+                  and "pseudogene" not in r["conf_effect_size_precision_issues"]
+                  and r["conf_expression_signal"] != "High",
+                  f'signal {r["conf_expression_signal"]}; issues: {r["conf_expression_signal_issues"]}')
         if g == "ENSG00000286192":
             check(rec, "AC069288.1: no MRM2 annotation used in the interpretation",
                   "methyltransferase" not in interp_text.lower() and "rRNA" not in interp_text
@@ -530,8 +548,10 @@ def main():
             check(rec, "Overlapping/readthrough record: workflow note and 'may not be independent' wording present",
                   WORKFLOW_NOTE in r["interp_limitations"] and "may not be independent" in interp_text)
     tub = next(r for r in rows if r["fact_ensembl_gene_id"] == "ENSG00000127589")
-    check("TUBBP1 ENSG00000127589", "TUBBP1: High signal confidence kept, effect-size precision Low, text separates direction from size",
-          tub["conf_expression_signal"] == "High" and tub["conf_effect_size_precision"] == "Low"
+    check("TUBBP1 ENSG00000127589", "TUBBP1: Moderate signal confidence (pseudogene caveat only), effect-size precision Low, "
+          "text separates direction from size",
+          tub["conf_expression_signal"] == "Moderate" and tub["conf_expression_signal_issues"] == PSEUDO_SIGNAL_CAVEAT
+          and tub["conf_effect_size_precision"] == "Low"
           and "direction of the change is well supported" in tub["interp_expression_change"]
           and "exact size of the change is not well determined" in tub["interp_expression_change"],
           tub["conf_effect_size_precision_issues"])
@@ -557,8 +577,8 @@ def main():
     tub_sec = md[md.index("### 4.2 TUBBP1"):md.index("### 4.3 INHBE")]
     tub_fc = tub["fact_fold_change_95pct_wald_interval"].split(" (")[0]
     lo_fc, hi_fc = re.findall(r"([\d.]+)x", tub_fc)
-    check("report", "TUBBP1 section states High signal, Low precision and the table's interval",
-          "Expression signal: High" in tub_sec and "Effect-size precision: Low" in tub_sec
+    check("report", "TUBBP1 section states Moderate signal, Low precision and the table's interval",
+          "Expression signal: Moderate" in tub_sec and "Effect-size precision: Low" in tub_sec
           and f"{float(lo_fc):.0f}" in tub_sec and f"{float(hi_fc):.0f}" in tub_sec, tub_fc)
 
     fields = list(rows[0].keys())

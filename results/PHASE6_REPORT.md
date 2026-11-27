@@ -11,7 +11,7 @@
 - **A3:** 50.4 M read pairs were sequenced (similar to the others), but only 11.5 M counts were assigned (0.23 per pair). A3's small library is therefore not shallow sequencing: most of its fragments were not assigned to annotated or assembled transcripts. This is further evidence of a technical problem with A3. GEO provides no alignment statistics, so the cause cannot be determined.
 - **Rounding-up bias:** `ceil()` adds less than 1 count per transcript with any coverage, so a gene's count is inflated by less than its number of expressed transcripts. Each DE table reports `max_ceil_inflation_bound` (that number divided by the gene count, maximum over samples). The bias affects both groups in the same way and matters only for low-count genes, which the pre-filter largely removes.
 - **Aggregation:** gene counts are sums of transcript estimates. That is the same operation `prepDE.py` uses to build its gene matrix, and the result reflects reads per gene, not per isoform. An R re-aggregation from the raw file reproduces the Phase 5 matrix exactly.
-- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No methodological problem blocks the analysis.
+- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No execution-blocking issue prevented the analysis from completing. However, optimiser warnings and gene-level assignment limitations remain and should be considered when interpreting the results.
 
 ## 2. Methods
 
@@ -20,7 +20,7 @@
 - Median-of-ratios size factors; dispersions with empirical-Bayes shrinkage; Wald test; Benjamini-Hochberg adjustment with DESeq2 independent filtering; Cook's distance flagging.
 - **Significance: padj < 0.05.** Up/down is set by the sign of the unshrunken (MLE) fold change, the quantity the Wald test evaluates. |LFC| >= 1 is reported as a descriptor of magnitude, not as a significance criterion.
 - apeglm shrinkage is reported as a conservative effect-size estimate. **Its estimated prior scale reached the lower bound (0.001) in C1 and C2** (table below). The genome-wide spread of treatment effects is so small that apeglm shrinks almost every gene to about 0, including some genes the Wald test calls significant. Those genes are flagged `shrinkage_collapsed` (marked † below): the test detects a difference, but its size is uncertain. Because each analysis estimates its own prior, shrunken LFCs are not compared across analyses; the A3 sensitivity check uses MLE LFCs.
-- apeglm optimiser warnings ('line search routine failed'): C1 1, C1 without A3 0, C2 1. Switching to apeglm's alternative optimiser gave essentially the same near-zero estimates, which are consistent with the narrow prior rather than an optimiser failure.
+- apeglm optimiser warnings ('line search routine failed'): C1 1, C1 without A3 0, C2 1. No second optimiser was run to check the shrunken estimates independently. The near-zero shrunken estimates are consistent with the prior scale reaching its lower bound, but an optimiser problem has not been ruled out.
 - VST (blind) for PCA and heatmaps. Seed 42.
 
 ## 3. Results

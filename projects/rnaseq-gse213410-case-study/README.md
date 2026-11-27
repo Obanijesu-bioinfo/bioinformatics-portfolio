@@ -49,6 +49,14 @@ This project did **not** run a raw-read-to-count pipeline. No reads were aligned
 
 Because the counts are estimates, any ambiguity between transcripts from overlapping gene models arises in StringTie's transcript-level estimation. That step was not examined in this project. Details: [PHASE6_REPORT.md, Section 1](../../results/PHASE6_REPORT.md) and [PHASE5_REPORT.md](../../results/PHASE5_REPORT.md).
 
+**Gene-level estimates that may not be independent.** Because gene counts are sums of StringTie transcript estimates, results for some kinds of gene are harder to interpret than others:
+- **pseudogenes**, which resemble the gene they derive from, so reads from the parent gene or similar sequences may contribute;
+- **multicopy gene families**, such as the replication-dependent histone genes, whose copies are very similar;
+- **overlapping gene models**, such as the two MATR3 records ([Section 6.6](#66-the-two-matr3-gene-models)), whose transcripts can be compatible with the same reads;
+- **readthrough models**, which span two or more neighbouring genes.
+
+For these genes, a significant result may partly reflect how StringTie estimated similar or overlapping transcripts, not only a change in that gene's expression. Such results are therefore not treated as independent signals. Read assignment was not examined in this project, and none of these results has been shown to be an artefact. Re-quantifying the raw reads (BioProject PRJNA880672) was outside this project's scope and would be a possible future validation step.
+
 ## 4. Tools and Technologies
 
 - **R:** Statistical analysis and data visualisation.
@@ -119,13 +127,28 @@ The two C1 analyses were compared gene by gene. Source: [C1_A3_sensitivity_summa
 
 Removing A3 changes the C1 results substantially. The primary analysis keeps A3, and the analysis without it is exploratory.
 
+**C1 remains unresolved.**
+- **The two analyses disagree.** With A3 included, 26 genes reach adjusted p < 0.05; with A3 excluded, 215 do. Only 25 genes are significant in both. The Jaccard similarity of the two significant sets is about 0.12 (0.116), and the fold-change correlation is about 0.55.
+- **The analysis without A3 is less reliable.** It is exploratory and is not as reliable as the primary analysis, because it has only two control replicates and A3 was excluded after the QC results had been seen.
+- **No definitive effect.** Neither analysis establishes a definitive transcriptional effect of 5-OXO-ETE in these cells.
+- **The 25 shared genes.** They are the most stable C1 observations, all changing in the same direction, but they are not independently confirmed findings.
+
 ### 6.4 Functional Enrichment
 
 Functional enrichment was performed independently for the three differential-expression analyses.
 
 The GSEA analysis identified significant gene sets across Gene Ontology, KEGG and Reactome databases.
 
-The results suggested associations with biological themes including chromatin organisation, nucleosome-related processes, RNA regulation, cell-cycle activity and DNA repair. Many significant gene sets share the same genes, particularly histone genes, so the number of significant sets overstates the number of distinct signals. Sections 10.6 and 10.7 summarise all significant sets by theme.
+**C1: one overlapping histone signal.** Many of the C1 gene sets that are lower in the treatment group share the same histone genes in their leading edges. They include chromatin, nucleosome, DNA-methylation, rRNA-promoter and disease-named sets. Together they are one overlapping signal (lower histone-gene expression with 5-OXO-ETE), not many independent findings.
+
+**Why the histone signal is uncertain.**
+- Most replication-dependent histone mRNAs are not polyadenylated. How strongly they are measured therefore depends on the library protocol: poly(A) selection or rRNA depletion.
+- The SRA run records in this repository list library selection only as "cDNA", so the protocol cannot be confirmed.
+- As a result, the data do not separate a technical explanation from a biological one.
+
+**C2.** In C2, histone-dominated sets are mostly *higher* with Calcitriol, alongside cell-cycle and DNA-repair sets. These also overlap through shared genes.
+
+Sections 10.6 and 10.7 summarise all significant sets by theme.
 
 These findings are hypothesis-generating. They do not establish that the treatments activate or inhibit these pathways.
 
@@ -139,8 +162,8 @@ Phase 8 annotated eight genes from the significant differential-expression resul
 
 | Comparison | Gene (Ensembl ID) | Annotation | log2FC | Adjusted p | Expression signal | Effect-size precision | Interpretation confidence |
 |---|---|---|---:|---:|---|---|---|
-| C1 | RPSAP15 (ENSG00000237506) | Processed pseudogene | 1.39 | 1.73e-10 | High | Good | Very low |
-| C1 | TUBBP1 (ENSG00000127589) | Transcribed processed pseudogene | 5.09 | 2.75e-08 | High | Low | Very low |
+| C1 | RPSAP15 (ENSG00000237506) | Processed pseudogene | 1.39 | 1.73e-10 | Moderate | Good | Very low |
+| C1 | TUBBP1 (ENSG00000127589) | Transcribed processed pseudogene | 5.09 | 2.75e-08 | Moderate | Low | Very low |
 | C1 | INHBE (ENSG00000139269) | Protein coding; reviewed UniProt record P58166 | −1.67 | 3.17e-08 | High | Good | Moderate |
 | C1 | AC069288.1 (ENSG00000286192) | Novel readthrough gene model; no known function | −3.48 | 8.17e-08 | Moderate | Low | Very low |
 | C2 | SFT2D2 (ENSG00000213064) | Protein coding; function by similarity only | 2.61 | 1.52e-46 | High | Good | Low |
@@ -153,11 +176,11 @@ log2FC is the unshrunken DESeq2 estimate, treated vs control, within each compar
 
 **Interpretation cautions:**
 
-- **Pseudogenes (RPSAP15, TUBBP1).** A change in signal assigned to a pseudogene is not evidence that a protein is made. Some reads may come from the related parent genes. TUBBP1's increase is well supported in direction, but its size is imprecise (approximate 95% interval 13- to 92-fold) because the control baseline is very low.
+- **Pseudogenes (RPSAP15, TUBBP1).** A change in signal assigned to a pseudogene is not evidence that a protein is made. Some reads may come from the related parent genes, so both are rated Moderate rather than High for expression signal. Sequence similarity was not assessed. TUBBP1's increase is well supported in direction, but its size is imprecise (approximate 95% interval 13- to 92-fold) because the control baseline is very low.
 - **Readthrough and novel models (AC069288.1).** This model has no known function. Its only UniProt cross-reference is an unreviewed record that was not used. It overlaps MAD1L1 and MRM2, so its estimate may not be independent of theirs.
 - **Unreviewed or similarity-based annotation.** The function annotation for SFT2D2, STEAP2 and the primary MATR3 record rests on similarity or automatic annotation, not on experiments on the protein.
 - **RNA is not protein.** No record shows a change in protein, activity or function. No record is rated High for interpretation confidence.
-- **A3.** All four C1 records stay significant in the same direction without A3. That analysis is exploratory.
+- **A3.** All four C1 records stay significant in the same direction without A3. That analysis is exploratory, with only two controls, so this shows consistency, not independent confirmation.
 
 ### 6.6 The Two MATR3 Gene Models
 
@@ -184,6 +207,7 @@ Important limitations encountered during this project included:
 - Excluding A3 reduced the C1 control group to two replicates.
 - The 27,832 novel StringTie transcripts (TCONS), holding 6.5% of counts, have no Ensembl annotation and were excluded from the gene-level matrix. All Ensembl (ENST) transcripts were mapped.
 - Counts are StringTie coverage-derived estimates supplied by the submitters, not unique-read counts produced in this project. How StringTie handled reads shared by overlapping gene models was not examined.
+- Gene-level estimates for pseudogenes, multicopy families, overlapping gene models and readthrough models may not be independent signals ([Section 3.1](#31-where-the-counts-came-from)). Raw-read re-quantification, which could test this, was outside the project's scope.
 - Functional enrichment results depended on the available annotation databases and their versions.
 - Some enriched pathways shared many of the same genes, creating redundancy.
 - The experiments involved individual cell models and a single 24-hour treatment time point.
@@ -217,15 +241,19 @@ The analysis scripts, output tables, figures and technical reports are maintaine
 | Phase | Script | Report | Key tables | Validation |
 |---|---|---|---|---|
 | 1–2. Setup and exploration | [01_dataset_inspection.py](../../data/raw/notebooks/01_dataset_inspection.py), [02_dataset_exploration.py](../../data/raw/notebooks/02_dataset_exploration.py) | – | – | – |
-| 3. Quality control | [03_rnaseq_quality_control.py](../../data/raw/notebooks/03_rnaseq_quality_control.py) | – | [sample_qc_metrics.csv](../../results/tables/sample_qc_metrics.csv), [count_provenance_check.csv](../../results/tables/count_provenance_check.csv) | – |
-| 4. Metadata and design | [04_sample_metadata.py](../../data/raw/notebooks/04_sample_metadata.py) | – | [sample_metadata.csv](../../data/metadata/sample_metadata.csv), [experimental_design_summary.csv](../../results/tables/experimental_design_summary.csv) | [metadata_validation_report.csv](../../results/tables/metadata_validation_report.csv) |
+| 3. Quality control | [03_rnaseq_quality_control.py](../../data/raw/notebooks/03_rnaseq_quality_control.py) | – | [sample_qc_metrics.csv](../../results/tables/sample_qc_metrics.csv) | – |
+| 4. Metadata and design | [04_sample_metadata.py](../../data/raw/notebooks/04_sample_metadata.py); input: curated [sample_metadata.csv](../../data/metadata/sample_metadata.csv) | – | [sample_metadata_annotated.csv](../../results/tables/sample_metadata_annotated.csv), [experimental_design_summary.csv](../../results/tables/experimental_design_summary.csv), [metadata_overview.csv](../../results/tables/metadata_overview.csv), [design_correlation_consistency.csv](../../results/tables/design_correlation_consistency.csv) | [metadata_validation_report.csv](../../results/tables/metadata_validation_report.csv) |
 | 5. Gene aggregation | [05_transcript_to_gene_aggregation.py](../../data/raw/notebooks/05_transcript_to_gene_aggregation.py) | [PHASE5_REPORT.md](../../results/PHASE5_REPORT.md) | [transcript_mapping_summary.csv](../../results/tables/transcript_mapping_summary.csv), [gene_level_A3_sensitivity.csv](../../results/tables/gene_level_A3_sensitivity.csv) | [phase5_validation_report.csv](../../results/tables/phase5_validation_report.csv) |
-| 6. Differential expression | [06_differential_expression_analysis.R](../../data/raw/notebooks/06_differential_expression_analysis.R) | [PHASE6_REPORT.md](../../results/PHASE6_REPORT.md) | [phase6_de_summary.csv](../../results/tables/phase6_de_summary.csv), [C1_differential_expression.csv](../../results/tables/C1_differential_expression.csv), [C2_differential_expression.csv](../../results/tables/C2_differential_expression.csv), [C1_A3_sensitivity_summary.csv](../../results/tables/C1_A3_sensitivity_summary.csv) | [phase6_validation_report.csv](../../results/tables/phase6_validation_report.csv) |
+| 6. Differential expression | [06_differential_expression_analysis.R](../../data/raw/notebooks/06_differential_expression_analysis.R) | [PHASE6_REPORT.md](../../results/PHASE6_REPORT.md) | [phase6_de_summary.csv](../../results/tables/phase6_de_summary.csv), [C1_differential_expression.csv](../../results/tables/C1_differential_expression.csv), [C2_differential_expression.csv](../../results/tables/C2_differential_expression.csv), [C1_A3_sensitivity_summary.csv](../../results/tables/C1_A3_sensitivity_summary.csv), [count_provenance_check.csv](../../results/tables/count_provenance_check.csv) | [phase6_validation_report.csv](../../results/tables/phase6_validation_report.csv) |
 | 7. Enrichment | [07_functional_enrichment.R](../../data/raw/notebooks/07_functional_enrichment.R) | [PHASE7_REPORT.md](../../results/PHASE7_REPORT.md) | [phase7_enrichment_summary.csv](../../results/tables/phase7_enrichment_summary.csv), [phase7_database_versions.csv](../../results/tables/phase7_database_versions.csv) | [phase7_validation_report.csv](../../results/tables/phase7_validation_report.csv) |
 | 8. Gene annotation | [08_gene_annotation_retrieval.py](../../data/raw/notebooks/08_gene_annotation_retrieval.py) | [PHASE8_ANNOTATION_PROVENANCE.md](../../results/PHASE8_ANNOTATION_PROVENANCE.md) | [phase8_target_gene_annotation.csv](../../results/tables/phase8_target_gene_annotation.csv) | [08_validate_gene_annotation.py](../../data/raw/notebooks/08_validate_gene_annotation.py) → [phase8_annotation_validation.csv](../../results/tables/phase8_annotation_validation.csv) |
 | 8. Functional annotation | [08b_uniprot_functional_annotation.py](../../data/raw/notebooks/08b_uniprot_functional_annotation.py) | [PHASE8_FUNCTIONAL_ANNOTATION_PROVENANCE.md](../../results/PHASE8_FUNCTIONAL_ANNOTATION_PROVENANCE.md) | [phase8_functional_annotation.csv](../../results/tables/phase8_functional_annotation.csv), [phase8_uniprot_mapping.csv](../../results/tables/phase8_uniprot_mapping.csv) | [phase8_functional_validation.csv](../../results/tables/phase8_functional_validation.csv) |
 | 8. Interpretation | [08c_biological_interpretation.py](../../data/raw/notebooks/08c_biological_interpretation.py) | [PHASE8_BIOLOGICAL_INTERPRETATION.md](../../results/PHASE8_BIOLOGICAL_INTERPRETATION.md) | [phase8_gene_interpretation.csv](../../results/tables/phase8_gene_interpretation.csv) | [phase8_gene_interpretation_validation.csv](../../results/tables/phase8_gene_interpretation_validation.csv) |
-| Case-study figures | [make_figure_01_assigned_counts.py](scripts/make_figure_01_assigned_counts.py), [make_case_study_figures.py](scripts/make_case_study_figures.py) | This README | [gsea_theme_summary.csv](tables/gsea_theme_summary.csv), [gsea_theme_assignments.csv](tables/gsea_theme_assignments.csv), [gsea_histone_threshold_sensitivity.csv](tables/gsea_histone_threshold_sensitivity.csv) | [validate_case_study_readme.py](scripts/validate_case_study_readme.py) |
+| Case-study figures | [make_figure_01_assigned_counts.py](scripts/make_figure_01_assigned_counts.py), [make_case_study_figures.py](scripts/make_case_study_figures.py) | This README | Outputs: [gsea_theme_summary.csv](tables/gsea_theme_summary.csv), [gsea_theme_assignments.csv](tables/gsea_theme_assignments.csv), [gsea_histone_threshold_sensitivity.csv](tables/gsea_histone_threshold_sensitivity.csv) and the figures in [figures/](figures/) | [validate_case_study_readme.py](scripts/validate_case_study_readme.py) |
+
+**Inputs read by the case-study scripts** (read only; neither script modifies them):
+- `make_figure_01_assigned_counts.py`: the raw GEO transcript count matrix [GSE213410_transcripts.readcount.txt.gz](../../data/raw/GSE213410_transcripts.readcount.txt.gz) and the Phase 6 table [count_provenance_check.csv](../../results/tables/count_provenance_check.csv).
+- `make_case_study_figures.py`: the curated [sample_metadata.csv](../../data/metadata/sample_metadata.csv); from Phase 5, [gene_level_counts.csv](../../results/tables/gene_level_counts.csv) and [gene_level_A3_sensitivity.csv](../../results/tables/gene_level_A3_sensitivity.csv); from Phase 6, [C1_differential_expression.csv](../../results/tables/C1_differential_expression.csv), [C2_differential_expression.csv](../../results/tables/C2_differential_expression.csv), [phase6_de_summary.csv](../../results/tables/phase6_de_summary.csv), [C1_A3_sensitivity_comparison.csv](../../results/tables/C1_A3_sensitivity_comparison.csv) and [C1_A3_sensitivity_summary.csv](../../results/tables/C1_A3_sensitivity_summary.csv); from Phase 7, [phase7_C1_GSEA_results.csv](../../results/tables/phase7_C1_GSEA_results.csv) and [phase7_C2_GSEA_results.csv](../../results/tables/phase7_C2_GSEA_results.csv); from Phase 8, [phase8_gene_interpretation.csv](../../results/tables/phase8_gene_interpretation.csv). It does not read the raw GEO matrix.
 
 The full set of phase figures is in [results/figures/](../../results/figures/). The case-study figures are in [figures/](figures/). Figures with a "b" suffix are improved presentation versions. The originals are kept unchanged.
 
@@ -233,7 +261,7 @@ Most numerical claims in this README are checked against machine-readable output
 
 ### 9.1 Regenerating the case-study figures and validating this README
 
-These steps regenerate only the presentation outputs in this folder. They do not re-run the Phase 1–8 analysis, and they read the saved Phase 5–8 result tables without changing them.
+Steps 1 and 2 regenerate only selected presentation figures and summary tables in this folder. They do not reproduce the Phase 1–8 analysis, which is run by the phase scripts listed above. They read the inputs listed in Section 9 (the raw GEO matrix, the curated metadata and saved Phase 5–8 result tables) without changing them. Step 3 only runs checks.
 
 **Environment used.** The outputs in this repository were produced with:
 - Python 3.15.2, with pandas 3.1.1, numpy 2.5.5, matplotlib 3.11.2 and scikit-learn 1.9.1;
@@ -252,7 +280,7 @@ No lock file pins these versions, and other versions have not been tested. On sy
    python projects/rnaseq-gse213410-case-study/scripts/make_figure_01_assigned_counts.py
    ```
 
-   It reads `data/raw/GSE213410_transcripts.readcount.txt.gz` and **overwrites** `figures/01_library_sizes.png` with the same values. It stops if its totals differ from `results/tables/count_provenance_check.csv`.
+   It reads `data/raw/GSE213410_transcripts.readcount.txt.gz` and stops if its totals differ from `results/tables/count_provenance_check.csv`. Otherwise it **overwrites** `figures/01_library_sizes.png` in this folder directly, without a backup. It does not write to the separate Phase 3 figure in `results/figures/`. Step 3 compares this file byte for byte with the version committed at `HEAD`. A different matplotlib version or font can change the PNG bytes without changing any plotted value, and step 3 then fails. If the redrawn file is not worth keeping and you have no other uncommitted changes to it, `git restore projects/rnaseq-gse213410-case-study/figures/01_library_sizes.png` brings back the committed version.
 
 2. Regenerate the "b" figures and the theme tables. Write them to a separate folder first, to check them without touching the repository:
 
@@ -260,11 +288,13 @@ No lock file pins these versions, and other versions have not been tested. On sy
    python projects/rnaseq-gse213410-case-study/scripts/make_case_study_figures.py <output-folder>
    ```
 
-   Without an argument, the script writes into `figures/` and `tables/` here, and **refuses to run if any of its outputs already exist**. To regenerate in place, delete only these files first:
-   - `figures/11b_*`, `13b_*`, `14b_*`, `25b_*`, `27b_*` and `30b_*`;
-   - `tables/gsea_theme_assignments.csv`, `gsea_theme_summary.csv` and `gsea_histone_threshold_sensitivity.csv`.
+   A relative `<output-folder>` is resolved against the current working directory, not the repository root. The folder is created if needed.
 
-   Never delete the original figures (names without "b"); the script cannot recreate them. The script stops if any built-in data check fails.
+   Without an argument, the script writes into `figures/` and `tables/` here. It **refuses to run if any of its outputs already exist** in the target folder, and it creates each file in exclusive mode, so it never overwrites. To regenerate in place, delete only these exact files first:
+   - `figures/11b_gene_level_pca_accessible.png`, `figures/13b_C1_volcano_phase8_targets.png`, `figures/14b_C2_volcano_phase8_targets.png`, `figures/25b_C1_A3_sensitivity_LFC_comparison_denominator.png`, `figures/27b_C1_GSEA_theme_summary.png` and `figures/30b_C2_GSEA_theme_summary.png`;
+   - `tables/gsea_theme_assignments.csv`, `tables/gsea_theme_summary.csv` and `tables/gsea_histone_threshold_sensitivity.csv`.
+
+   The script stops if any built-in data check fails. Files written by earlier steps remain after a failed run, so delete whichever of the files listed above exist before running it again. Never delete the original figures (names without "b") or anything under `results/`; this script cannot recreate them.
 
 3. Validate the README:
 
@@ -301,7 +331,7 @@ Only the four Phase 8 targets are labelled, each with its annotation and interpr
 - **AC069288.1:** a novel readthrough gene model with no known function.
 - **INHBE:** the only C1 target with experimentally supported function. In C2, EOGT and the overlapping MATR3 record (ENSG00000015479) also have experimental support.
 
-With three replicates per group and A3 in the control group, these results should be read with the quality-control caveats in Section 6.1. The original figure, with the 12 most significant genes labelled, is [Supplementary S2](#108-supplementary-figures).
+With three replicates per group and A3 in the control group, these results should be read with the quality-control caveats in Section 6.1. C1 remains unresolved ([Section 6.3](#63-a3-sensitivity-analysis-c1)). The original figure, with the 12 most significant genes labelled, is [Supplementary S2](#108-supplementary-figures).
 
 ### 10.4 Differential expression: Calcitriol vs DMSO control (C2)
 
@@ -319,7 +349,7 @@ Each point is one of the **19,594 genes retained after prefiltering in both C1 a
 
 Of the significant genes, 25 were significant in both analyses, 1 only with A3 included and 190 only with A3 excluded. Of those 190, 181 are plotted. The other 9 passed prefiltering only in the analysis without A3, so they have no estimate with A3.
 
-Removing A3 therefore changes the C1 results substantially. The A3-excluded analysis remains exploratory, because it has only two control replicates and the exclusion decision was informed by the QC results. The original figure's legend counted all 190 genes although only 181 are drawn. This version states the denominator explicitly. The original is [Supplementary S4](#108-supplementary-figures).
+Removing A3 therefore changes the C1 results substantially. The A3-excluded analysis remains exploratory, because it has only two control replicates and the exclusion decision was informed by the QC results. It is not as reliable as the primary analysis, and neither analysis establishes a definitive C1 effect ([Section 6.3](#63-a3-sensitivity-analysis-c1)). The original figure's legend counted all 190 genes although only 181 are drawn. This version states the denominator explicitly. The original is [Supplementary S4](#108-supplementary-figures).
 
 ### 10.6 GSEA themes: C1 comparison
 
@@ -367,6 +397,13 @@ The original versions are kept unchanged, for reference and for full detail.
 ## 11. Conclusion
 
 This project provided practical experience in the analysis of RNA-sequencing data, from the supplied transcript count estimates through quality control, differential expression and functional enrichment to the annotation and cautious interpretation of selected genes.
+
+**Relative strength of the two comparisons.**
+- **C2 is better supported than C1.** All six C2 samples passed quality control, and the C2 result does not depend on excluding a sample.
+- **C2 still has limits.** It rests on three replicates per group at a single time point. Its groups do not separate on the first two principal components. No ORA term was significant. Some of its strongest results involve overlapping gene models, such as the two MATR3 records.
+- **C1 remains unresolved,** because its results change substantially depending on whether the QC outlier A3 is included ([Section 6.3](#63-a3-sensitivity-analysis-c1)).
+
+Both comparisons are hypothesis-generating.
 
 It also demonstrated the importance of sample quality control, appropriate experimental comparisons, annotation consistency and provenance, reproducibility and cautious interpretation of computational results.
 
