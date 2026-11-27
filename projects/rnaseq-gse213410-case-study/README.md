@@ -127,13 +127,28 @@ The two C1 analyses were compared gene by gene. Source: [C1_A3_sensitivity_summa
 
 Removing A3 changes the C1 results substantially. The primary analysis keeps A3, and the analysis without it is exploratory.
 
+**C1 remains unresolved.**
+- **The two analyses disagree.** With A3 included, 26 genes reach adjusted p < 0.05; with A3 excluded, 215 do. Only 25 genes are significant in both. The Jaccard similarity of the two significant sets is about 0.12 (0.116), and the fold-change correlation is about 0.55.
+- **The analysis without A3 is less reliable.** It is exploratory and is not as reliable as the primary analysis, because it has only two control replicates and A3 was excluded after the QC results had been seen.
+- **No definitive effect.** Neither analysis establishes a definitive transcriptional effect of 5-OXO-ETE in these cells.
+- **The 25 shared genes.** They are the most stable C1 observations, all changing in the same direction, but they are not independently confirmed findings.
+
 ### 6.4 Functional Enrichment
 
 Functional enrichment was performed independently for the three differential-expression analyses.
 
 The GSEA analysis identified significant gene sets across Gene Ontology, KEGG and Reactome databases.
 
-The results suggested associations with biological themes including chromatin organisation, nucleosome-related processes, RNA regulation, cell-cycle activity and DNA repair. Many significant gene sets share the same genes, particularly histone genes, so the number of significant sets overstates the number of distinct signals. Sections 10.6 and 10.7 summarise all significant sets by theme.
+**C1: one overlapping histone signal.** Many of the C1 gene sets that are lower in the treatment group share the same histone genes in their leading edges. They include chromatin, nucleosome, DNA-methylation, rRNA-promoter and disease-named sets. Together they are one overlapping signal (lower histone-gene expression with 5-OXO-ETE), not many independent findings.
+
+**Why the histone signal is uncertain.**
+- Most replication-dependent histone mRNAs are not polyadenylated. How strongly they are measured therefore depends on the library protocol: poly(A) selection or rRNA depletion.
+- The SRA run records in this repository list library selection only as "cDNA", so the protocol cannot be confirmed.
+- As a result, the data do not separate a technical explanation from a biological one.
+
+**C2.** In C2, histone-dominated sets are mostly *higher* with Calcitriol, alongside cell-cycle and DNA-repair sets. These also overlap through shared genes.
+
+Sections 10.6 and 10.7 summarise all significant sets by theme.
 
 These findings are hypothesis-generating. They do not establish that the treatments activate or inhibit these pathways.
 
@@ -165,7 +180,7 @@ log2FC is the unshrunken DESeq2 estimate, treated vs control, within each compar
 - **Readthrough and novel models (AC069288.1).** This model has no known function. Its only UniProt cross-reference is an unreviewed record that was not used. It overlaps MAD1L1 and MRM2, so its estimate may not be independent of theirs.
 - **Unreviewed or similarity-based annotation.** The function annotation for SFT2D2, STEAP2 and the primary MATR3 record rests on similarity or automatic annotation, not on experiments on the protein.
 - **RNA is not protein.** No record shows a change in protein, activity or function. No record is rated High for interpretation confidence.
-- **A3.** All four C1 records stay significant in the same direction without A3. That analysis is exploratory.
+- **A3.** All four C1 records stay significant in the same direction without A3. That analysis is exploratory, with only two controls, so this shows consistency, not independent confirmation.
 
 ### 6.6 The Two MATR3 Gene Models
 
@@ -316,7 +331,7 @@ Only the four Phase 8 targets are labelled, each with its annotation and interpr
 - **AC069288.1:** a novel readthrough gene model with no known function.
 - **INHBE:** the only C1 target with experimentally supported function. In C2, EOGT and the overlapping MATR3 record (ENSG00000015479) also have experimental support.
 
-With three replicates per group and A3 in the control group, these results should be read with the quality-control caveats in Section 6.1. The original figure, with the 12 most significant genes labelled, is [Supplementary S2](#108-supplementary-figures).
+With three replicates per group and A3 in the control group, these results should be read with the quality-control caveats in Section 6.1. C1 remains unresolved ([Section 6.3](#63-a3-sensitivity-analysis-c1)). The original figure, with the 12 most significant genes labelled, is [Supplementary S2](#108-supplementary-figures).
 
 ### 10.4 Differential expression: Calcitriol vs DMSO control (C2)
 
@@ -334,7 +349,7 @@ Each point is one of the **19,594 genes retained after prefiltering in both C1 a
 
 Of the significant genes, 25 were significant in both analyses, 1 only with A3 included and 190 only with A3 excluded. Of those 190, 181 are plotted. The other 9 passed prefiltering only in the analysis without A3, so they have no estimate with A3.
 
-Removing A3 therefore changes the C1 results substantially. The A3-excluded analysis remains exploratory, because it has only two control replicates and the exclusion decision was informed by the QC results. The original figure's legend counted all 190 genes although only 181 are drawn. This version states the denominator explicitly. The original is [Supplementary S4](#108-supplementary-figures).
+Removing A3 therefore changes the C1 results substantially. The A3-excluded analysis remains exploratory, because it has only two control replicates and the exclusion decision was informed by the QC results. It is not as reliable as the primary analysis, and neither analysis establishes a definitive C1 effect ([Section 6.3](#63-a3-sensitivity-analysis-c1)). The original figure's legend counted all 190 genes although only 181 are drawn. This version states the denominator explicitly. The original is [Supplementary S4](#108-supplementary-figures).
 
 ### 10.6 GSEA themes: C1 comparison
 
@@ -382,6 +397,13 @@ The original versions are kept unchanged, for reference and for full detail.
 ## 11. Conclusion
 
 This project provided practical experience in the analysis of RNA-sequencing data, from the supplied transcript count estimates through quality control, differential expression and functional enrichment to the annotation and cautious interpretation of selected genes.
+
+**Relative strength of the two comparisons.**
+- **C2 is better supported than C1.** All six C2 samples passed quality control, and the C2 result does not depend on excluding a sample.
+- **C2 still has limits.** It rests on three replicates per group at a single time point. Its groups do not separate on the first two principal components. No ORA term was significant. Some of its strongest results involve overlapping gene models, such as the two MATR3 records.
+- **C1 remains unresolved,** because its results change substantially depending on whether the QC outlier A3 is included ([Section 6.3](#63-a3-sensitivity-analysis-c1)).
+
+Both comparisons are hypothesis-generating.
 
 It also demonstrated the importance of sample quality control, appropriate experimental comparisons, annotation consistency and provenance, reproducibility and cautious interpretation of computational results.
 
