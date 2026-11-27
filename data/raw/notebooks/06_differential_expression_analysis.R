@@ -678,7 +678,7 @@ report <- c(
           a3_prov$spots / 1e6, a3_prov$transcript_level_counts / 1e6, a3_prov$counts_per_read_pair),
   "- **Rounding-up bias:** `ceil()` adds less than 1 count per transcript with any coverage, so a gene's count is inflated by less than its number of expressed transcripts. Each DE table reports `max_ceil_inflation_bound` (that number divided by the gene count, maximum over samples). The bias affects both groups in the same way and matters only for low-count genes, which the pre-filter largely removes.",
   "- **Aggregation:** gene counts are sums of transcript estimates. That is the same operation `prepDE.py` uses to build its gene matrix, and the result reflects reads per gene, not per isoform. An R re-aggregation from the raw file reproduces the Phase 5 matrix exactly.",
-  "- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No methodological problem blocks the analysis.",
+  "- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No execution-blocking issue prevented the analysis from completing. However, optimiser warnings and gene-level assignment limitations remain and should be considered when interpreting the results.",
   "",
   "## 2. Methods",
   "",
