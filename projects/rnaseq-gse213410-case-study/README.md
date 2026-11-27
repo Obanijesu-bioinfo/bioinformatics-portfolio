@@ -49,6 +49,14 @@ This project did **not** run a raw-read-to-count pipeline. No reads were aligned
 
 Because the counts are estimates, any ambiguity between transcripts from overlapping gene models arises in StringTie's transcript-level estimation. That step was not examined in this project. Details: [PHASE6_REPORT.md, Section 1](../../results/PHASE6_REPORT.md) and [PHASE5_REPORT.md](../../results/PHASE5_REPORT.md).
 
+**Gene-level estimates that may not be independent.** Because gene counts are sums of StringTie transcript estimates, results for some kinds of gene are harder to interpret than others:
+- **pseudogenes**, which resemble the gene they derive from, so reads from the parent gene or similar sequences may contribute;
+- **multicopy gene families**, such as the replication-dependent histone genes, whose copies are very similar;
+- **overlapping gene models**, such as the two MATR3 records ([Section 6.6](#66-the-two-matr3-gene-models)), whose transcripts can be compatible with the same reads;
+- **readthrough models**, which span two or more neighbouring genes.
+
+For these genes, a significant result may partly reflect how StringTie estimated similar or overlapping transcripts, not only a change in that gene's expression. Such results are therefore not treated as independent signals. Read assignment was not examined in this project, and none of these results has been shown to be an artefact. Re-quantifying the raw reads (BioProject PRJNA880672) was outside this project's scope and would be a possible future validation step.
+
 ## 4. Tools and Technologies
 
 - **R:** Statistical analysis and data visualisation.
@@ -139,8 +147,8 @@ Phase 8 annotated eight genes from the significant differential-expression resul
 
 | Comparison | Gene (Ensembl ID) | Annotation | log2FC | Adjusted p | Expression signal | Effect-size precision | Interpretation confidence |
 |---|---|---|---:|---:|---|---|---|
-| C1 | RPSAP15 (ENSG00000237506) | Processed pseudogene | 1.39 | 1.73e-10 | High | Good | Very low |
-| C1 | TUBBP1 (ENSG00000127589) | Transcribed processed pseudogene | 5.09 | 2.75e-08 | High | Low | Very low |
+| C1 | RPSAP15 (ENSG00000237506) | Processed pseudogene | 1.39 | 1.73e-10 | Moderate | Good | Very low |
+| C1 | TUBBP1 (ENSG00000127589) | Transcribed processed pseudogene | 5.09 | 2.75e-08 | Moderate | Low | Very low |
 | C1 | INHBE (ENSG00000139269) | Protein coding; reviewed UniProt record P58166 | −1.67 | 3.17e-08 | High | Good | Moderate |
 | C1 | AC069288.1 (ENSG00000286192) | Novel readthrough gene model; no known function | −3.48 | 8.17e-08 | Moderate | Low | Very low |
 | C2 | SFT2D2 (ENSG00000213064) | Protein coding; function by similarity only | 2.61 | 1.52e-46 | High | Good | Low |
@@ -153,7 +161,7 @@ log2FC is the unshrunken DESeq2 estimate, treated vs control, within each compar
 
 **Interpretation cautions:**
 
-- **Pseudogenes (RPSAP15, TUBBP1).** A change in signal assigned to a pseudogene is not evidence that a protein is made. Some reads may come from the related parent genes. TUBBP1's increase is well supported in direction, but its size is imprecise (approximate 95% interval 13- to 92-fold) because the control baseline is very low.
+- **Pseudogenes (RPSAP15, TUBBP1).** A change in signal assigned to a pseudogene is not evidence that a protein is made. Some reads may come from the related parent genes, so both are rated Moderate rather than High for expression signal. Sequence similarity was not assessed. TUBBP1's increase is well supported in direction, but its size is imprecise (approximate 95% interval 13- to 92-fold) because the control baseline is very low.
 - **Readthrough and novel models (AC069288.1).** This model has no known function. Its only UniProt cross-reference is an unreviewed record that was not used. It overlaps MAD1L1 and MRM2, so its estimate may not be independent of theirs.
 - **Unreviewed or similarity-based annotation.** The function annotation for SFT2D2, STEAP2 and the primary MATR3 record rests on similarity or automatic annotation, not on experiments on the protein.
 - **RNA is not protein.** No record shows a change in protein, activity or function. No record is rated High for interpretation confidence.
@@ -184,6 +192,7 @@ Important limitations encountered during this project included:
 - Excluding A3 reduced the C1 control group to two replicates.
 - The 27,832 novel StringTie transcripts (TCONS), holding 6.5% of counts, have no Ensembl annotation and were excluded from the gene-level matrix. All Ensembl (ENST) transcripts were mapped.
 - Counts are StringTie coverage-derived estimates supplied by the submitters, not unique-read counts produced in this project. How StringTie handled reads shared by overlapping gene models was not examined.
+- Gene-level estimates for pseudogenes, multicopy families, overlapping gene models and readthrough models may not be independent signals ([Section 3.1](#31-where-the-counts-came-from)). Raw-read re-quantification, which could test this, was outside the project's scope.
 - Functional enrichment results depended on the available annotation databases and their versions.
 - Some enriched pathways shared many of the same genes, creating redundancy.
 - The experiments involved individual cell models and a single 24-hour treatment time point.
