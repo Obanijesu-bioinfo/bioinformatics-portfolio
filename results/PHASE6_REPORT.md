@@ -20,7 +20,7 @@
 - Median-of-ratios size factors; dispersions with empirical-Bayes shrinkage; Wald test; Benjamini-Hochberg adjustment with DESeq2 independent filtering; Cook's distance flagging.
 - **Significance: padj < 0.05.** Up/down is set by the sign of the unshrunken (MLE) fold change, the quantity the Wald test evaluates. |LFC| >= 1 is reported as a descriptor of magnitude, not as a significance criterion.
 - apeglm shrinkage is reported as a conservative effect-size estimate. **Its estimated prior scale reached the lower bound (0.001) in C1 and C2** (table below). The genome-wide spread of treatment effects is so small that apeglm shrinks almost every gene to about 0, including some genes the Wald test calls significant. Those genes are flagged `shrinkage_collapsed` (marked † below): the test detects a difference, but its size is uncertain. Because each analysis estimates its own prior, shrunken LFCs are not compared across analyses; the A3 sensitivity check uses MLE LFCs.
-- apeglm optimiser warnings ('line search routine failed'): C1 1, C1 without A3 0, C2 1. Switching to apeglm's alternative optimiser gave essentially the same near-zero estimates, which are consistent with the narrow prior rather than an optimiser failure.
+- apeglm optimiser warnings ('line search routine failed'): C1 1, C1 without A3 0, C2 1. No second optimiser was run to check the shrunken estimates independently. The near-zero shrunken estimates are consistent with the prior scale reaching its lower bound, but an optimiser problem has not been ruled out.
 - VST (blind) for PCA and heatmaps. Seed 42.
 
 ## 3. Results
