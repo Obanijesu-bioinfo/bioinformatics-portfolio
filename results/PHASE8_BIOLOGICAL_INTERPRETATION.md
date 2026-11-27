@@ -37,6 +37,7 @@ Three separate confidence ratings are used. Each is assigned by written rules in
 2. |log2FC| < 1 (a modest change).
 3. For C1 only: not significant, or a different direction, without A3.
 4. The gene-level estimate may be ambiguous because the gene model is a readthrough model or overlaps another target record.
+5. The gene is a pseudogene. Reads from related parent or paralogous sequences may contribute to its gene-level estimate. Sequence similarity was not assessed, so this is a possible concern, not evidence that reads were misassigned.
 
 The rating is **High** with no caveats, **Moderate** with one, and **Low** with two or more.
 
@@ -83,8 +84,8 @@ These details matter for genes whose models overlap.
 
 | Comparison | Gene | Ensembl gene ID | log2FC | Adjusted p | Direction | UniProt | Expression signal | Effect-size precision | Interpretation confidence |
 |---|---|---|---|---|---|---|---|---|---|
-| C1 | RPSAP15 | ENSG00000237506.3 | 1.39 | 1.73e-10 | higher | none (pseudogene) | High | Good | Very low |
-| C1 | TUBBP1 | ENSG00000127589.4 | 5.09 | 2.75e-08 | higher | none (pseudogene) | High | Low | Very low |
+| C1 | RPSAP15 | ENSG00000237506.3 | 1.39 | 1.73e-10 | higher | none (pseudogene) | Moderate | Good | Very low |
+| C1 | TUBBP1 | ENSG00000127589.4 | 5.09 | 2.75e-08 | higher | none (pseudogene) | Moderate | Low | Very low |
 | C1 | INHBE | ENSG00000139269.3 | −1.67 | 3.17e-08 | lower | P58166 (reviewed) | High | Good | Moderate |
 | C1 | AC069288.1 | ENSG00000286192.1 | −3.48 | 8.17e-08 | lower | A0A3B3ITW8 (unreviewed; not used for function) | Moderate | Low | Very low |
 | C2 | SFT2D2 | ENSG00000213064.10 | 2.61 | 1.52e-46 | higher | O95562 (reviewed) | High | Good | Low |
@@ -127,7 +128,7 @@ Something in the treated cells is producing more RNA that matches this pseudogen
 **What we cannot conclude.**
 That any protein is made, that the change has a biological effect, or where the reads truly come from. GEO provides only counts, so read-level assignment cannot be checked.
 
-**Confidence.** Expression signal: High. Effect-size precision: Good. Biological interpretation: Very low, because this is a pseudogene with no protein function.
+**Confidence.** Expression signal: Moderate. The change is strong and consistent, but this is a pseudogene, so reads from the related parent gene or similar sequences may contribute (sequence similarity was not assessed). Effect-size precision: Good. Biological interpretation: Very low, because this is a pseudogene with no protein function.
 
 ### 4.2 TUBBP1 (C1, ENSG00000127589.4)
 
@@ -153,7 +154,7 @@ The locus is annotated as transcribed, so the treatment may be associated with i
 That a protein is made, that the RNA has a function, that the change matters biologically, or the exact size of the increase.
 
 **Confidence.**
-- **Expression signal: High.** The rating is kept, because it refers to the direction and consistency of the change, which are well supported.
+- **Expression signal: Moderate.** The direction and consistency of the change are well supported. The one caveat is that this is a pseudogene, so reads from related tubulin beta sequences may contribute (sequence similarity was not assessed).
 - **Effect-size precision: Low,** because of the large standard error, the low control baseline and the shift without A3.
 - **Biological interpretation: Very low** (pseudogene).
 
@@ -355,7 +356,7 @@ Every PubMed ID cited here is cited by the saved UniProt records, either as evid
 - **RNA is not protein.** Differential expression shows a change in RNA signal assigned to a gene model. It does not show a change in protein, activity or function, and it does not identify a mechanism.
 - **Study design.** Three replicates per group, a single treatment time point, and one cell model per comparison.
 - **How counts were produced** (Section 2). Counts come from StringTie 1.3.3b transcript-level coverage estimates, converted to integers by the `prepDE.py` formula, then summed by gene in Phase 5. Neither `prepDE.py` nor Phase 5 allocates reads between genes. Where overlapping gene models share sequence, any ambiguity lies in StringTie's transcript-level estimation, which was not examined. The separate gene-level estimates may then not be independent. This matters most for AC069288.1 and the two MATR3 records.
-- **Signal is not size.** A High expression-signal rating means the direction of change is well supported. The exact fold change can still be imprecise, as for TUBBP1. Effect-size precision and the 95% intervals show this separately.
+- **Signal is not size.** A well-supported direction of change does not mean the exact fold change is known. It can still be imprecise, as for TUBBP1. Effect-size precision and the 95% intervals show this separately.
 - **Annotation is time-stamped.** Gene models come from Ensembl 97 (2019). Function annotation comes from UniProtKB 2026_04. Records can change between releases, as the MATR3 cross-references show.
 - **Evidence quality varies.** Several "known" functions rest on similarity, sequence models or automatic annotation rather than experiments on the protein. The table records the evidence class for every statement.
 - **The C1 sensitivity analysis is exploratory.** Without A3 it has only two control replicates, and excluding A3 was informed by QC.
@@ -372,3 +373,11 @@ This was a targeted revision. No statistical value, gene ID, annotation record, 
    - Shrinkage collapse moved from the signal rating to the precision rating, matching its Phase 6 definition. As a result, **AC069288.1's signal rating changed from Low to Moderate**, and its precision rating is Low. Its biological-interpretation rating is unchanged (Very low).
    - No other rating changed.
 2. **The overlapping-gene wording was corrected.** The report no longer says that reads are allocated between overlapping gene models during quantification. It now describes the actual workflow (StringTie transcript estimates, `prepDE.py`-derived counts, Phase 5 plain sums) and states only that separate gene-level estimates for overlapping models may not be independent. This applies to AC069288.1/MRM2, both MATR3 records, and the limitations section.
+
+## 8. Revision note (2026-11-27)
+
+This was a targeted revision. No statistical value, gene ID, annotation record, UniProt evidence or A3 sensitivity result changed.
+
+1. **Pseudogene status now counts as an expression-signal caveat** (Section 2, caveat 5). Reads from related parent or paralogous sequences may contribute to a pseudogene's gene-level estimate. Sequence similarity was not assessed, so this is a possible concern, not evidence of misassignment.
+2. **Effect on the ratings:** RPSAP15 and TUBBP1, the only pseudogenes among the nine records, change from High to **Moderate** expression-signal confidence. Their effect-size precision (Good and Low) and biological-interpretation ratings (Very low) are unchanged. No other record's rating changed.
+3. This supersedes the statement in Section 7 that TUBBP1 keeps High signal confidence.
