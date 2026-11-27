@@ -11,7 +11,7 @@
 - **A3:** 50.4 M read pairs were sequenced (similar to the others), but only 11.5 M counts were assigned (0.23 per pair). A3's small library is therefore not shallow sequencing: most of its fragments were not assigned to annotated or assembled transcripts. This is further evidence of a technical problem with A3. GEO provides no alignment statistics, so the cause cannot be determined.
 - **Rounding-up bias:** `ceil()` adds less than 1 count per transcript with any coverage, so a gene's count is inflated by less than its number of expressed transcripts. Each DE table reports `max_ceil_inflation_bound` (that number divided by the gene count, maximum over samples). The bias affects both groups in the same way and matters only for low-count genes, which the pre-filter largely removes.
 - **Aggregation:** gene counts are sums of transcript estimates. That is the same operation `prepDE.py` uses to build its gene matrix, and the result reflects reads per gene, not per isoform. An R re-aggregation from the raw file reproduces the Phase 5 matrix exactly.
-- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No methodological problem blocks the analysis.
+- **Conclusion:** DESeq2 is appropriate for these counts, with the caveat that they are StringTie estimates rather than unique-read counts (for example from featureCounts). No execution-blocking issue prevented the analysis from completing. However, optimiser warnings and gene-level assignment limitations remain and should be considered when interpreting the results.
 
 ## 2. Methods
 
