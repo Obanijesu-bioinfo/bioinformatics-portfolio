@@ -74,4 +74,4 @@ Further bioinformatics projects will be added to this section as they are comple
 
 | Project | Focus | Status |
 |---|---|---|
-| [GSE213410 RNA-seq case study](rnaseq-gse213410-case-study/README.md) | Bulk RNA-seq reanalysis: differential expression, functional enrichment and gene annotation | Complete (eight phases) |
+| [GSE213410 RNA-seq case study](rnaseq-gse213410-case-study/README.md) | Bulk RNA-seq reanalysis: differential expression, functional enrichment and gene annotation | Complete (eight phases; final scientific review 2026-11-27) |
