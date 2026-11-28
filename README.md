@@ -36,7 +36,7 @@ Practical research activities included:
 - biochemical and anti-nutritional-factor analysis;
 - concentration-dependent experimental investigations.
 
-IC50 calculations and statistical analysis for the study were carried out in GraphPad Prism 9. I did not perform these calculations and analyses myself.
+Experimental data were analysed using GraphPad Prism 9, including IC50 estimation and statistical comparisons using ANOVA and Tukey's multiple-comparison test.
 
 ## Bioinformatics Training
 
