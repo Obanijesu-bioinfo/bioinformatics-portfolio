@@ -55,6 +55,19 @@ The two comparisons use different cell models, treatments and controls, so they 
 - [Reproducibility and evidence map](rnaseq-gse213410-case-study/README.md#9-reproducibility-and-evidence-map)
 - [Visual results](rnaseq-gse213410-case-study/README.md#10-visual-results)
 
+## Where to Find the Analysis and Results
+
+The RNA-seq case study keeps its documentation, code and outputs in four places:
+
+| What | Where |
+|---|---|
+| Project overview and presentation figures | [`projects/rnaseq-gse213410-case-study/`](rnaseq-gse213410-case-study/) |
+| Analysis scripts for all eight phases | [`data/raw/notebooks/`](../data/raw/notebooks/) |
+| Result tables, figures and phase reports | [`results/`](../results/) |
+| Dataset, sample metadata and reference annotation | [`data/`](../data/) |
+
+The case study's [evidence map](rnaseq-gse213410-case-study/README.md#9-reproducibility-and-evidence-map) links each phase to its script, report, key tables and validation output.
+
 ## Future projects
 
 Further bioinformatics projects will be added to this section as they are completed. Each will follow the same structure: a dedicated folder with a README describing the research question, data sources, methods, results and limitations, and the code and outputs needed to reproduce the analysis.
